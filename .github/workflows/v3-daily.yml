@@ -18,7 +18,7 @@ jobs:
         env:
           EVENT_NAME: ${{ github.event_name }}
         run: |
-          if [[ "$EVENT_NAME" == "workflow_dispatch" ]] || [[ "$(TZ=Europe/London date +%H)" == "05" ]]; then
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]] || [[ "$(TZ=Europe/London date +%H)" == "05" || "$(TZ=Europe/London date +%H)" == "06" ]]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
