@@ -197,7 +197,7 @@ def run(args):
     history=[];sources=[];warnings=[]
     for league in LEAGUES:
         for season in seasons:
-            yy=season.replace("-","")
+            yy=season.split("-")[0][-2:]+season.split("-")[1][-2:]
             url="https://www.football-data.co.uk/mmz4281/"+yy+"/"+league+".csv"
             try:
                 rows=read_matches(download(url),league,season)
