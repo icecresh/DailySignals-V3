@@ -41,7 +41,9 @@ jobs:
         run: python -m pytest -q
       - name: Run chronological multi-model evaluation and fixture research
         if: steps.gate.outputs.run == 'true'
-        run: python scripts/v3_pipeline.py --out reports/v3
+        run: |
+          UK_DATE=$(TZ=Europe/London date +%F)
+          python scripts/v3_pipeline.py --date "$UK_DATE" --out reports/v3
       - name: Prepare human-readable daily ledger
         if: steps.gate.outputs.run == 'true'
         run: python scripts/publish_daily_report.py --report reports/v3/report.json --out reports/v3
