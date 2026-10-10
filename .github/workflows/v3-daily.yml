@@ -18,7 +18,11 @@ jobs:
         env:
           EVENT_NAME: ${{ github.event_name }}
         run: |
-          if [[ "$EVENT_NAME" == "workflow_dispatch" ]] || [[ "$(TZ=Europe/London date +%H)" == "05" || "$(TZ=Europe/London date +%H)" == "06" ]]; then
+          # Match the scheduled UTC slot to UK winter/summer offset, not runner start hour.
+          # This tolerates GitHub Actions queue delays without running twice daily.
+          SLOT="${{ github.event.schedule }}"
+          OFFSET="$(TZ=Europe/London date +%z)"
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]] || [[ "$SLOT" == "0 4,5 * * *" && "$OFFSET" == "+0100" && "$(date -u +%H)" == "04" ]] || [[ "$SLOT" == "0 4,5 * * *" && "$OFFSET" == "+0000" && "$(date -u +%H)" == "05" ]]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
