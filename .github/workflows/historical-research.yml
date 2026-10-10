@@ -1,11 +1,32 @@
 name: Daily Signals historical research
 on:
   workflow_dispatch:
+  schedule:
+    # GitHub schedules use UTC; the gate below selects 05:00 Europe/London.
+    - cron: '0 4,5 * * *'
+permissions:
+  contents: read
 jobs:
-  validate:
+  london-time-gate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
+    outputs:
+      proceed: ${{ steps.check.outputs.proceed }}
+    steps:
+      - id: check
+        shell: bash
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]] || [[ "$(TZ=Europe/London date +%H)" == "05" ]]; then
+            echo "proceed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "proceed=false" >> "$GITHUB_OUTPUT"
+            echo "Not 05:00 Europe/London; skipping this UTC slot."
+          fi
+  validate:
+    needs: london-time-gate
+    if: needs.london-time-gate.outputs.proceed == 'true'
+    runs-on: ubuntu-latest
     timeout-minutes: 25
     steps:
       - uses: actions/checkout@v4
