@@ -35,7 +35,8 @@ lines+=["","## Exclusions and warnings","",
 lines.append("Configured competitions: "+str(len(report.get("competitions_configured",[]))))
 lines.append("Fixture exclusion counts: "+json.dumps(report.get("fixture_exclusion_counts",{}),sort_keys=True))
 for issue in report.get("warnings",[])+report.get("fixture_issues",[]):
-    lines.append("- "+json.dumps(issue,ensure_ascii=False))
+    prefix="INFO" if issue.get("severity")=="INFO" else "EXCLUSION"
+    lines.append("- ["+prefix+"] "+json.dumps(issue,ensure_ascii=False))
 (dest/"NORMAL_SIGNALS.md").write_text("\n".join(lines)+"\n")
 (dest/"research_candidates.json").write_text(json.dumps(candidates,indent=2))
 digest=hashlib.sha256(Path(args.report).read_bytes()).hexdigest()
