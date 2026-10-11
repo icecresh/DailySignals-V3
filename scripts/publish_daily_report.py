@@ -1,5 +1,6 @@
 """Turn a completed V3 research run into an immutable, auditable daily report."""
 import argparse, json, hashlib
+from production_audit import audit
 from pathlib import Path
 
 p=argparse.ArgumentParser()
@@ -10,6 +11,10 @@ report=json.loads(Path(args.report).read_text())
 dest=Path(args.out);dest.mkdir(parents=True,exist_ok=True)
 day=report["date"]
 candidates=report.get("research_qualified",[])
+evaluated_path=Path(args.report).with_name("evaluated_cells.json")
+evaluated=json.loads(evaluated_path.read_text()) if evaluated_path.exists() else []
+quality=audit(report,evaluated)
+(dest/"production_audit.json").write_text(json.dumps(quality,indent=2))
 lines=["# Daily Signals V3 — "+day,"",
        "As of UTC: "+report["as_of_utc"],"",
        "**NORMAL SIGNALS: No production-approved signals.**","",
@@ -27,6 +32,8 @@ for market,info in report.get("evaluations",{}).items():
         v=info["holdout_calibrated"]
         lines.append("- "+market+": holdout N="+str(v["n"])+", Brier="+str(v["brier"])+", selected="+", ".join(info["selected"]))
     else: lines.append("- "+market+": "+info.get("status","UNAVAILABLE"))
+lines+=["","## Independent production audit","", "Production approval: BLOCKED", "Blocking reasons: "+str(len(quality["blocking_reasons"])), ""]
+for reason in quality["blocking_reasons"]: lines.append("- "+reason)
 lines+=["","## Exclusions and warnings","",
         "Competition coverage is limited to configured leagues with available historical and fixture sources; not all global football.",
         "Card events are yellow cards only, pending verified settlement rules.",
