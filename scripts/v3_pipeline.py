@@ -317,6 +317,6 @@ def run(args):
 if __name__=="__main__":
     parser=argparse.ArgumentParser()
     parser.add_argument("--date")
-    parser.add_argument("--seasons",default="2023-24,2024-25,2025-26")
+    parser.add_argument("--seasons",default="2023-24,2024-25,2025-26,2026-27")
     parser.add_argument("--out",default="reports/v3")
     run(parser.parse_args())
