@@ -64,7 +64,7 @@ jobs:
             exit 0
           fi
           mkdir -p "$DEST"
-          cp reports/v3/report.json reports/v3/NORMAL_SIGNALS.md reports/v3/research_candidates.json reports/v3/manifest.json "$DEST/"
+          cp reports/v3/report.json reports/v3/NORMAL_SIGNALS.md reports/v3/research_candidates.json reports/v3/manifest.json reports/v3/evaluated_cells.json reports/v3/production_audit.json "$DEST/"
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add "$DEST"
