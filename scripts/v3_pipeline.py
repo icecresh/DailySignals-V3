@@ -278,13 +278,15 @@ def run(args):
                 elif name in fit["models"]:probs.append(float(fit["models"][name].predict_proba(np.array([x]))[0,1]))
             if not probs:continue
             p=float(fit["calibrator"].predict([np.mean(probs)])[0])
+            disagreement=float(max(probs)-min(probs))
             # Holdout quality gates.  No publish on degraded calibration or weak coverage.
             report=evaluations[market]
             good=(report["holdout_calibrated"]["n"]>=80 and
                   report["holdout_calibrated"]["brier"]<=report["holdout_raw"]["brier"]+.015)
             row={"fixture":f,"market":market,"probability":round(p,4),
-                 "models":fit["selected"],"holdout_brier":report["holdout_calibrated"]["brier"],
-                 "status":"QUALIFIED" if p>=floor and good else "REJECTED"}
+                 "models":fit["selected"],"model_probabilities":{name:round(float(v),4) for name,v in zip(fit["selected"],probs)},
+                 "model_disagreement":round(disagreement,4),"holdout_brier":report["holdout_calibrated"]["brier"],
+                 "status":"QUALIFIED" if p>=floor and good and disagreement<=.20 else "REJECTED"}
             evaluated.append(row)
             if row["status"]=="QUALIFIED":signals.append(row)
     # One card line per fixture; O2.5 takes precedence only if it qualifies.
@@ -311,6 +313,7 @@ def run(args):
                      "No historical odds used."]}
     dest=Path(args.out);dest.mkdir(parents=True,exist_ok=True)
     (dest/"report.json").write_text(json.dumps(report,indent=2,default=str))
+    (dest/"evaluated_cells.json").write_text(json.dumps(evaluated,indent=2,default=str))
     print(json.dumps({"date":day,"historical":len(history),"fixtures":len(live),
                       "evaluated":len(evaluated),"research_qualified":len(signals),
                       "markets_validated":sum(e["status"]=="VALIDATED_RESEARCH" for e in evaluations.values()),
