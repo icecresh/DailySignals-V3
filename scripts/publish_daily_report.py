@@ -28,10 +28,12 @@ for market,info in report.get("evaluations",{}).items():
         lines.append("- "+market+": holdout N="+str(v["n"])+", Brier="+str(v["brier"])+", selected="+", ".join(info["selected"]))
     else: lines.append("- "+market+": "+info.get("status","UNAVAILABLE"))
 lines+=["","## Exclusions and warnings","",
-        "Five leagues only, not the entire global football universe.",
+        "Competition coverage is limited to configured leagues with available historical and fixture sources; not all global football.",
         "Card events are yellow cards only, pending verified settlement rules.",
         "Unmapped fixture names and missing source data are excluded.",
         "Research-qualified is NOT equivalent to publication-authorized.",""]
+lines.append("Configured competitions: "+str(len(report.get("competitions_configured",[]))))
+lines.append("Fixture exclusion counts: "+json.dumps(report.get("fixture_exclusion_counts",{}),sort_keys=True))
 for issue in report.get("warnings",[])+report.get("fixture_issues",[]):
     lines.append("- "+json.dumps(issue,ensure_ascii=False))
 (dest/"NORMAL_SIGNALS.md").write_text("\n".join(lines)+"\n")
