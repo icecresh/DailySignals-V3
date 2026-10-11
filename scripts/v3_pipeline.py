@@ -206,17 +206,10 @@ def resolve(name,teams):
     if name.lower() in ALIASES:keys.insert(0,normal(ALIASES[name.lower()]))
     found=[exact[k] for k in keys if k in exact]
     if found: return found[0]
-    alt = TEAM_NAME_VARIANTS.get(normal(name))
+    alt = TEAM_NAME_VARIANTS.get(name.lower())
     if alt and normal(alt) in exact: return exact[normal(alt)]
-    # Conservative suffix normalization: only accept a unique club identity.
-    # Never guess between ambiguous historical team names.
-    def tokens(v):
-        v=normal(v)
-        return tuple(w for w in v.split() if w not in {"fc","cf","sc","afc","ac","cd","ud","rc","as","sv","vfl","spvgg","stade"})
-    target=tokens(name)
-    if len(target)<2: return None
-    candidates=[t for t in teams if tokens(t)==target]
-    return candidates[0] if len(candidates)==1 else None
+    # Never fuzzy-match clubs: historical identity must be exact or explicitly mapped.
+    return None
 def fixtures(day,leagues,history):
     result=[];issues=[]
     for league in leagues:
