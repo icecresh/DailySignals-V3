@@ -1,7 +1,7 @@
 """Daily Signals V3: reproducible multi-model research, out-of-time validation and gated daily forecast.
 No bookmaker odds. Never publish unvalidated predictions. Each league is evaluated separately.
 """
-import argparse, csv, io, json, math, os, re, sys, urllib.request
+import argparse, csv, io, json, math, os, re, sys, urllib.request, unicodedata
 from collections import defaultdict, deque
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -160,7 +160,9 @@ def fit_models(train,cal,test,market):
             "selected":selected,"holdout_raw":score(yte,test_raw),"holdout_calibrated":score(yte,test_cal),
             "calibration": "isotonic trained only on chronological calibration slice"}
     return result,{"selected":selected,"models":fitted,"calibrator":calibrator,"market":market}
-def normal(s):return re.sub(r"[^a-z0-9]","",s.lower().replace("&","and"))
+def normal(s):
+    ascii_name=unicodedata.normalize("NFKD",s.lower().replace("&","and")).encode("ascii","ignore").decode("ascii")
+    return re.sub(r"[^a-z0-9]","",ascii_name)
 ALIASES={"manchester united":"man utd","manchester city":"man city","tottenham hotspur":"tottenham",
          "wolverhampton wanderers":"wolves","newcastle united":"newcastle","nottingham forest":"nott'm forest",
          "brighton and hove albion":"brighton","west ham united":"west ham","bayern munich":"bayern munich",
@@ -206,7 +208,7 @@ def resolve(name,teams):
     if name.lower() in ALIASES:keys.insert(0,normal(ALIASES[name.lower()]))
     found=[exact[k] for k in keys if k in exact]
     if found: return found[0]
-    alt = TEAM_NAME_VARIANTS.get(name.lower())
+    alt = next((v for k,v in TEAM_NAME_VARIANTS.items() if normal(k)==normal(name)),None)
     if alt and normal(alt) in exact: return exact[normal(alt)]
     # Never fuzzy-match clubs: historical identity must be exact or explicitly mapped.
     return None
@@ -244,7 +246,7 @@ def run(args):
             url="https://www.football-data.co.uk/mmz4281/"+yy+"/"+league+".csv"
             try:
                 rows=read_matches(download(url),league,season)
-                if len(rows)<100: warnings.append({"source":url,"error":"LOW_COVERAGE","rows":len(rows)})
+                if len(rows)<100 and season != seasons[-1]: warnings.append({"source":url,"error":"LOW_COVERAGE","rows":len(rows)})
                 history+=rows;sources.append({"url":url,"rows":len(rows)})
             except Exception as exc:warnings.append({"source":url,"error":str(exc)})
     history=[r for r in history if r["date"]<day]
