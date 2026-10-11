@@ -1,0 +1,2048 @@
+{
+  "date": "2026-10-11",
+  "as_of_utc": "2026-10-11T07:20:11.409556+00:00",
+  "status": "RESEARCH_ONLY_NOT_PRODUCTION_AUTHORIZED",
+  "sources": [
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E0.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E0.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E0.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E1.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E1.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E1.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E2.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E2.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E2.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E3.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E3.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E3.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/D1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/D1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/D1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/D2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/D2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/D2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SP1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SP1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SP1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SP2.csv",
+      "rows": 462
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SP2.csv",
+      "rows": 462
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SP2.csv",
+      "rows": 462
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/I1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/I1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/I1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/I2.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/I2.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/I2.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/F1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/F1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/F1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/F2.csv",
+      "rows": 379
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/F2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/F2.csv",
+      "rows": 305
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/N1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/N1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/N1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/B1.csv",
+      "rows": 312
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/B1.csv",
+      "rows": 312
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/B1.csv",
+      "rows": 311
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/P1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/P1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/P1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC0.csv",
+      "rows": 228
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC0.csv",
+      "rows": 228
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC0.csv",
+      "rows": 228
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC1.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC1.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC1.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC2.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC2.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC2.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC3.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC3.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC3.csv",
+      "rows": 180
+    }
+  ],
+  "warnings": [],
+  "historical_rows": 19733,
+  "feature_rows": 17809,
+  "split_dates": {
+    "calibration_start": "2025-04-21",
+    "holdout_start": "2025-12-13"
+  },
+  "evaluations": {
+    "fh_o05": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10541,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.20198,
+        "extra_trees": 0.2025,
+        "xgboost": 0.2026,
+        "logistic": 0.20265,
+        "lightgbm": 0.20292,
+        "hist_gradient_boosting": 0.20294,
+        "poisson": 0.20334,
+        "random_forest": 0.20432
+      },
+      "selected": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.20668,
+        "log_loss": 0.60337,
+        "observed": 0.70494,
+        "predicted": 0.69837
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.20703,
+        "log_loss": 0.60431,
+        "observed": 0.70494,
+        "predicted": 0.72383
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "ft_o15": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10543,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.18408,
+        "catboost": 0.18423,
+        "extra_trees": 0.18451,
+        "xgboost": 0.185,
+        "poisson": 0.18518,
+        "lightgbm": 0.18519,
+        "hist_gradient_boosting": 0.1855,
+        "random_forest": 0.18679
+      },
+      "selected": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.17804,
+        "log_loss": 0.54032,
+        "observed": 0.76537,
+        "predicted": 0.74373
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.17762,
+        "log_loss": 0.53892,
+        "observed": 0.76537,
+        "predicted": 0.75866
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "ft_o25": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10543,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.24771,
+        "xgboost": 0.24809,
+        "extra_trees": 0.24816,
+        "lightgbm": 0.24841,
+        "logistic": 0.24881,
+        "random_forest": 0.24952,
+        "hist_gradient_boosting": 0.25031,
+        "poisson": 0.25333
+      },
+      "selected": [
+        "catboost",
+        "xgboost",
+        "extra_trees"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.24693,
+        "log_loss": 0.68697,
+        "observed": 0.52603,
+        "predicted": 0.50489
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.24695,
+        "log_loss": 0.68947,
+        "observed": 0.52603,
+        "predicted": 0.51708
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "btts": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10543,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.24804,
+        "extra_trees": 0.24812,
+        "xgboost": 0.24844,
+        "hist_gradient_boosting": 0.24858,
+        "logistic": 0.24874,
+        "lightgbm": 0.24885,
+        "random_forest": 0.24991,
+        "poisson": 0.25014
+      },
+      "selected": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.24717,
+        "log_loss": 0.68745,
+        "observed": 0.54983,
+        "predicted": 0.52745
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.24708,
+        "log_loss": 0.68754,
+        "observed": 0.54983,
+        "predicted": 0.54288
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "home_win": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10543,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.23173,
+        "extra_trees": 0.23228,
+        "xgboost": 0.2323,
+        "logistic": 0.23235,
+        "lightgbm": 0.23257,
+        "random_forest": 0.23385,
+        "hist_gradient_boosting": 0.23473,
+        "poisson": 0.23784
+      },
+      "selected": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.22695,
+        "log_loss": 0.64529,
+        "observed": 0.43474,
+        "predicted": 0.43259
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.22746,
+        "log_loss": 0.64625,
+        "observed": 0.43474,
+        "predicted": 0.43096
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "draw": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10543,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.1915,
+        "extra_trees": 0.19168,
+        "logistic": 0.19172,
+        "poisson": 0.19198,
+        "hist_gradient_boosting": 0.19204,
+        "xgboost": 0.19218,
+        "lightgbm": 0.19227,
+        "random_forest": 0.19342
+      },
+      "selected": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.19464,
+        "log_loss": 0.57769,
+        "observed": 0.2655,
+        "predicted": 0.26737
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.19482,
+        "log_loss": 0.57926,
+        "observed": 0.2655,
+        "predicted": 0.25765
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "away_win": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10543,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "xgboost": 0.20262,
+        "lightgbm": 0.20267,
+        "catboost": 0.20277,
+        "extra_trees": 0.2028,
+        "logistic": 0.20283,
+        "hist_gradient_boosting": 0.20407,
+        "random_forest": 0.20437,
+        "poisson": 0.20864
+      },
+      "selected": [
+        "xgboost",
+        "lightgbm",
+        "catboost"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.19679,
+        "log_loss": 0.57855,
+        "observed": 0.29976,
+        "predicted": 0.30189
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.19863,
+        "log_loss": 0.58885,
+        "observed": 0.29976,
+        "predicted": 0.30907
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "dc_1x": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10543,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "xgboost": 0.20262,
+        "lightgbm": 0.20267,
+        "catboost": 0.20277,
+        "extra_trees": 0.2028,
+        "logistic": 0.20283,
+        "hist_gradient_boosting": 0.2041,
+        "random_forest": 0.20437,
+        "poisson": 0.20864
+      },
+      "selected": [
+        "xgboost",
+        "lightgbm",
+        "catboost"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.19679,
+        "log_loss": 0.57855,
+        "observed": 0.70024,
+        "predicted": 0.69811
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.19863,
+        "log_loss": 0.58885,
+        "observed": 0.70024,
+        "predicted": 0.69093
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "dc_x2": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10543,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.23173,
+        "extra_trees": 0.23228,
+        "xgboost": 0.2323,
+        "logistic": 0.23237,
+        "lightgbm": 0.23257,
+        "random_forest": 0.23385,
+        "hist_gradient_boosting": 0.23445,
+        "poisson": 0.23784
+      },
+      "selected": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.22695,
+        "log_loss": 0.64529,
+        "observed": 0.56526,
+        "predicted": 0.56741
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.22746,
+        "log_loss": 0.64625,
+        "observed": 0.56526,
+        "predicted": 0.56904
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "dc_12": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10543,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.1915,
+        "extra_trees": 0.19168,
+        "logistic": 0.19172,
+        "hist_gradient_boosting": 0.1919,
+        "poisson": 0.19198,
+        "xgboost": 0.19218,
+        "lightgbm": 0.19227,
+        "random_forest": 0.19342
+      },
+      "selected": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.19464,
+        "log_loss": 0.57769,
+        "observed": 0.7345,
+        "predicted": 0.73263
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.19482,
+        "log_loss": 0.57925,
+        "observed": 0.7345,
+        "predicted": 0.74236
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "corners_o65": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10540,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.14059,
+        "xgboost": 0.14078,
+        "lightgbm": 0.14088,
+        "catboost": 0.14089,
+        "extra_trees": 0.14119,
+        "hist_gradient_boosting": 0.14194,
+        "random_forest": 0.14203,
+        "poisson": 0.15045
+      },
+      "selected": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.13388,
+        "log_loss": 0.43804,
+        "observed": 0.84044,
+        "predicted": 0.83505
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.13414,
+        "log_loss": 0.4408,
+        "observed": 0.84044,
+        "predicted": 0.83677
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "cards_o15": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10541,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.08983,
+        "catboost": 0.08983,
+        "extra_trees": 0.08989,
+        "xgboost": 0.08998,
+        "hist_gradient_boosting": 0.09016,
+        "lightgbm": 0.09029,
+        "random_forest": 0.09099,
+        "poisson": 0.0925
+      },
+      "selected": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.09496,
+        "log_loss": 0.33618,
+        "observed": 0.89249,
+        "predicted": 0.88925
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.09529,
+        "log_loss": 0.34251,
+        "observed": 0.89249,
+        "predicted": 0.9021
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "cards_o25": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 10541,
+        "calibration": 3443,
+        "holdout": 3823
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.17924,
+        "extra_trees": 0.17961,
+        "logistic": 0.17996,
+        "xgboost": 0.18054,
+        "lightgbm": 0.18079,
+        "random_forest": 0.18183,
+        "hist_gradient_boosting": 0.18213,
+        "poisson": 0.18699
+      },
+      "selected": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_raw": {
+        "n": 3823,
+        "brier": 0.18522,
+        "log_loss": 0.55503,
+        "observed": 0.74627,
+        "predicted": 0.75164
+      },
+      "holdout_calibrated": {
+        "n": 3823,
+        "brier": 0.18588,
+        "log_loss": 0.56184,
+        "observed": 0.74627,
+        "predicted": 0.7667
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    }
+  },
+  "fixtures_seen": 12,
+  "fixture_issues": [
+    {
+      "league": "E0",
+      "fixture": "Hull City vs Everton",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "E2",
+      "error": "NO_SOURCE_FIXTURES"
+    },
+    {
+      "league": "E3",
+      "error": "NO_SOURCE_FIXTURES"
+    },
+    {
+      "league": "D1",
+      "fixture": "FC Cologne vs Borussia M\u00f6nchengladbach",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "D1",
+      "fixture": "SC Freiburg vs Schalke 04",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "D2",
+      "fixture": "Hertha Berlin vs SpVgg Greuther F\u00fcrth",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "D2",
+      "fixture": "St. Pauli vs Karlsruher SC",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "D2",
+      "fixture": "VfL Bochum vs Arminia Bielefeld",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "SP1",
+      "fixture": "Elche vs Celta Vigo",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "SP1",
+      "fixture": "Real Sociedad vs Deportivo",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "SP1",
+      "fixture": "Real Betis vs Osasuna",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "SP1",
+      "fixture": "Racing Santander vs Valencia",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "SP2",
+      "fixture": "FC Andorra vs Castell\u00f3n",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "SP2",
+      "fixture": "Almer\u00eda vs Legan\u00e9s",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "SP2",
+      "fixture": "Mallorca vs Las Palmas",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "SP2",
+      "fixture": "C\u00e1diz vs Sporting Gij\u00f3n",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "I1",
+      "fixture": "Como vs AS Roma",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "I1",
+      "fixture": "Sassuolo vs AC Milan",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "I2",
+      "fixture": "Modena vs Hellas Verona",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "F1",
+      "fixture": "Stade Rennais vs AJ Auxerre",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "F1",
+      "fixture": "Troyes vs Marseille",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "F2",
+      "error": "NO_SOURCE_FIXTURES"
+    },
+    {
+      "league": "N1",
+      "fixture": "FC Utrecht vs Willem II",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "N1",
+      "fixture": "PEC Zwolle vs SC Cambuur",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "N1",
+      "fixture": "Telstar vs ADO Den Haag",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "N1",
+      "fixture": "Excelsior vs FC Groningen",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "B1",
+      "fixture": "Standard Liege vs Royal Charleroi SC",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "B1",
+      "fixture": "Union St.-Gilloise vs OH Leuven",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "B1",
+      "fixture": "KVC Westerlo vs Antwerp",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "B1",
+      "fixture": "KV Mechelen vs Sint-Truidense",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "P1",
+      "fixture": "Rio Ave vs C.D. Nacional",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "P1",
+      "fixture": "Benfica vs Vit\u00f3ria de Guimaraes",
+      "error": "UNMAPPED_TEAM"
+    },
+    {
+      "league": "SC1",
+      "error": "NO_SOURCE_FIXTURES"
+    },
+    {
+      "league": "SC2",
+      "error": "NO_SOURCE_FIXTURES"
+    },
+    {
+      "league": "SC3",
+      "error": "NO_SOURCE_FIXTURES"
+    }
+  ],
+  "competitions_configured": [
+    "E0",
+    "E1",
+    "E2",
+    "E3",
+    "D1",
+    "D2",
+    "SP1",
+    "SP2",
+    "I1",
+    "I2",
+    "F1",
+    "F2",
+    "N1",
+    "B1",
+    "P1",
+    "SC0",
+    "SC1",
+    "SC2",
+    "SC3"
+  ],
+  "fixture_exclusion_counts": {
+    "NO_SOURCE_FIXTURES": 6,
+    "UNMAPPED_TEAM": 29
+  },
+  "evaluated_cells": 156,
+  "research_qualified": [
+    {
+      "fixture": {
+        "league": "E0",
+        "home": "Crystal Palace",
+        "away": "Nott'm Forest",
+        "display": "Crystal Palace vs Nottingham Forest",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401879266"
+      },
+      "market": "ft_o15",
+      "probability": 0.7289,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E0",
+        "home": "Crystal Palace",
+        "away": "Nott'm Forest",
+        "display": "Crystal Palace vs Nottingham Forest",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401879266"
+      },
+      "market": "dc_12",
+      "probability": 0.7294,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E0",
+        "home": "Crystal Palace",
+        "away": "Nott'm Forest",
+        "display": "Crystal Palace vs Nottingham Forest",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401879266"
+      },
+      "market": "corners_o65",
+      "probability": 0.8205,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E0",
+        "home": "Crystal Palace",
+        "away": "Nott'm Forest",
+        "display": "Crystal Palace vs Nottingham Forest",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401879266"
+      },
+      "market": "cards_o15",
+      "probability": 0.8839,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E0",
+        "home": "Liverpool",
+        "away": "Man City",
+        "display": "Liverpool vs Manchester City",
+        "kickoff": "2026-10-11T15:30Z",
+        "event_id": "401879264"
+      },
+      "market": "fh_o05",
+      "probability": 0.7286,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_brier": 0.20703,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E0",
+        "home": "Liverpool",
+        "away": "Man City",
+        "display": "Liverpool vs Manchester City",
+        "kickoff": "2026-10-11T15:30Z",
+        "event_id": "401879264"
+      },
+      "market": "ft_o15",
+      "probability": 0.8358,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E0",
+        "home": "Liverpool",
+        "away": "Man City",
+        "display": "Liverpool vs Manchester City",
+        "kickoff": "2026-10-11T15:30Z",
+        "event_id": "401879264"
+      },
+      "market": "dc_12",
+      "probability": 0.7606,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E0",
+        "home": "Liverpool",
+        "away": "Man City",
+        "display": "Liverpool vs Manchester City",
+        "kickoff": "2026-10-11T15:30Z",
+        "event_id": "401879264"
+      },
+      "market": "corners_o65",
+      "probability": 0.8759,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E0",
+        "home": "Liverpool",
+        "away": "Man City",
+        "display": "Liverpool vs Manchester City",
+        "kickoff": "2026-10-11T15:30Z",
+        "event_id": "401879264"
+      },
+      "market": "cards_o15",
+      "probability": 0.8758,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Southampton",
+        "away": "Portsmouth",
+        "display": "Southampton vs Portsmouth",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401880237"
+      },
+      "market": "fh_o05",
+      "probability": 0.7459,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_brier": 0.20703,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Southampton",
+        "away": "Portsmouth",
+        "display": "Southampton vs Portsmouth",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401880237"
+      },
+      "market": "ft_o15",
+      "probability": 0.8358,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Southampton",
+        "away": "Portsmouth",
+        "display": "Southampton vs Portsmouth",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401880237"
+      },
+      "market": "home_win",
+      "probability": 0.7414,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_brier": 0.22746,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Southampton",
+        "away": "Portsmouth",
+        "display": "Southampton vs Portsmouth",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401880237"
+      },
+      "market": "dc_1x",
+      "probability": 0.9375,
+      "models": [
+        "xgboost",
+        "lightgbm",
+        "catboost"
+      ],
+      "holdout_brier": 0.19863,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Southampton",
+        "away": "Portsmouth",
+        "display": "Southampton vs Portsmouth",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401880237"
+      },
+      "market": "dc_12",
+      "probability": 0.8152,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Southampton",
+        "away": "Portsmouth",
+        "display": "Southampton vs Portsmouth",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401880237"
+      },
+      "market": "corners_o65",
+      "probability": 0.9032,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Southampton",
+        "away": "Portsmouth",
+        "display": "Southampton vs Portsmouth",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401880237"
+      },
+      "market": "cards_o15",
+      "probability": 0.8684,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Lazio",
+        "away": "Monza",
+        "display": "Lazio vs Monza",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401874951"
+      },
+      "market": "ft_o15",
+      "probability": 0.7057,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Lazio",
+        "away": "Monza",
+        "display": "Lazio vs Monza",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401874951"
+      },
+      "market": "dc_1x",
+      "probability": 0.7712,
+      "models": [
+        "xgboost",
+        "lightgbm",
+        "catboost"
+      ],
+      "holdout_brier": 0.19863,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Lazio",
+        "away": "Monza",
+        "display": "Lazio vs Monza",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401874951"
+      },
+      "market": "dc_12",
+      "probability": 0.7294,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Lazio",
+        "away": "Monza",
+        "display": "Lazio vs Monza",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401874951"
+      },
+      "market": "corners_o65",
+      "probability": 0.748,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Lazio",
+        "away": "Monza",
+        "display": "Lazio vs Monza",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401874951"
+      },
+      "market": "cards_o15",
+      "probability": 0.8758,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Lecce",
+        "away": "Bologna",
+        "display": "Lecce vs Bologna",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401874776"
+      },
+      "market": "ft_o15",
+      "probability": 0.7057,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Lecce",
+        "away": "Bologna",
+        "display": "Lecce vs Bologna",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401874776"
+      },
+      "market": "dc_12",
+      "probability": 0.7294,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Lecce",
+        "away": "Bologna",
+        "display": "Lecce vs Bologna",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401874776"
+      },
+      "market": "corners_o65",
+      "probability": 0.748,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Lecce",
+        "away": "Bologna",
+        "display": "Lecce vs Bologna",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401874776"
+      },
+      "market": "cards_o15",
+      "probability": 0.8758,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Cagliari",
+        "away": "Juventus",
+        "display": "Cagliari vs Juventus",
+        "kickoff": "2026-10-11T18:45Z",
+        "event_id": "401874764"
+      },
+      "market": "ft_o15",
+      "probability": 0.7057,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Cagliari",
+        "away": "Juventus",
+        "display": "Cagliari vs Juventus",
+        "kickoff": "2026-10-11T18:45Z",
+        "event_id": "401874764"
+      },
+      "market": "dc_x2",
+      "probability": 0.7436,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_brier": 0.22746,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Cagliari",
+        "away": "Juventus",
+        "display": "Cagliari vs Juventus",
+        "kickoff": "2026-10-11T18:45Z",
+        "event_id": "401874764"
+      },
+      "market": "dc_12",
+      "probability": 0.7333,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Cagliari",
+        "away": "Juventus",
+        "display": "Cagliari vs Juventus",
+        "kickoff": "2026-10-11T18:45Z",
+        "event_id": "401874764"
+      },
+      "market": "corners_o65",
+      "probability": 0.748,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Cagliari",
+        "away": "Juventus",
+        "display": "Cagliari vs Juventus",
+        "kickoff": "2026-10-11T18:45Z",
+        "event_id": "401874764"
+      },
+      "market": "cards_o15",
+      "probability": 0.8758,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Catanzaro",
+        "away": "Mantova",
+        "display": "Catanzaro vs Mantova",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401899606"
+      },
+      "market": "fh_o05",
+      "probability": 0.7269,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_brier": 0.20703,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Catanzaro",
+        "away": "Mantova",
+        "display": "Catanzaro vs Mantova",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401899606"
+      },
+      "market": "ft_o15",
+      "probability": 0.7316,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Catanzaro",
+        "away": "Mantova",
+        "display": "Catanzaro vs Mantova",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401899606"
+      },
+      "market": "dc_1x",
+      "probability": 0.7089,
+      "models": [
+        "xgboost",
+        "lightgbm",
+        "catboost"
+      ],
+      "holdout_brier": 0.19863,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Catanzaro",
+        "away": "Mantova",
+        "display": "Catanzaro vs Mantova",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401899606"
+      },
+      "market": "dc_12",
+      "probability": 0.7294,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Catanzaro",
+        "away": "Mantova",
+        "display": "Catanzaro vs Mantova",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401899606"
+      },
+      "market": "corners_o65",
+      "probability": 0.872,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Catanzaro",
+        "away": "Mantova",
+        "display": "Catanzaro vs Mantova",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401899606"
+      },
+      "market": "cards_o15",
+      "probability": 0.8983,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Padova",
+        "away": "Carrarese",
+        "display": "Padova vs Carrarese",
+        "kickoff": "2026-10-11T15:15Z",
+        "event_id": "401899602"
+      },
+      "market": "ft_o15",
+      "probability": 0.7057,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Padova",
+        "away": "Carrarese",
+        "display": "Padova vs Carrarese",
+        "kickoff": "2026-10-11T15:15Z",
+        "event_id": "401899602"
+      },
+      "market": "dc_12",
+      "probability": 0.7098,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Padova",
+        "away": "Carrarese",
+        "display": "Padova vs Carrarese",
+        "kickoff": "2026-10-11T15:15Z",
+        "event_id": "401899602"
+      },
+      "market": "corners_o65",
+      "probability": 0.7908,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Padova",
+        "away": "Carrarese",
+        "display": "Padova vs Carrarese",
+        "kickoff": "2026-10-11T15:15Z",
+        "event_id": "401899602"
+      },
+      "market": "cards_o15",
+      "probability": 0.9069,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F1",
+        "home": "Nice",
+        "away": "Strasbourg",
+        "display": "Nice vs Strasbourg",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401876443"
+      },
+      "market": "ft_o15",
+      "probability": 0.7057,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F1",
+        "home": "Nice",
+        "away": "Strasbourg",
+        "display": "Nice vs Strasbourg",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401876443"
+      },
+      "market": "dc_x2",
+      "probability": 0.7436,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_brier": 0.22746,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F1",
+        "home": "Nice",
+        "away": "Strasbourg",
+        "display": "Nice vs Strasbourg",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401876443"
+      },
+      "market": "dc_12",
+      "probability": 0.7333,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F1",
+        "home": "Nice",
+        "away": "Strasbourg",
+        "display": "Nice vs Strasbourg",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401876443"
+      },
+      "market": "corners_o65",
+      "probability": 0.872,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F1",
+        "home": "Nice",
+        "away": "Strasbourg",
+        "display": "Nice vs Strasbourg",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401876443"
+      },
+      "market": "cards_o15",
+      "probability": 0.8684,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "P1",
+        "home": "Arouca",
+        "away": "Estrela",
+        "display": "Arouca vs Estrela",
+        "kickoff": "2026-10-11T19:30Z",
+        "event_id": "401885428"
+      },
+      "market": "ft_o15",
+      "probability": 0.7057,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "P1",
+        "home": "Arouca",
+        "away": "Estrela",
+        "display": "Arouca vs Estrela",
+        "kickoff": "2026-10-11T19:30Z",
+        "event_id": "401885428"
+      },
+      "market": "dc_1x",
+      "probability": 0.7352,
+      "models": [
+        "xgboost",
+        "lightgbm",
+        "catboost"
+      ],
+      "holdout_brier": 0.19863,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "P1",
+        "home": "Arouca",
+        "away": "Estrela",
+        "display": "Arouca vs Estrela",
+        "kickoff": "2026-10-11T19:30Z",
+        "event_id": "401885428"
+      },
+      "market": "corners_o65",
+      "probability": 0.7908,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "P1",
+        "home": "Arouca",
+        "away": "Estrela",
+        "display": "Arouca vs Estrela",
+        "kickoff": "2026-10-11T19:30Z",
+        "event_id": "401885428"
+      },
+      "market": "cards_o25",
+      "probability": 0.8306,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.18588,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SC0",
+        "home": "Motherwell",
+        "away": "Celtic",
+        "display": "Motherwell vs Celtic",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401878370"
+      },
+      "market": "fh_o05",
+      "probability": 0.7269,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_brier": 0.20703,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SC0",
+        "home": "Motherwell",
+        "away": "Celtic",
+        "display": "Motherwell vs Celtic",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401878370"
+      },
+      "market": "ft_o15",
+      "probability": 0.7316,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.17762,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SC0",
+        "home": "Motherwell",
+        "away": "Celtic",
+        "display": "Motherwell vs Celtic",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401878370"
+      },
+      "market": "dc_x2",
+      "probability": 0.7436,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "xgboost"
+      ],
+      "holdout_brier": 0.22746,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SC0",
+        "home": "Motherwell",
+        "away": "Celtic",
+        "display": "Motherwell vs Celtic",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401878370"
+      },
+      "market": "dc_12",
+      "probability": 0.7294,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SC0",
+        "home": "Motherwell",
+        "away": "Celtic",
+        "display": "Motherwell vs Celtic",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401878370"
+      },
+      "market": "corners_o65",
+      "probability": 0.8205,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SC0",
+        "home": "Motherwell",
+        "away": "Celtic",
+        "display": "Motherwell vs Celtic",
+        "kickoff": "2026-10-11T11:00Z",
+        "event_id": "401878370"
+      },
+      "market": "cards_o15",
+      "probability": 0.9069,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SC0",
+        "home": "Aberdeen",
+        "away": "St Johnstone",
+        "display": "Aberdeen vs St Johnstone",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401878374"
+      },
+      "market": "dc_12",
+      "probability": 0.7294,
+      "models": [
+        "catboost",
+        "extra_trees",
+        "logistic"
+      ],
+      "holdout_brier": 0.19482,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SC0",
+        "home": "Aberdeen",
+        "away": "St Johnstone",
+        "display": "Aberdeen vs St Johnstone",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401878374"
+      },
+      "market": "corners_o65",
+      "probability": 0.8578,
+      "models": [
+        "logistic",
+        "xgboost",
+        "lightgbm"
+      ],
+      "holdout_brier": 0.13414,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SC0",
+        "home": "Aberdeen",
+        "away": "St Johnstone",
+        "display": "Aberdeen vs St Johnstone",
+        "kickoff": "2026-10-11T13:00Z",
+        "event_id": "401878374"
+      },
+      "market": "cards_o15",
+      "probability": 0.8811,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_brier": 0.09529,
+      "status": "QUALIFIED"
+    }
+  ],
+  "publication_authorized": false,
+  "notes": [
+    "Models calibrated on a middle time slice, tested on a later holdout.",
+    "Models are research candidates, not independently approved for publication.",
+    "Cards are yellow cards only; verify settlement conventions.",
+    "Only verified ESPN pre-match fixtures with exact mapped teams evaluated.",
+    "No historical odds used."
+  ]
+}
