@@ -170,7 +170,16 @@ def resolve(name,teams):
     keys=[normal(name)]
     if name.lower() in ALIASES:keys.insert(0,normal(ALIASES[name.lower()]))
     found=[exact[k] for k in keys if k in exact]
-    return found[0] if found else None
+    if found: return found[0]
+    # Conservative suffix normalization: only accept a unique club identity.
+    # Never guess between ambiguous historical team names.
+    def tokens(v):
+        v=normal(v)
+        return tuple(w for w in v.split() if w not in {"fc","cf","sc","afc","ac","cd","ud","rc","as","sv","vfl","spvgg","stade"})
+    target=tokens(name)
+    if len(target)<2: return None
+    candidates=[t for t in teams if tokens(t)==target]
+    return candidates[0] if len(candidates)==1 else None
 def fixtures(day,leagues,history):
     result=[];issues=[]
     for league in leagues:
@@ -179,7 +188,7 @@ def fixtures(day,leagues,history):
         except Exception as exc:issues.append({"league":league,"error":str(exc)});continue
         teams=set(r["home"] for r in history if r["league"]==league)|set(r["away"] for r in history if r["league"]==league)
         events=data.get("events",[])
-        if not events: issues.append({"league":league,"error":"NO_SOURCE_FIXTURES"})
+        if not events: issues.append({"league":league,"error":"NO_SCHEDULED_EVENTS","severity":"INFO"})
         for ev in events:
             comps=ev.get("competitions",[])
             if not comps:continue
@@ -192,7 +201,7 @@ def fixtures(day,leagues,history):
                 continue
             hn=home["team"].get("displayName","");an=away["team"].get("displayName","")
             h=resolve(hn,teams);a=resolve(an,teams)
-            if not h or not a:issues.append({"league":league,"fixture":hn+" vs "+an,"error":"UNMAPPED_TEAM"});continue
+            if not h or not a:issues.append({"league":league,"fixture":hn+" vs "+an,"error":"UNMAPPED_TEAM","unmapped_home":hn if not h else None,"unmapped_away":an if not a else None});continue
             result.append({"league":league,"home":h,"away":a,"display":hn+" vs "+an,"kickoff":ev.get("date"),"event_id":ev.get("id")})
     return result,issues
 def run(args):
