@@ -16,8 +16,8 @@ MARKETS = {"fh_o05":.70,"ft_o15":.70,"ft_o25":.70,"btts":.80,
            "home_win":.70,"draw":.70,"away_win":.70,
            "dc_1x":.70,"dc_x2":.70,"dc_12":.70,
            "corners_o65":.70,"cards_o15":.70,"cards_o25":.78}
-LEAGUES = {"E0":"eng.1","D1":"ger.1","SP1":"esp.1","I1":"ita.1","F1":"fra.1"}
-ESPN = {"E0":"eng.1","D1":"ger.1","SP1":"esp.1","I1":"ita.1","F1":"fra.1"}
+LEAGUES = {"E0":"eng.1","E1":"eng.2","E2":"eng.3","E3":"eng.4","D1":"ger.1","D2":"ger.2","SP1":"esp.1","SP2":"esp.2","I1":"ita.1","I2":"ita.2","F1":"fra.1","F2":"fra.2","N1":"ned.1","B1":"bel.1","P1":"por.1","SC0":"sco.1","SC1":"sco.2","SC2":"sco.3","SC3":"sco.4"}
+ESPN = dict(LEAGUES)
 FEATURES = ("home_gf","home_ga","away_gf","away_ga","home_corners","away_corners",
             "home_cards","away_cards","home_form","away_form","home_games","away_games",
             "league_goals","league_corners","league_cards","home_rest","away_rest")
