@@ -178,14 +178,18 @@ def fixtures(day,leagues,history):
         try: data=json.loads(download(url))
         except Exception as exc:issues.append({"league":league,"error":str(exc)});continue
         teams=set(r["home"] for r in history if r["league"]==league)|set(r["away"] for r in history if r["league"]==league)
-        for ev in data.get("events",[]):
+        events=data.get("events",[])
+        if not events: issues.append({"league":league,"error":"NO_SOURCE_FIXTURES"})
+        for ev in events:
             comps=ev.get("competitions",[])
             if not comps:continue
             competitors=comps[0].get("competitors",[])
             home=next((c for c in competitors if c.get("homeAway")=="home"),None)
             away=next((c for c in competitors if c.get("homeAway")=="away"),None)
             if not home or not away:continue
-            if ev.get("status",{}).get("type",{}).get("state")!="pre":continue
+            if ev.get("status",{}).get("type",{}).get("state")!="pre":
+                issues.append({"league":league,"event_id":ev.get("id"),"error":"NOT_PREMATCH"})
+                continue
             hn=home["team"].get("displayName","");an=away["team"].get("displayName","")
             h=resolve(hn,teams);a=resolve(an,teams)
             if not h or not a:issues.append({"league":league,"fixture":hn+" vs "+an,"error":"UNMAPPED_TEAM"});continue
@@ -217,6 +221,8 @@ def run(args):
     for market in MARKETS:
         evaluations[market],trained[market]=fit_models(train,cal,test,market)
     live,fixture_issues=fixtures(day,LEAGUES,history)
+    if not live:
+        warnings.append({"error":"ZERO_ELIGIBLE_FIXTURES","detail":"Inspect source coverage, prematch status and unmapped teams"})
     signals=[];evaluated=[]
     for f in live:
         prior=[r for r in history if r["league"]==f["league"] and r["date"]<day]
@@ -253,6 +259,8 @@ def run(args):
             "sources":sources,"warnings":warnings,"historical_rows":len(history),
             "feature_rows":len(rows),"split_dates":{"calibration_start":d1,"holdout_start":d2},
             "evaluations":evaluations,"fixtures_seen":len(live),"fixture_issues":fixture_issues,
+            "competitions_configured":list(LEAGUES),
+            "fixture_exclusion_counts":{reason:sum(i.get("error")==reason for i in fixture_issues) for reason in sorted({i.get("error") for i in fixture_issues})},
             "evaluated_cells":len(evaluated),"research_qualified":signals,
             "publication_authorized":False,
             "notes":["Models calibrated on a middle time slice, tested on a later holdout.",
