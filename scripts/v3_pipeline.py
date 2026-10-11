@@ -165,12 +165,49 @@ ALIASES={"manchester united":"man utd","manchester city":"man city","tottenham h
          "wolverhampton wanderers":"wolves","newcastle united":"newcastle","nottingham forest":"nott'm forest",
          "brighton and hove albion":"brighton","west ham united":"west ham","bayern munich":"bayern munich",
          "paris saint germain":"paris sg","internazionale":"inter"}
+TEAM_NAME_VARIANTS = {
+    "fc cologne": "FC Koln",
+    "borussia monchengladbach": "M'gladbach",
+    "sc freiburg": "Freiburg",
+    "hertha berlin": "Hertha",
+    "spvgg greuther furth": "Greuther Furth",
+    "karlsruher sc": "Karlsruhe",
+    "vfl bochum": "Bochum",
+    "arminia bielefeld": "Bielefeld",
+    "celta vigo": "Celta",
+    "real sociedad": "Sociedad",
+    "real betis": "Betis",
+    "racing santander": "Santander",
+    "fc andorra": "Andorra",
+    "sporting gijon": "Sp Gijon",
+    "as roma": "Roma",
+    "ac milan": "Milan",
+    "hellas verona": "Verona",
+    "stade rennais": "Rennes",
+    "aj auxerre": "Auxerre",
+    "fc utrecht": "Utrecht",
+    "pec zwolle": "Zwolle",
+    "sc cambuur": "Cambuur",
+    "ado den haag": "Den Haag",
+    "fc groningen": "Groningen",
+    "standard liege": "Standard",
+    "royal charleroi sc": "Charleroi",
+    "union st gilloise": "St Gilloise",
+    "oh leuven": "Oud-Heverlee Leuven",
+    "kvc westerlo": "Westerlo",
+    "kv mechelen": "Mechelen",
+    "sint truidense": "St Truiden",
+    "cd nacional": "Nacional",
+    "vitoria de guimaraes": "Guimaraes"
+}
 def resolve(name,teams):
     exact={normal(t):t for t in teams}
     keys=[normal(name)]
     if name.lower() in ALIASES:keys.insert(0,normal(ALIASES[name.lower()]))
     found=[exact[k] for k in keys if k in exact]
     if found: return found[0]
+    alt = TEAM_NAME_VARIANTS.get(normal(name))
+    if alt and normal(alt) in exact: return exact[normal(alt)]
     # Conservative suffix normalization: only accept a unique club identity.
     # Never guess between ambiguous historical team names.
     def tokens(v):
