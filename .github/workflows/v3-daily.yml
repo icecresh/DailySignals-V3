@@ -2,8 +2,8 @@ name: Daily Signals V3 daily multi-model research
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 4 * * *'
-    - cron: '0 5 * * *'
+    - cron: '15 3 * * *'
+    - cron: '15 4 * * *'
 permissions:
   contents: write
 concurrency:
@@ -23,7 +23,7 @@ jobs:
           # This tolerates GitHub Actions queue delays without running twice daily.
           SLOT="${{ github.event.schedule }}"
           OFFSET="$(TZ=Europe/London date +%z)"
-          if [[ "$EVENT_NAME" == "workflow_dispatch" ]] || [[ "$SLOT" == "0 4 * * *" && "$OFFSET" == "+0100" ]] || [[ "$SLOT" == "0 5 * * *" && "$OFFSET" == "+0000" ]]; then
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]] || [[ "$SLOT" == "15 3 * * *" && "$OFFSET" == "+0100" ]] || [[ "$SLOT" == "15 4 * * *" && "$OFFSET" == "+0000" ]]; then
             echo "run=true" >> "$GITHUB_OUTPUT"
           else
             echo "run=false" >> "$GITHUB_OUTPUT"
