@@ -26,3 +26,13 @@ Sources:
 - https://cornerflick.com/football/leagues/danish-superliga/results
 - https://footystats.org/norway/eliteserien/datasets
 - https://footystats.org/sweden/allsvenskan/datasets
+
+## Provider qualification update — 2026-10-12
+
+**Preferred procurement candidate: Footiqo** (https://footiqo.com/premium/premium-football-database/). Provider advertises AI/ML and historical modelling usage, FT/1H/2H statistics, corners and cards. It offers **single-league datasets from €5.99** for up to five recent seasons, **subject to provider confirmation of exact league, seasons, fields, licence and completeness before purchase**. Denmark Superliga has a historical results / corners & cards database page at https://footiqo.com/database/leagues/denmark-superliga/ . League-level Norway and Sweden availability must be confirmed in the vendor's response. No purchase or download was completed.
+
+**Rejected for automatic ingestion:** football-data.co.uk explicitly disallows automated AI training and says not to request permission for that usage: https://football-data.co.uk/contact.php . This restriction applies despite free Nordic CSV availability.
+
+**Exploratory-only:** Cornerflick's season archives currently show 47 Danish and 63 Swedish matches, insufficient for >=600-match, three-year gates. Its CC BY 4.0 applies to compilation, while underlying provider terms may apply: https://cornerflick.com/data .
+
+**No activation:** Need licensed historical files and real measured completeness, chronological holdout results, and fixture identity audit. Do not infer readiness from advertised provider coverage.
