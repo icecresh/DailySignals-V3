@@ -1,0 +1,1627 @@
+[
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "fh_o05",
+    "probability": 0.6992,
+    "models": [
+      "catboost",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6872,
+      "xgboost": 0.7161,
+      "extra_trees": 0.6823
+    },
+    "model_disagreement": 0.0338,
+    "holdout_brier": 0.20341,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "ft_o15",
+    "probability": 0.7387,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7695,
+      "catboost": 0.7382,
+      "extra_trees": 0.7251
+    },
+    "model_disagreement": 0.0443,
+    "holdout_brier": 0.17613,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "ft_o25",
+    "probability": 0.5128,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5097,
+      "logistic": 0.5193,
+      "xgboost": 0.5139
+    },
+    "model_disagreement": 0.0096,
+    "holdout_brier": 0.24555,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "btts",
+    "probability": 0.5508,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5432,
+      "logistic": 0.5392,
+      "extra_trees": 0.5431
+    },
+    "model_disagreement": 0.004,
+    "holdout_brier": 0.2463,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "home_win",
+    "probability": 0.4562,
+    "models": [
+      "catboost",
+      "xgboost",
+      "random_forest"
+    ],
+    "model_probabilities": {
+      "catboost": 0.409,
+      "xgboost": 0.4145,
+      "random_forest": 0.4399
+    },
+    "model_disagreement": 0.0309,
+    "holdout_brier": 0.23022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "draw",
+    "probability": 0.2706,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.287,
+      "logistic": 0.2708,
+      "xgboost": 0.2955
+    },
+    "model_disagreement": 0.0247,
+    "holdout_brier": 0.19514,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "away_win",
+    "probability": 0.3278,
+    "models": [
+      "logistic",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.2913,
+      "xgboost": 0.3429,
+      "extra_trees": 0.3316
+    },
+    "model_disagreement": 0.0517,
+    "holdout_brier": 0.19852,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "dc_1x",
+    "probability": 0.6721,
+    "models": [
+      "logistic",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7085,
+      "xgboost": 0.6571,
+      "extra_trees": 0.6684
+    },
+    "model_disagreement": 0.0514,
+    "holdout_brier": 0.19848,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "dc_x2",
+    "probability": 0.5438,
+    "models": [
+      "catboost",
+      "xgboost",
+      "random_forest"
+    ],
+    "model_probabilities": {
+      "catboost": 0.591,
+      "xgboost": 0.5855,
+      "random_forest": 0.5601
+    },
+    "model_disagreement": 0.0309,
+    "holdout_brier": 0.23022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "dc_12",
+    "probability": 0.7294,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.713,
+      "logistic": 0.7292,
+      "xgboost": 0.7045
+    },
+    "model_disagreement": 0.0247,
+    "holdout_brier": 0.19514,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "corners_o65",
+    "probability": 0.8515,
+    "models": [
+      "logistic",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8445,
+      "hist_gradient_boosting": 0.8592,
+      "catboost": 0.8437
+    },
+    "model_disagreement": 0.0155,
+    "holdout_brier": 0.13086,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "cards_o15",
+    "probability": 0.9143,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8975,
+      "hist_gradient_boosting": 0.9111,
+      "catboost": 0.8888
+    },
+    "model_disagreement": 0.0223,
+    "holdout_brier": 0.09584,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Levante",
+      "away": "Sevilla",
+      "display": "Levante vs Sevilla",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401882852"
+    },
+    "market": "cards_o25",
+    "probability": 0.8148,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7811,
+      "extra_trees": 0.8003,
+      "hist_gradient_boosting": 0.8128
+    },
+    "model_disagreement": 0.0317,
+    "holdout_brier": 0.18998,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "fh_o05",
+    "probability": 0.6826,
+    "models": [
+      "catboost",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6772,
+      "xgboost": 0.6756,
+      "extra_trees": 0.6638
+    },
+    "model_disagreement": 0.0133,
+    "holdout_brier": 0.20341,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "ft_o15",
+    "probability": 0.7296,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7141,
+      "catboost": 0.7278,
+      "extra_trees": 0.757
+    },
+    "model_disagreement": 0.0429,
+    "holdout_brier": 0.17613,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "ft_o25",
+    "probability": 0.4639,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4742,
+      "logistic": 0.4761,
+      "xgboost": 0.4687
+    },
+    "model_disagreement": 0.0074,
+    "holdout_brier": 0.24555,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "btts",
+    "probability": 0.5125,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5161,
+      "logistic": 0.5265,
+      "extra_trees": 0.5028
+    },
+    "model_disagreement": 0.0236,
+    "holdout_brier": 0.2463,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "home_win",
+    "probability": 0.5126,
+    "models": [
+      "catboost",
+      "xgboost",
+      "random_forest"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4934,
+      "xgboost": 0.4877,
+      "random_forest": 0.4987
+    },
+    "model_disagreement": 0.0109,
+    "holdout_brier": 0.23022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "draw",
+    "probability": 0.3178,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2834,
+      "logistic": 0.2947,
+      "xgboost": 0.3251
+    },
+    "model_disagreement": 0.0417,
+    "holdout_brier": 0.19514,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "away_win",
+    "probability": 0.2342,
+    "models": [
+      "logistic",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.2202,
+      "xgboost": 0.2217,
+      "extra_trees": 0.2202
+    },
+    "model_disagreement": 0.0015,
+    "holdout_brier": 0.19852,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "dc_1x",
+    "probability": 0.7656,
+    "models": [
+      "logistic",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7795,
+      "xgboost": 0.7783,
+      "extra_trees": 0.7798
+    },
+    "model_disagreement": 0.0015,
+    "holdout_brier": 0.19848,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "dc_x2",
+    "probability": 0.4874,
+    "models": [
+      "catboost",
+      "xgboost",
+      "random_forest"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5066,
+      "xgboost": 0.5123,
+      "random_forest": 0.5013
+    },
+    "model_disagreement": 0.0109,
+    "holdout_brier": 0.23022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "dc_12",
+    "probability": 0.6822,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7166,
+      "logistic": 0.7053,
+      "xgboost": 0.6749
+    },
+    "model_disagreement": 0.0417,
+    "holdout_brier": 0.19514,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "corners_o65",
+    "probability": 0.7826,
+    "models": [
+      "logistic",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7841,
+      "hist_gradient_boosting": 0.772,
+      "catboost": 0.8039
+    },
+    "model_disagreement": 0.0319,
+    "holdout_brier": 0.13086,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "cards_o15",
+    "probability": 0.9535,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.94,
+      "hist_gradient_boosting": 0.9283,
+      "catboost": 0.9159
+    },
+    "model_disagreement": 0.0241,
+    "holdout_brier": 0.09584,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Burgos",
+      "away": "Granada",
+      "display": "Burgos vs Granada",
+      "kickoff": "2026-10-12T14:15Z",
+      "event_id": "401883187"
+    },
+    "market": "cards_o25",
+    "probability": 0.8616,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "catboost": 0.8205,
+      "extra_trees": 0.8423,
+      "hist_gradient_boosting": 0.8209
+    },
+    "model_disagreement": 0.0218,
+    "holdout_brier": 0.18998,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "fh_o05",
+    "probability": 0.6946,
+    "models": [
+      "catboost",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6622,
+      "xgboost": 0.6831,
+      "extra_trees": 0.6806
+    },
+    "model_disagreement": 0.0209,
+    "holdout_brier": 0.20341,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "ft_o15",
+    "probability": 0.7296,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7009,
+      "catboost": 0.7081,
+      "extra_trees": 0.7112
+    },
+    "model_disagreement": 0.0103,
+    "holdout_brier": 0.17613,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "ft_o25",
+    "probability": 0.4639,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4682,
+      "logistic": 0.4606,
+      "xgboost": 0.452
+    },
+    "model_disagreement": 0.0163,
+    "holdout_brier": 0.24555,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "btts",
+    "probability": 0.5508,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5374,
+      "logistic": 0.547,
+      "extra_trees": 0.5378
+    },
+    "model_disagreement": 0.0096,
+    "holdout_brier": 0.2463,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "home_win",
+    "probability": 0.3212,
+    "models": [
+      "catboost",
+      "xgboost",
+      "random_forest"
+    ],
+    "model_probabilities": {
+      "catboost": 0.3423,
+      "xgboost": 0.3242,
+      "random_forest": 0.3121
+    },
+    "model_disagreement": 0.0302,
+    "holdout_brier": 0.23022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "draw",
+    "probability": 0.3178,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.314,
+      "logistic": 0.3129,
+      "xgboost": 0.3353
+    },
+    "model_disagreement": 0.0224,
+    "holdout_brier": 0.19514,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "away_win",
+    "probability": 0.3381,
+    "models": [
+      "logistic",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.3502,
+      "xgboost": 0.3552,
+      "extra_trees": 0.3534
+    },
+    "model_disagreement": 0.005,
+    "holdout_brier": 0.19852,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "dc_1x",
+    "probability": 0.6667,
+    "models": [
+      "logistic",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6491,
+      "xgboost": 0.6448,
+      "extra_trees": 0.6466
+    },
+    "model_disagreement": 0.0043,
+    "holdout_brier": 0.19848,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "dc_x2",
+    "probability": 0.6788,
+    "models": [
+      "catboost",
+      "xgboost",
+      "random_forest"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6577,
+      "xgboost": 0.6758,
+      "random_forest": 0.6879
+    },
+    "model_disagreement": 0.0302,
+    "holdout_brier": 0.23022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "dc_12",
+    "probability": 0.6822,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.686,
+      "logistic": 0.6871,
+      "xgboost": 0.6647
+    },
+    "model_disagreement": 0.0224,
+    "holdout_brier": 0.19514,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "corners_o65",
+    "probability": 0.8059,
+    "models": [
+      "logistic",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7776,
+      "hist_gradient_boosting": 0.8168,
+      "catboost": 0.7904
+    },
+    "model_disagreement": 0.0393,
+    "holdout_brier": 0.13086,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "cards_o15",
+    "probability": 0.9593,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.9378,
+      "hist_gradient_boosting": 0.9446,
+      "catboost": 0.9226
+    },
+    "model_disagreement": 0.022,
+    "holdout_brier": 0.09584,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Girona",
+      "display": "Tenerife vs Girona",
+      "kickoff": "2026-10-12T19:00Z",
+      "event_id": "401883181"
+    },
+    "market": "cards_o25",
+    "probability": 0.8667,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "catboost": 0.8461,
+      "extra_trees": 0.8685,
+      "hist_gradient_boosting": 0.8406
+    },
+    "model_disagreement": 0.0279,
+    "holdout_brier": 0.18998,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "fh_o05",
+    "probability": 0.6455,
+    "models": [
+      "catboost",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6452,
+      "xgboost": 0.5939,
+      "extra_trees": 0.6308
+    },
+    "model_disagreement": 0.0512,
+    "holdout_brier": 0.20341,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "ft_o15",
+    "probability": 0.7207,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7007,
+      "catboost": 0.6769,
+      "extra_trees": 0.6976
+    },
+    "model_disagreement": 0.0238,
+    "holdout_brier": 0.17613,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "ft_o25",
+    "probability": 0.4639,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4392,
+      "logistic": 0.4572,
+      "xgboost": 0.4428
+    },
+    "model_disagreement": 0.018,
+    "holdout_brier": 0.24555,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "btts",
+    "probability": 0.5125,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5104,
+      "logistic": 0.4842,
+      "extra_trees": 0.5323
+    },
+    "model_disagreement": 0.048,
+    "holdout_brier": 0.2463,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "home_win",
+    "probability": 0.4562,
+    "models": [
+      "catboost",
+      "xgboost",
+      "random_forest"
+    ],
+    "model_probabilities": {
+      "catboost": 0.437,
+      "xgboost": 0.4096,
+      "random_forest": 0.4398
+    },
+    "model_disagreement": 0.0301,
+    "holdout_brier": 0.23022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "draw",
+    "probability": 0.2706,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.305,
+      "logistic": 0.2787,
+      "xgboost": 0.2674
+    },
+    "model_disagreement": 0.0376,
+    "holdout_brier": 0.19514,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "away_win",
+    "probability": 0.299,
+    "models": [
+      "logistic",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.233,
+      "xgboost": 0.2952,
+      "extra_trees": 0.2688
+    },
+    "model_disagreement": 0.0622,
+    "holdout_brier": 0.19852,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "dc_1x",
+    "probability": 0.6997,
+    "models": [
+      "logistic",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7666,
+      "xgboost": 0.7048,
+      "extra_trees": 0.7312
+    },
+    "model_disagreement": 0.0618,
+    "holdout_brier": 0.19848,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "dc_x2",
+    "probability": 0.5438,
+    "models": [
+      "catboost",
+      "xgboost",
+      "random_forest"
+    ],
+    "model_probabilities": {
+      "catboost": 0.563,
+      "xgboost": 0.5904,
+      "random_forest": 0.5602
+    },
+    "model_disagreement": 0.0301,
+    "holdout_brier": 0.23022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "dc_12",
+    "probability": 0.7294,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.695,
+      "logistic": 0.7213,
+      "xgboost": 0.7326
+    },
+    "model_disagreement": 0.0376,
+    "holdout_brier": 0.19514,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "corners_o65",
+    "probability": 0.8059,
+    "models": [
+      "logistic",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8213,
+      "hist_gradient_boosting": 0.8195,
+      "catboost": 0.8068
+    },
+    "model_disagreement": 0.0145,
+    "holdout_brier": 0.13086,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "cards_o15",
+    "probability": 0.8936,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8916,
+      "hist_gradient_boosting": 0.8841,
+      "catboost": 0.8658
+    },
+    "model_disagreement": 0.0258,
+    "holdout_brier": 0.09584,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Atalanta",
+      "away": "Venezia",
+      "display": "Atalanta vs Venezia",
+      "kickoff": "2026-10-12T16:30Z",
+      "event_id": "401875005"
+    },
+    "market": "cards_o25",
+    "probability": 0.7269,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6869,
+      "extra_trees": 0.7291,
+      "hist_gradient_boosting": 0.7225
+    },
+    "model_disagreement": 0.0422,
+    "holdout_brier": 0.18998,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "fh_o05",
+    "probability": 0.6455,
+    "models": [
+      "catboost",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6701,
+      "xgboost": 0.625,
+      "extra_trees": 0.6477
+    },
+    "model_disagreement": 0.0451,
+    "holdout_brier": 0.20341,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "ft_o15",
+    "probability": 0.7296,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7142,
+      "catboost": 0.7136,
+      "extra_trees": 0.7327
+    },
+    "model_disagreement": 0.0191,
+    "holdout_brier": 0.17613,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "ft_o25",
+    "probability": 0.4639,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4771,
+      "logistic": 0.4701,
+      "xgboost": 0.4591
+    },
+    "model_disagreement": 0.018,
+    "holdout_brier": 0.24555,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "btts",
+    "probability": 0.5125,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.513,
+      "logistic": 0.5017,
+      "extra_trees": 0.5237
+    },
+    "model_disagreement": 0.022,
+    "holdout_brier": 0.2463,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "home_win",
+    "probability": 0.3272,
+    "models": [
+      "catboost",
+      "xgboost",
+      "random_forest"
+    ],
+    "model_probabilities": {
+      "catboost": 0.3564,
+      "xgboost": 0.3481,
+      "random_forest": 0.4051
+    },
+    "model_disagreement": 0.057,
+    "holdout_brier": 0.23022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "draw",
+    "probability": 0.2706,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2961,
+      "logistic": 0.2818,
+      "xgboost": 0.2755
+    },
+    "model_disagreement": 0.0206,
+    "holdout_brier": 0.19514,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "away_win",
+    "probability": 0.3427,
+    "models": [
+      "logistic",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.4008,
+      "xgboost": 0.3738,
+      "extra_trees": 0.3394
+    },
+    "model_disagreement": 0.0614,
+    "holdout_brier": 0.19852,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "dc_1x",
+    "probability": 0.6552,
+    "models": [
+      "logistic",
+      "xgboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.5989,
+      "xgboost": 0.6262,
+      "extra_trees": 0.6606
+    },
+    "model_disagreement": 0.0616,
+    "holdout_brier": 0.19848,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "dc_x2",
+    "probability": 0.6728,
+    "models": [
+      "catboost",
+      "xgboost",
+      "random_forest"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6436,
+      "xgboost": 0.6519,
+      "random_forest": 0.5949
+    },
+    "model_disagreement": 0.057,
+    "holdout_brier": 0.23022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "dc_12",
+    "probability": 0.7294,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7039,
+      "logistic": 0.7182,
+      "xgboost": 0.7245
+    },
+    "model_disagreement": 0.0206,
+    "holdout_brier": 0.19514,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "corners_o65",
+    "probability": 0.7826,
+    "models": [
+      "logistic",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8018,
+      "hist_gradient_boosting": 0.7601,
+      "catboost": 0.804
+    },
+    "model_disagreement": 0.0439,
+    "holdout_brier": 0.13086,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "cards_o15",
+    "probability": 0.8936,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8838,
+      "hist_gradient_boosting": 0.907,
+      "catboost": 0.8598
+    },
+    "model_disagreement": 0.0473,
+    "holdout_brier": 0.09584,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Udinese",
+      "display": "Torino vs Udinese",
+      "kickoff": "2026-10-12T18:45Z",
+      "event_id": "401874763"
+    },
+    "market": "cards_o25",
+    "probability": 0.7269,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6742,
+      "extra_trees": 0.7142,
+      "hist_gradient_boosting": 0.6815
+    },
+    "model_disagreement": 0.04,
+    "holdout_brier": 0.18998,
+    "status": "REJECTED"
+  }
+]
