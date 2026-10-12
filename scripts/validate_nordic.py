@@ -32,7 +32,6 @@ def validate(path):
             key=(date.isoformat(),r["HomeTeam"].strip().lower(),r["AwayTeam"].strip().lower())
             if key in seen:raise ValueError()
             seen.add(key)
-            dates.append(date)
             parsed={}
             for field in NUMERIC:
                 raw=(r.get(field) or "").strip()
@@ -43,6 +42,7 @@ def validate(path):
             if parsed["FTHG"] is not None and parsed["HTHG"] is not None and parsed["HTHG"]>parsed["FTHG"]:raise ValueError()
             if parsed["FTAG"] is not None and parsed["HTAG"] is not None and parsed["HTAG"]>parsed["FTAG"]:raise ValueError()
             valid.append(parsed)
+            dates.append(date)
         except (ValueError,TypeError,KeyError):bad+=1
     n=len(valid)
     seasons=len({d.year for d in dates})
