@@ -207,7 +207,17 @@ TEAM_NAME_VARIANTS = {
     "kv mechelen": "Mechelen",
     "sint truidense": "St Truiden",
     "cd nacional": "Nacional",
-    "vitoria de guimaraes": "Guimaraes"
+    "vitoria de guimaraes": "Guimaraes",
+    "blackburn rovers": "Blackburn",
+    "charlton athletic": "Charlton",
+    "cardiff city": "Cardiff",
+    "swansea city": "Swansea",
+    "bolton wanderers": "Bolton",
+    "west bromwich albion": "West Brom",
+    "birmingham city": "Birmingham",
+    "preston north end": "Preston",
+    "stoke city": "Stoke",
+    "inverness caledonian thistle": "Inverness C"
 }
 def resolve(name,teams):
     exact={normal(t):t for t in teams}
@@ -241,6 +251,10 @@ def fixtures(day,leagues,history):
             hn=home["team"].get("displayName","");an=away["team"].get("displayName","")
             h=resolve(hn,teams);a=resolve(an,teams)
             if not h or not a:issues.append({"league":league,"fixture":hn+" vs "+an,"error":"UNMAPPED_TEAM","unmapped_home":hn if not h else None,"unmapped_away":an if not a else None});continue
+            # Exclude clubs with no league-specific match history rather than silently using priors.
+            if not any(r["home"]==h or r["away"]==h for r in history if r["league"]==league) or not any(r["home"]==a or r["away"]==a for r in history if r["league"]==league):
+                issues.append({"league":league,"fixture":hn+" vs "+an,"error":"INSUFFICIENT_TEAM_HISTORY"})
+                continue
             result.append({"league":league,"home":h,"away":a,"display":hn+" vs "+an,"kickoff":ev.get("date"),"event_id":ev.get("id")})
     return result,issues
 def run(args):
