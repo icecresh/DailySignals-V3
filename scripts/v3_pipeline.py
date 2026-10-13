@@ -245,6 +245,15 @@ def fixtures(day,leagues,history):
             home=next((c for c in competitors if c.get("homeAway")=="home"),None)
             away=next((c for c in competitors if c.get("homeAway")=="away"),None)
             if not home or not away:continue
+            kickoff=ev.get("date")
+            try:
+                kickoff_day=datetime.fromisoformat(kickoff.replace("Z","+00:00")).date().isoformat()
+            except (AttributeError,ValueError):
+                issues.append({"league":league,"event_id":ev.get("id"),"error":"INVALID_KICKOFF_DATE"})
+                continue
+            if kickoff_day != day:
+                issues.append({"league":league,"event_id":ev.get("id"),"error":"WRONG_FIXTURE_DATE","kickoff_day":kickoff_day})
+                continue
             if ev.get("status",{}).get("type",{}).get("state")!="pre":
                 issues.append({"league":league,"event_id":ev.get("id"),"error":"NOT_PREMATCH"})
                 continue
