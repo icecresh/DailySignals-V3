@@ -1,0 +1,327 @@
+[
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "fh_o05",
+    "probability": 0.7121,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7094,
+      "extra_trees": 0.7202,
+      "xgboost": 0.7264
+    },
+    "model_disagreement": 0.017,
+    "holdout_brier": 0.20333,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "ft_o15",
+    "probability": 0.7993,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7849,
+      "catboost": 0.7812,
+      "extra_trees": 0.7846
+    },
+    "model_disagreement": 0.0037,
+    "holdout_brier": 0.17577,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "ft_o25",
+    "probability": 0.5122,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5365,
+      "logistic": 0.5433,
+      "xgboost": 0.5219
+    },
+    "model_disagreement": 0.0214,
+    "holdout_brier": 0.24528,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "btts",
+    "probability": 0.5737,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.5684,
+      "catboost": 0.567,
+      "logistic": 0.534
+    },
+    "model_disagreement": 0.0343,
+    "holdout_brier": 0.24657,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "home_win",
+    "probability": 0.4781,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4625,
+      "xgboost": 0.4861,
+      "logistic": 0.5223
+    },
+    "model_disagreement": 0.0598,
+    "holdout_brier": 0.23052,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "draw",
+    "probability": 0.2555,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2643,
+      "logistic": 0.2367,
+      "extra_trees": 0.2656
+    },
+    "model_disagreement": 0.0289,
+    "holdout_brier": 0.19362,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "away_win",
+    "probability": 0.2337,
+    "models": [
+      "xgboost",
+      "logistic",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "xgboost": 0.2429,
+      "logistic": 0.2287,
+      "catboost": 0.2635
+    },
+    "model_disagreement": 0.0348,
+    "holdout_brier": 0.19688,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "dc_1x",
+    "probability": 0.7676,
+    "models": [
+      "xgboost",
+      "logistic",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "xgboost": 0.7571,
+      "logistic": 0.7711,
+      "catboost": 0.7365
+    },
+    "model_disagreement": 0.0345,
+    "holdout_brier": 0.19687,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "dc_x2",
+    "probability": 0.5207,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5375,
+      "xgboost": 0.5139,
+      "logistic": 0.4776
+    },
+    "model_disagreement": 0.0599,
+    "holdout_brier": 0.23048,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "dc_12",
+    "probability": 0.7546,
+    "models": [
+      "catboost",
+      "hist_gradient_boosting",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7357,
+      "hist_gradient_boosting": 0.7238,
+      "logistic": 0.7633
+    },
+    "model_disagreement": 0.0395,
+    "holdout_brier": 0.19456,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "corners_o65",
+    "probability": 0.8655,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8765,
+      "catboost": 0.8588,
+      "extra_trees": 0.8499
+    },
+    "model_disagreement": 0.0266,
+    "holdout_brier": 0.13041,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "cards_o15",
+    "probability": 0.8789,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8694,
+      "hist_gradient_boosting": 0.8614,
+      "catboost": 0.8682
+    },
+    "model_disagreement": 0.0081,
+    "holdout_brier": 0.09613,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Sheffield United",
+      "display": "Portsmouth vs Sheffield United",
+      "kickoff": "2026-10-14T18:45Z",
+      "event_id": "401880222"
+    },
+    "market": "cards_o25",
+    "probability": 0.728,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.682,
+      "catboost": 0.7025,
+      "hist_gradient_boosting": 0.6795
+    },
+    "model_disagreement": 0.023,
+    "holdout_brier": 0.19061,
+    "status": "REJECTED"
+  }
+]
