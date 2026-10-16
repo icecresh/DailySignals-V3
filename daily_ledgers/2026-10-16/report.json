@@ -1,0 +1,1949 @@
+{
+  "date": "2026-10-16",
+  "as_of_utc": "2026-10-16T08:15:12.128569+00:00",
+  "status": "RESEARCH_ONLY_NOT_PRODUCTION_AUTHORIZED",
+  "sources": [
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E0.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E0.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E0.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+      "rows": 60
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E1.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E1.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E1.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/E1.csv",
+      "rows": 119
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E2.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E2.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E2.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/E2.csv",
+      "rows": 102
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E3.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E3.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E3.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/E3.csv",
+      "rows": 114
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/D1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/D1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/D1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+      "rows": 45
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/D2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/D2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/D2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/D2.csv",
+      "rows": 63
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SP1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SP1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SP1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+      "rows": 78
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SP2.csv",
+      "rows": 462
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SP2.csv",
+      "rows": 462
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SP2.csv",
+      "rows": 462
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SP2.csv",
+      "rows": 99
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/I1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/I1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/I1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/I1.csv",
+      "rows": 60
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/I2.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/I2.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/I2.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/I2.csv",
+      "rows": 60
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/F1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/F1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/F1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv",
+      "rows": 54
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/F2.csv",
+      "rows": 379
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/F2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/F2.csv",
+      "rows": 305
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/F2.csv",
+      "rows": 72
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/N1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/N1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/N1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/N1.csv",
+      "rows": 72
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/B1.csv",
+      "rows": 312
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/B1.csv",
+      "rows": 312
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/B1.csv",
+      "rows": 311
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/B1.csv",
+      "rows": 72
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/P1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/P1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/P1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/P1.csv",
+      "rows": 71
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC0.csv",
+      "rows": 228
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC0.csv",
+      "rows": 228
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC0.csv",
+      "rows": 228
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SC0.csv",
+      "rows": 48
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC1.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC1.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC1.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SC1.csv",
+      "rows": 48
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC2.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC2.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC2.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SC2.csv",
+      "rows": 49
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC3.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC3.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC3.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SC3.csv",
+      "rows": 50
+    }
+  ],
+  "warnings": [],
+  "historical_rows": 21069,
+  "feature_rows": 19145,
+  "split_dates": {
+    "calibration_start": "2025-08-01",
+    "holdout_start": "2026-02-04"
+  },
+  "evaluations": {
+    "fh_o05": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11263,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "xgboost": 0.20747,
+        "catboost": 0.20747,
+        "extra_trees": 0.20755,
+        "logistic": 0.20766,
+        "lightgbm": 0.20824,
+        "random_forest": 0.20867,
+        "hist_gradient_boosting": 0.20893,
+        "poisson": 0.20902
+      },
+      "selected": [
+        "xgboost",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.20316,
+        "log_loss": 0.59568,
+        "observed": 0.71254,
+        "predicted": 0.70351
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.20305,
+        "log_loss": 0.5954,
+        "observed": 0.71254,
+        "predicted": 0.70861
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "ft_o15": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11265,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.18787,
+        "catboost": 0.18795,
+        "extra_trees": 0.18817,
+        "xgboost": 0.18862,
+        "lightgbm": 0.18885,
+        "poisson": 0.18984,
+        "random_forest": 0.19037,
+        "hist_gradient_boosting": 0.19074
+      },
+      "selected": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.17476,
+        "log_loss": 0.5329,
+        "observed": 0.77151,
+        "predicted": 0.75053
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.17515,
+        "log_loss": 0.53335,
+        "observed": 0.77151,
+        "predicted": 0.75245
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "ft_o25": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11265,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.24874,
+        "logistic": 0.24898,
+        "extra_trees": 0.24921,
+        "xgboost": 0.24935,
+        "lightgbm": 0.24992,
+        "hist_gradient_boosting": 0.25122,
+        "random_forest": 0.25182,
+        "poisson": 0.25422
+      },
+      "selected": [
+        "catboost",
+        "logistic",
+        "extra_trees"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.24419,
+        "log_loss": 0.68143,
+        "observed": 0.54251,
+        "predicted": 0.5128
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.24556,
+        "log_loss": 0.69231,
+        "observed": 0.54251,
+        "predicted": 0.51476
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "btts": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11265,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.2487,
+        "logistic": 0.24889,
+        "extra_trees": 0.24895,
+        "xgboost": 0.24959,
+        "poisson": 0.24996,
+        "lightgbm": 0.25067,
+        "random_forest": 0.2517,
+        "hist_gradient_boosting": 0.25242
+      },
+      "selected": [
+        "catboost",
+        "logistic",
+        "extra_trees"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.24597,
+        "log_loss": 0.68503,
+        "observed": 0.5591,
+        "predicted": 0.53162
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.24674,
+        "log_loss": 0.68779,
+        "observed": 0.5591,
+        "predicted": 0.53412
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "home_win": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11265,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "xgboost": 0.22938,
+        "catboost": 0.22945,
+        "lightgbm": 0.2299,
+        "logistic": 0.23004,
+        "extra_trees": 0.23017,
+        "random_forest": 0.23123,
+        "hist_gradient_boosting": 0.23221,
+        "poisson": 0.23464
+      },
+      "selected": [
+        "xgboost",
+        "catboost",
+        "lightgbm"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.22974,
+        "log_loss": 0.65105,
+        "observed": 0.43452,
+        "predicted": 0.4332
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.23131,
+        "log_loss": 0.6545,
+        "observed": 0.43452,
+        "predicted": 0.42764
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "draw": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11265,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.19439,
+        "logistic": 0.19459,
+        "xgboost": 0.19491,
+        "extra_trees": 0.19497,
+        "poisson": 0.19511,
+        "lightgbm": 0.19525,
+        "hist_gradient_boosting": 0.19531,
+        "random_forest": 0.19663
+      },
+      "selected": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.19376,
+        "log_loss": 0.57588,
+        "observed": 0.26321,
+        "predicted": 0.26411
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.19402,
+        "log_loss": 0.57762,
+        "observed": 0.26321,
+        "predicted": 0.26049
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "away_win": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11265,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.20176,
+        "xgboost": 0.20186,
+        "catboost": 0.20191,
+        "extra_trees": 0.2021,
+        "lightgbm": 0.20267,
+        "random_forest": 0.20358,
+        "hist_gradient_boosting": 0.2038,
+        "poisson": 0.20768
+      },
+      "selected": [
+        "logistic",
+        "xgboost",
+        "catboost"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.19672,
+        "log_loss": 0.57825,
+        "observed": 0.30227,
+        "predicted": 0.30492
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.19695,
+        "log_loss": 0.58014,
+        "observed": 0.30227,
+        "predicted": 0.30835
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "dc_1x": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11265,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.20176,
+        "xgboost": 0.20186,
+        "catboost": 0.20191,
+        "extra_trees": 0.2021,
+        "lightgbm": 0.20267,
+        "hist_gradient_boosting": 0.2033,
+        "random_forest": 0.20358,
+        "poisson": 0.20768
+      },
+      "selected": [
+        "logistic",
+        "xgboost",
+        "catboost"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.19673,
+        "log_loss": 0.57826,
+        "observed": 0.69773,
+        "predicted": 0.69507
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.19697,
+        "log_loss": 0.58023,
+        "observed": 0.69773,
+        "predicted": 0.69166
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "dc_x2": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11265,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "xgboost": 0.22938,
+        "catboost": 0.22945,
+        "lightgbm": 0.2299,
+        "logistic": 0.23004,
+        "extra_trees": 0.23017,
+        "hist_gradient_boosting": 0.23116,
+        "random_forest": 0.23123,
+        "poisson": 0.23464
+      },
+      "selected": [
+        "xgboost",
+        "catboost",
+        "lightgbm"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.22974,
+        "log_loss": 0.65105,
+        "observed": 0.56548,
+        "predicted": 0.5668
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.23131,
+        "log_loss": 0.6545,
+        "observed": 0.56548,
+        "predicted": 0.57236
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "dc_12": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11265,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.19439,
+        "logistic": 0.19459,
+        "xgboost": 0.19491,
+        "extra_trees": 0.19497,
+        "poisson": 0.19511,
+        "lightgbm": 0.19525,
+        "hist_gradient_boosting": 0.19596,
+        "random_forest": 0.19663
+      },
+      "selected": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.19376,
+        "log_loss": 0.57588,
+        "observed": 0.73679,
+        "predicted": 0.73589
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.19403,
+        "log_loss": 0.57762,
+        "observed": 0.73679,
+        "predicted": 0.73951
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "corners_o65": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11262,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.14017,
+        "catboost": 0.14039,
+        "extra_trees": 0.14058,
+        "xgboost": 0.14063,
+        "lightgbm": 0.14087,
+        "hist_gradient_boosting": 0.14118,
+        "random_forest": 0.14122,
+        "poisson": 0.14913
+      },
+      "selected": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.13003,
+        "log_loss": 0.42815,
+        "observed": 0.84555,
+        "predicted": 0.83703
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.13061,
+        "log_loss": 0.43082,
+        "observed": 0.84555,
+        "predicted": 0.83871
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "cards_o15": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11263,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "extra_trees": 0.0849,
+        "hist_gradient_boosting": 0.08504,
+        "catboost": 0.08508,
+        "xgboost": 0.08512,
+        "logistic": 0.08534,
+        "lightgbm": 0.08557,
+        "random_forest": 0.08562,
+        "poisson": 0.0871
+      },
+      "selected": [
+        "extra_trees",
+        "hist_gradient_boosting",
+        "catboost"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.09599,
+        "log_loss": 0.33873,
+        "observed": 0.89099,
+        "predicted": 0.8859
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.09646,
+        "log_loss": 0.34074,
+        "observed": 0.89099,
+        "predicted": 0.9053
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "cards_o25": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11263,
+        "calibration": 3963,
+        "holdout": 3917
+      },
+      "candidate_calibration_brier": {
+        "extra_trees": 0.17143,
+        "catboost": 0.17145,
+        "hist_gradient_boosting": 0.17159,
+        "xgboost": 0.17211,
+        "random_forest": 0.17245,
+        "lightgbm": 0.17249,
+        "logistic": 0.17281,
+        "poisson": 0.17829
+      },
+      "selected": [
+        "extra_trees",
+        "catboost",
+        "hist_gradient_boosting"
+      ],
+      "holdout_raw": {
+        "n": 3917,
+        "brier": 0.18896,
+        "log_loss": 0.56316,
+        "observed": 0.73704,
+        "predicted": 0.74331
+      },
+      "holdout_calibrated": {
+        "n": 3917,
+        "brier": 0.19059,
+        "log_loss": 0.56753,
+        "observed": 0.73704,
+        "predicted": 0.77563
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    }
+  },
+  "fixtures_seen": 8,
+  "fixture_issues": [
+    {
+      "league": "E0",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "E2",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "E3",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "D1",
+      "fixture": "Eintracht Frankfurt vs FC Cologne",
+      "error": "UNMAPPED_TEAM",
+      "unmapped_home": "Eintracht Frankfurt",
+      "unmapped_away": null
+    },
+    {
+      "league": "D2",
+      "fixture": "Energie Cottbus vs 1. FC N\u00fcrnberg",
+      "error": "UNMAPPED_TEAM",
+      "unmapped_home": "Energie Cottbus",
+      "unmapped_away": "1. FC N\u00fcrnberg"
+    },
+    {
+      "league": "SP1",
+      "fixture": "Deportivo vs Levante",
+      "error": "UNMAPPED_TEAM",
+      "unmapped_home": "Deportivo",
+      "unmapped_away": null
+    },
+    {
+      "league": "F2",
+      "fixture": "Annecy vs AS Nancy Lorraine",
+      "error": "UNMAPPED_TEAM",
+      "unmapped_home": null,
+      "unmapped_away": "AS Nancy Lorraine"
+    },
+    {
+      "league": "F2",
+      "fixture": "Guingamp vs Pau",
+      "error": "UNMAPPED_TEAM",
+      "unmapped_home": null,
+      "unmapped_away": "Pau"
+    },
+    {
+      "league": "F2",
+      "fixture": "Stade de Reims vs Dijon FCO",
+      "error": "UNMAPPED_TEAM",
+      "unmapped_home": "Stade de Reims",
+      "unmapped_away": "Dijon FCO"
+    },
+    {
+      "league": "F2",
+      "fixture": "Stade Laval vs Clermont Foot",
+      "error": "UNMAPPED_TEAM",
+      "unmapped_home": "Stade Laval",
+      "unmapped_away": "Clermont Foot"
+    },
+    {
+      "league": "B1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "P1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "SC0",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "SC1",
+      "fixture": "Ayr United vs Partick Thistle",
+      "error": "UNMAPPED_TEAM",
+      "unmapped_home": "Ayr United",
+      "unmapped_away": "Partick Thistle"
+    },
+    {
+      "league": "SC2",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "SC3",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    }
+  ],
+  "competitions_configured": [
+    "E0",
+    "E1",
+    "E2",
+    "E3",
+    "D1",
+    "D2",
+    "SP1",
+    "SP2",
+    "I1",
+    "I2",
+    "F1",
+    "F2",
+    "N1",
+    "B1",
+    "P1",
+    "SC0",
+    "SC1",
+    "SC2",
+    "SC3"
+  ],
+  "fixture_exclusion_counts": {
+    "NO_SCHEDULED_EVENTS": 8,
+    "UNMAPPED_TEAM": 8
+  },
+  "evaluated_cells": 104,
+  "research_qualified": [
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Burnley",
+        "away": "Wolves",
+        "display": "Burnley vs Wolverhampton Wanderers",
+        "kickoff": "2026-10-16T19:00Z",
+        "event_id": "401880218"
+      },
+      "market": "fh_o05",
+      "probability": 0.7607,
+      "models": [
+        "xgboost",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "xgboost": 0.7692,
+        "catboost": 0.7597,
+        "extra_trees": 0.78
+      },
+      "model_disagreement": 0.0204,
+      "holdout_brier": 0.20305,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Burnley",
+        "away": "Wolves",
+        "display": "Burnley vs Wolverhampton Wanderers",
+        "kickoff": "2026-10-16T19:00Z",
+        "event_id": "401880218"
+      },
+      "market": "ft_o15",
+      "probability": 0.8153,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.8262,
+        "catboost": 0.8014,
+        "extra_trees": 0.7975
+      },
+      "model_disagreement": 0.0287,
+      "holdout_brier": 0.17515,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Burnley",
+        "away": "Wolves",
+        "display": "Burnley vs Wolverhampton Wanderers",
+        "kickoff": "2026-10-16T19:00Z",
+        "event_id": "401880218"
+      },
+      "market": "dc_12",
+      "probability": 0.7357,
+      "models": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "catboost": 0.7373,
+        "logistic": 0.7725,
+        "xgboost": 0.7414
+      },
+      "model_disagreement": 0.0352,
+      "holdout_brier": 0.19403,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Burnley",
+        "away": "Wolves",
+        "display": "Burnley vs Wolverhampton Wanderers",
+        "kickoff": "2026-10-16T19:00Z",
+        "event_id": "401880218"
+      },
+      "market": "corners_o65",
+      "probability": 0.8802,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.8832,
+        "catboost": 0.8698,
+        "extra_trees": 0.8811
+      },
+      "model_disagreement": 0.0134,
+      "holdout_brier": 0.13061,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "E1",
+        "home": "Burnley",
+        "away": "Wolves",
+        "display": "Burnley vs Wolverhampton Wanderers",
+        "kickoff": "2026-10-16T19:00Z",
+        "event_id": "401880218"
+      },
+      "market": "cards_o15",
+      "probability": 0.8804,
+      "models": [
+        "extra_trees",
+        "hist_gradient_boosting",
+        "catboost"
+      ],
+      "model_probabilities": {
+        "extra_trees": 0.8641,
+        "hist_gradient_boosting": 0.8861,
+        "catboost": 0.8635
+      },
+      "model_disagreement": 0.0226,
+      "holdout_brier": 0.09646,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "D2",
+        "home": "Holstein Kiel",
+        "away": "Hertha",
+        "display": "Holstein Kiel vs Hertha Berlin",
+        "kickoff": "2026-10-16T16:30Z",
+        "event_id": "401885087"
+      },
+      "market": "fh_o05",
+      "probability": 0.7217,
+      "models": [
+        "xgboost",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "xgboost": 0.7265,
+        "catboost": 0.7296,
+        "extra_trees": 0.7358
+      },
+      "model_disagreement": 0.0092,
+      "holdout_brier": 0.20305,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "D2",
+        "home": "Holstein Kiel",
+        "away": "Hertha",
+        "display": "Holstein Kiel vs Hertha Berlin",
+        "kickoff": "2026-10-16T16:30Z",
+        "event_id": "401885087"
+      },
+      "market": "ft_o15",
+      "probability": 0.8153,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.7986,
+        "catboost": 0.8101,
+        "extra_trees": 0.805
+      },
+      "model_disagreement": 0.0115,
+      "holdout_brier": 0.17515,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "D2",
+        "home": "Holstein Kiel",
+        "away": "Hertha",
+        "display": "Holstein Kiel vs Hertha Berlin",
+        "kickoff": "2026-10-16T16:30Z",
+        "event_id": "401885087"
+      },
+      "market": "dc_12",
+      "probability": 0.7308,
+      "models": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "catboost": 0.7273,
+        "logistic": 0.729,
+        "xgboost": 0.7076
+      },
+      "model_disagreement": 0.0213,
+      "holdout_brier": 0.19403,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "D2",
+        "home": "Holstein Kiel",
+        "away": "Hertha",
+        "display": "Holstein Kiel vs Hertha Berlin",
+        "kickoff": "2026-10-16T16:30Z",
+        "event_id": "401885087"
+      },
+      "market": "corners_o65",
+      "probability": 0.8802,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.8626,
+        "catboost": 0.8623,
+        "extra_trees": 0.8646
+      },
+      "model_disagreement": 0.0023,
+      "holdout_brier": 0.13061,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "D2",
+        "home": "Holstein Kiel",
+        "away": "Hertha",
+        "display": "Holstein Kiel vs Hertha Berlin",
+        "kickoff": "2026-10-16T16:30Z",
+        "event_id": "401885087"
+      },
+      "market": "cards_o25",
+      "probability": 0.7955,
+      "models": [
+        "extra_trees",
+        "catboost",
+        "hist_gradient_boosting"
+      ],
+      "model_probabilities": {
+        "extra_trees": 0.7662,
+        "catboost": 0.7975,
+        "hist_gradient_boosting": 0.8107
+      },
+      "model_disagreement": 0.0445,
+      "holdout_brier": 0.19059,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SP2",
+        "home": "Leganes",
+        "away": "Cordoba",
+        "display": "Legan\u00e9s vs C\u00f3rdoba",
+        "kickoff": "2026-10-16T18:30Z",
+        "event_id": "401883158"
+      },
+      "market": "ft_o15",
+      "probability": 0.7169,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.6939,
+        "catboost": 0.6917,
+        "extra_trees": 0.6747
+      },
+      "model_disagreement": 0.0192,
+      "holdout_brier": 0.17515,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SP2",
+        "home": "Leganes",
+        "away": "Cordoba",
+        "display": "Legan\u00e9s vs C\u00f3rdoba",
+        "kickoff": "2026-10-16T18:30Z",
+        "event_id": "401883158"
+      },
+      "market": "dc_12",
+      "probability": 0.7069,
+      "models": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "catboost": 0.6957,
+        "logistic": 0.6622,
+        "xgboost": 0.7114
+      },
+      "model_disagreement": 0.0493,
+      "holdout_brier": 0.19403,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SP2",
+        "home": "Leganes",
+        "away": "Cordoba",
+        "display": "Legan\u00e9s vs C\u00f3rdoba",
+        "kickoff": "2026-10-16T18:30Z",
+        "event_id": "401883158"
+      },
+      "market": "corners_o65",
+      "probability": 0.7781,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.8072,
+        "catboost": 0.8079,
+        "extra_trees": 0.7738
+      },
+      "model_disagreement": 0.0341,
+      "holdout_brier": 0.13061,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SP2",
+        "home": "Leganes",
+        "away": "Cordoba",
+        "display": "Legan\u00e9s vs C\u00f3rdoba",
+        "kickoff": "2026-10-16T18:30Z",
+        "event_id": "401883158"
+      },
+      "market": "cards_o25",
+      "probability": 0.8826,
+      "models": [
+        "extra_trees",
+        "catboost",
+        "hist_gradient_boosting"
+      ],
+      "model_probabilities": {
+        "extra_trees": 0.8665,
+        "catboost": 0.8397,
+        "hist_gradient_boosting": 0.8643
+      },
+      "model_disagreement": 0.0268,
+      "holdout_brier": 0.19059,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Frosinone",
+        "away": "Sassuolo",
+        "display": "Frosinone vs Sassuolo",
+        "kickoff": "2026-10-16T18:45Z",
+        "event_id": "401874959"
+      },
+      "market": "ft_o15",
+      "probability": 0.7366,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.7526,
+        "catboost": 0.74,
+        "extra_trees": 0.7361
+      },
+      "model_disagreement": 0.0165,
+      "holdout_brier": 0.17515,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Frosinone",
+        "away": "Sassuolo",
+        "display": "Frosinone vs Sassuolo",
+        "kickoff": "2026-10-16T18:45Z",
+        "event_id": "401874959"
+      },
+      "market": "dc_1x",
+      "probability": 0.7761,
+      "models": [
+        "logistic",
+        "xgboost",
+        "catboost"
+      ],
+      "model_probabilities": {
+        "logistic": 0.7812,
+        "xgboost": 0.7906,
+        "catboost": 0.7723
+      },
+      "model_disagreement": 0.0183,
+      "holdout_brier": 0.19697,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Frosinone",
+        "away": "Sassuolo",
+        "display": "Frosinone vs Sassuolo",
+        "kickoff": "2026-10-16T18:45Z",
+        "event_id": "401874959"
+      },
+      "market": "dc_12",
+      "probability": 0.7342,
+      "models": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "catboost": 0.7349,
+        "logistic": 0.7389,
+        "xgboost": 0.7528
+      },
+      "model_disagreement": 0.0179,
+      "holdout_brier": 0.19403,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Frosinone",
+        "away": "Sassuolo",
+        "display": "Frosinone vs Sassuolo",
+        "kickoff": "2026-10-16T18:45Z",
+        "event_id": "401874959"
+      },
+      "market": "corners_o65",
+      "probability": 0.824,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.8163,
+        "catboost": 0.8319,
+        "extra_trees": 0.824
+      },
+      "model_disagreement": 0.0156,
+      "holdout_brier": 0.13061,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I1",
+        "home": "Frosinone",
+        "away": "Sassuolo",
+        "display": "Frosinone vs Sassuolo",
+        "kickoff": "2026-10-16T18:45Z",
+        "event_id": "401874959"
+      },
+      "market": "cards_o15",
+      "probability": 0.9215,
+      "models": [
+        "extra_trees",
+        "hist_gradient_boosting",
+        "catboost"
+      ],
+      "model_probabilities": {
+        "extra_trees": 0.8816,
+        "hist_gradient_boosting": 0.9122,
+        "catboost": 0.8665
+      },
+      "model_disagreement": 0.0457,
+      "holdout_brier": 0.09646,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Verona",
+        "away": "Catanzaro",
+        "display": "Hellas Verona vs Catanzaro",
+        "kickoff": "2026-10-16T18:30Z",
+        "event_id": "401899595"
+      },
+      "market": "fh_o05",
+      "probability": 0.7217,
+      "models": [
+        "xgboost",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "xgboost": 0.7525,
+        "catboost": 0.7212,
+        "extra_trees": 0.7318
+      },
+      "model_disagreement": 0.0313,
+      "holdout_brier": 0.20305,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Verona",
+        "away": "Catanzaro",
+        "display": "Hellas Verona vs Catanzaro",
+        "kickoff": "2026-10-16T18:30Z",
+        "event_id": "401899595"
+      },
+      "market": "ft_o15",
+      "probability": 0.8153,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.8079,
+        "catboost": 0.7624,
+        "extra_trees": 0.7847
+      },
+      "model_disagreement": 0.0455,
+      "holdout_brier": 0.17515,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Verona",
+        "away": "Catanzaro",
+        "display": "Hellas Verona vs Catanzaro",
+        "kickoff": "2026-10-16T18:30Z",
+        "event_id": "401899595"
+      },
+      "market": "dc_1x",
+      "probability": 0.7729,
+      "models": [
+        "logistic",
+        "xgboost",
+        "catboost"
+      ],
+      "model_probabilities": {
+        "logistic": 0.7705,
+        "xgboost": 0.7506,
+        "catboost": 0.7437
+      },
+      "model_disagreement": 0.0268,
+      "holdout_brier": 0.19697,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Verona",
+        "away": "Catanzaro",
+        "display": "Hellas Verona vs Catanzaro",
+        "kickoff": "2026-10-16T18:30Z",
+        "event_id": "401899595"
+      },
+      "market": "dc_12",
+      "probability": 0.7342,
+      "models": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "catboost": 0.7435,
+        "logistic": 0.7224,
+        "xgboost": 0.7444
+      },
+      "model_disagreement": 0.022,
+      "holdout_brier": 0.19403,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Verona",
+        "away": "Catanzaro",
+        "display": "Hellas Verona vs Catanzaro",
+        "kickoff": "2026-10-16T18:30Z",
+        "event_id": "401899595"
+      },
+      "market": "corners_o65",
+      "probability": 0.8577,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.8656,
+        "catboost": 0.844,
+        "extra_trees": 0.8348
+      },
+      "model_disagreement": 0.0308,
+      "holdout_brier": 0.13061,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "I2",
+        "home": "Verona",
+        "away": "Catanzaro",
+        "display": "Hellas Verona vs Catanzaro",
+        "kickoff": "2026-10-16T18:30Z",
+        "event_id": "401899595"
+      },
+      "market": "cards_o25",
+      "probability": 0.7955,
+      "models": [
+        "extra_trees",
+        "catboost",
+        "hist_gradient_boosting"
+      ],
+      "model_probabilities": {
+        "extra_trees": 0.7702,
+        "catboost": 0.7896,
+        "hist_gradient_boosting": 0.7608
+      },
+      "model_disagreement": 0.0288,
+      "holdout_brier": 0.19059,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F1",
+        "home": "Le Mans",
+        "away": "Toulouse",
+        "display": "Le Mans vs Toulouse",
+        "kickoff": "2026-10-16T18:45Z",
+        "event_id": "401876437"
+      },
+      "market": "fh_o05",
+      "probability": 0.7176,
+      "models": [
+        "xgboost",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "xgboost": 0.7194,
+        "catboost": 0.7139,
+        "extra_trees": 0.7159
+      },
+      "model_disagreement": 0.0055,
+      "holdout_brier": 0.20305,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F1",
+        "home": "Le Mans",
+        "away": "Toulouse",
+        "display": "Le Mans vs Toulouse",
+        "kickoff": "2026-10-16T18:45Z",
+        "event_id": "401876437"
+      },
+      "market": "ft_o15",
+      "probability": 0.7492,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.7703,
+        "catboost": 0.7652,
+        "extra_trees": 0.7466
+      },
+      "model_disagreement": 0.0237,
+      "holdout_brier": 0.17515,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F1",
+        "home": "Le Mans",
+        "away": "Toulouse",
+        "display": "Le Mans vs Toulouse",
+        "kickoff": "2026-10-16T18:45Z",
+        "event_id": "401876437"
+      },
+      "market": "dc_12",
+      "probability": 0.7342,
+      "models": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "catboost": 0.7356,
+        "logistic": 0.7021,
+        "xgboost": 0.7464
+      },
+      "model_disagreement": 0.0442,
+      "holdout_brier": 0.19403,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F1",
+        "home": "Le Mans",
+        "away": "Toulouse",
+        "display": "Le Mans vs Toulouse",
+        "kickoff": "2026-10-16T18:45Z",
+        "event_id": "401876437"
+      },
+      "market": "corners_o65",
+      "probability": 0.8577,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.849,
+        "catboost": 0.8571,
+        "extra_trees": 0.8559
+      },
+      "model_disagreement": 0.0081,
+      "holdout_brier": 0.13061,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F1",
+        "home": "Le Mans",
+        "away": "Toulouse",
+        "display": "Le Mans vs Toulouse",
+        "kickoff": "2026-10-16T18:45Z",
+        "event_id": "401876437"
+      },
+      "market": "cards_o25",
+      "probability": 0.7955,
+      "models": [
+        "extra_trees",
+        "catboost",
+        "hist_gradient_boosting"
+      ],
+      "model_probabilities": {
+        "extra_trees": 0.7957,
+        "catboost": 0.7663,
+        "hist_gradient_boosting": 0.7889
+      },
+      "model_disagreement": 0.0294,
+      "holdout_brier": 0.19059,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F2",
+        "home": "Grenoble",
+        "away": "Boulogne",
+        "display": "Grenoble vs Boulogne",
+        "kickoff": "2026-10-16T18:00Z",
+        "event_id": "401876726"
+      },
+      "market": "ft_o15",
+      "probability": 0.7169,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.6563,
+        "catboost": 0.6937,
+        "extra_trees": 0.7135
+      },
+      "model_disagreement": 0.0571,
+      "holdout_brier": 0.17515,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F2",
+        "home": "Grenoble",
+        "away": "Boulogne",
+        "display": "Grenoble vs Boulogne",
+        "kickoff": "2026-10-16T18:00Z",
+        "event_id": "401876726"
+      },
+      "market": "dc_1x",
+      "probability": 0.701,
+      "models": [
+        "logistic",
+        "xgboost",
+        "catboost"
+      ],
+      "model_probabilities": {
+        "logistic": 0.7012,
+        "xgboost": 0.7111,
+        "catboost": 0.7317
+      },
+      "model_disagreement": 0.0305,
+      "holdout_brier": 0.19697,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F2",
+        "home": "Grenoble",
+        "away": "Boulogne",
+        "display": "Grenoble vs Boulogne",
+        "kickoff": "2026-10-16T18:00Z",
+        "event_id": "401876726"
+      },
+      "market": "dc_12",
+      "probability": 0.7104,
+      "models": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "catboost": 0.7153,
+        "logistic": 0.6919,
+        "xgboost": 0.7312
+      },
+      "model_disagreement": 0.0393,
+      "holdout_brier": 0.19403,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F2",
+        "home": "Grenoble",
+        "away": "Boulogne",
+        "display": "Grenoble vs Boulogne",
+        "kickoff": "2026-10-16T18:00Z",
+        "event_id": "401876726"
+      },
+      "market": "corners_o65",
+      "probability": 0.7781,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.7505,
+        "catboost": 0.7978,
+        "extra_trees": 0.7883
+      },
+      "model_disagreement": 0.0474,
+      "holdout_brier": 0.13061,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "F2",
+        "home": "Grenoble",
+        "away": "Boulogne",
+        "display": "Grenoble vs Boulogne",
+        "kickoff": "2026-10-16T18:00Z",
+        "event_id": "401876726"
+      },
+      "market": "cards_o15",
+      "probability": 0.9215,
+      "models": [
+        "extra_trees",
+        "hist_gradient_boosting",
+        "catboost"
+      ],
+      "model_probabilities": {
+        "extra_trees": 0.8998,
+        "hist_gradient_boosting": 0.9,
+        "catboost": 0.8852
+      },
+      "model_disagreement": 0.0148,
+      "holdout_brier": 0.09646,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "N1",
+        "home": "Heerenveen",
+        "away": "Excelsior",
+        "display": "Heerenveen vs Excelsior",
+        "kickoff": "2026-10-16T18:00Z",
+        "event_id": "401875583"
+      },
+      "market": "fh_o05",
+      "probability": 0.7607,
+      "models": [
+        "xgboost",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "xgboost": 0.755,
+        "catboost": 0.7531,
+        "extra_trees": 0.7607
+      },
+      "model_disagreement": 0.0076,
+      "holdout_brier": 0.20305,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "N1",
+        "home": "Heerenveen",
+        "away": "Excelsior",
+        "display": "Heerenveen vs Excelsior",
+        "kickoff": "2026-10-16T18:00Z",
+        "event_id": "401875583"
+      },
+      "market": "ft_o15",
+      "probability": 0.881,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.8308,
+        "catboost": 0.8235,
+        "extra_trees": 0.8594
+      },
+      "model_disagreement": 0.036,
+      "holdout_brier": 0.17515,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "N1",
+        "home": "Heerenveen",
+        "away": "Excelsior",
+        "display": "Heerenveen vs Excelsior",
+        "kickoff": "2026-10-16T18:00Z",
+        "event_id": "401875583"
+      },
+      "market": "dc_12",
+      "probability": 0.7357,
+      "models": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "catboost": 0.7458,
+        "logistic": 0.7843,
+        "xgboost": 0.7356
+      },
+      "model_disagreement": 0.0487,
+      "holdout_brier": 0.19403,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "N1",
+        "home": "Heerenveen",
+        "away": "Excelsior",
+        "display": "Heerenveen vs Excelsior",
+        "kickoff": "2026-10-16T18:00Z",
+        "event_id": "401875583"
+      },
+      "market": "corners_o65",
+      "probability": 0.8802,
+      "models": [
+        "logistic",
+        "catboost",
+        "extra_trees"
+      ],
+      "model_probabilities": {
+        "logistic": 0.8743,
+        "catboost": 0.8621,
+        "extra_trees": 0.8634
+      },
+      "model_disagreement": 0.0122,
+      "holdout_brier": 0.13061,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "N1",
+        "home": "Heerenveen",
+        "away": "Excelsior",
+        "display": "Heerenveen vs Excelsior",
+        "kickoff": "2026-10-16T18:00Z",
+        "event_id": "401875583"
+      },
+      "market": "cards_o15",
+      "probability": 0.8731,
+      "models": [
+        "extra_trees",
+        "hist_gradient_boosting",
+        "catboost"
+      ],
+      "model_probabilities": {
+        "extra_trees": 0.8203,
+        "hist_gradient_boosting": 0.8358,
+        "catboost": 0.814
+      },
+      "model_disagreement": 0.0217,
+      "holdout_brier": 0.09646,
+      "status": "QUALIFIED"
+    }
+  ],
+  "publication_authorized": false,
+  "notes": [
+    "Models calibrated on a middle time slice, tested on a later holdout.",
+    "Models are research candidates, not independently approved for publication.",
+    "Cards are yellow cards only; verify settlement conventions.",
+    "Only verified ESPN pre-match fixtures with exact mapped teams evaluated.",
+    "No historical odds used."
+  ]
+}
