@@ -1,0 +1,227 @@
+[
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Monza",
+      "away": "Cagliari",
+      "display": "Monza vs Cagliari",
+      "kickoff": "2026-10-19T16:30Z",
+      "event_id": "401874762"
+    },
+    "market": "ft_o15",
+    "probability": 0.7211,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7173,
+      "catboost": 0.7064,
+      "extra_trees": 0.717
+    },
+    "model_disagreement": 0.0109,
+    "holdout_brier": 0.17522,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Monza",
+      "away": "Cagliari",
+      "display": "Monza vs Cagliari",
+      "kickoff": "2026-10-19T16:30Z",
+      "event_id": "401874762"
+    },
+    "market": "dc_x2",
+    "probability": 0.7748,
+    "models": [
+      "xgboost",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "xgboost": 0.735,
+      "catboost": 0.7176,
+      "lightgbm": 0.7689
+    },
+    "model_disagreement": 0.0513,
+    "holdout_brier": 0.23131,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Monza",
+      "away": "Cagliari",
+      "display": "Monza vs Cagliari",
+      "kickoff": "2026-10-19T16:30Z",
+      "event_id": "401874762"
+    },
+    "market": "dc_12",
+    "probability": 0.7342,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7257,
+      "logistic": 0.7331,
+      "xgboost": 0.746
+    },
+    "model_disagreement": 0.0203,
+    "holdout_brier": 0.19402,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Monza",
+      "away": "Cagliari",
+      "display": "Monza vs Cagliari",
+      "kickoff": "2026-10-19T16:30Z",
+      "event_id": "401874762"
+    },
+    "market": "corners_o65",
+    "probability": 0.8149,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8087,
+      "catboost": 0.8196,
+      "extra_trees": 0.8169
+    },
+    "model_disagreement": 0.0109,
+    "holdout_brier": 0.1306,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Monza",
+      "away": "Cagliari",
+      "display": "Monza vs Cagliari",
+      "kickoff": "2026-10-19T16:30Z",
+      "event_id": "401874762"
+    },
+    "market": "cards_o15",
+    "probability": 0.8804,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8655,
+      "hist_gradient_boosting": 0.872,
+      "catboost": 0.8601
+    },
+    "model_disagreement": 0.0119,
+    "holdout_brier": 0.09646,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Torino",
+      "display": "Parma vs Torino",
+      "kickoff": "2026-10-19T18:45Z",
+      "event_id": "401874784"
+    },
+    "market": "ft_o15",
+    "probability": 0.7211,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6763,
+      "catboost": 0.6968,
+      "extra_trees": 0.7223
+    },
+    "model_disagreement": 0.0459,
+    "holdout_brier": 0.17522,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Torino",
+      "display": "Parma vs Torino",
+      "kickoff": "2026-10-19T18:45Z",
+      "event_id": "401874784"
+    },
+    "market": "dc_12",
+    "probability": 0.7342,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7265,
+      "logistic": 0.7244,
+      "xgboost": 0.7496
+    },
+    "model_disagreement": 0.0253,
+    "holdout_brier": 0.19402,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Torino",
+      "display": "Parma vs Torino",
+      "kickoff": "2026-10-19T18:45Z",
+      "event_id": "401874784"
+    },
+    "market": "corners_o65",
+    "probability": 0.7783,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7849,
+      "catboost": 0.8077,
+      "extra_trees": 0.8189
+    },
+    "model_disagreement": 0.034,
+    "holdout_brier": 0.1306,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Torino",
+      "display": "Parma vs Torino",
+      "kickoff": "2026-10-19T18:45Z",
+      "event_id": "401874784"
+    },
+    "market": "cards_o15",
+    "probability": 0.8804,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8578,
+      "hist_gradient_boosting": 0.8641,
+      "catboost": 0.8526
+    },
+    "model_disagreement": 0.0116,
+    "holdout_brier": 0.09646,
+    "status": "QUALIFIED"
+  }
+]
