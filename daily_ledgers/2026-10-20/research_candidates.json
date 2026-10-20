@@ -1,0 +1,427 @@
+[
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Portsmouth",
+      "display": "Wolverhampton Wanderers vs Portsmouth",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880277"
+    },
+    "market": "fh_o05",
+    "probability": 0.758,
+    "models": [
+      "xgboost",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "xgboost": 0.7545,
+      "catboost": 0.7442,
+      "extra_trees": 0.7521
+    },
+    "model_disagreement": 0.0103,
+    "holdout_brier": 0.20305,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Portsmouth",
+      "display": "Wolverhampton Wanderers vs Portsmouth",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880277"
+    },
+    "market": "ft_o15",
+    "probability": 0.8156,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8288,
+      "catboost": 0.8223,
+      "extra_trees": 0.817
+    },
+    "model_disagreement": 0.0118,
+    "holdout_brier": 0.17522,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Portsmouth",
+      "display": "Wolverhampton Wanderers vs Portsmouth",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880277"
+    },
+    "market": "dc_1x",
+    "probability": 0.7719,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7663,
+      "xgboost": 0.7559,
+      "catboost": 0.7532
+    },
+    "model_disagreement": 0.0131,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Portsmouth",
+      "display": "Wolverhampton Wanderers vs Portsmouth",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880277"
+    },
+    "market": "dc_12",
+    "probability": 0.7723,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.758,
+      "logistic": 0.7802,
+      "xgboost": 0.7546
+    },
+    "model_disagreement": 0.0255,
+    "holdout_brier": 0.19402,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Portsmouth",
+      "display": "Wolverhampton Wanderers vs Portsmouth",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880277"
+    },
+    "market": "corners_o65",
+    "probability": 0.8824,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8986,
+      "catboost": 0.8778,
+      "extra_trees": 0.8793
+    },
+    "model_disagreement": 0.0208,
+    "holdout_brier": 0.1306,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Portsmouth",
+      "display": "Wolverhampton Wanderers vs Portsmouth",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880277"
+    },
+    "market": "cards_o15",
+    "probability": 0.8804,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8603,
+      "hist_gradient_boosting": 0.8935,
+      "catboost": 0.8572
+    },
+    "model_disagreement": 0.0364,
+    "holdout_brier": 0.09646,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Blackpool",
+      "away": "Milton Keynes Dons",
+      "display": "Blackpool vs Milton Keynes Dons",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880789"
+    },
+    "market": "fh_o05",
+    "probability": 0.758,
+    "models": [
+      "xgboost",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "xgboost": 0.7335,
+      "catboost": 0.7365,
+      "extra_trees": 0.7603
+    },
+    "model_disagreement": 0.0268,
+    "holdout_brier": 0.20305,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Blackpool",
+      "away": "Milton Keynes Dons",
+      "display": "Blackpool vs Milton Keynes Dons",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880789"
+    },
+    "market": "ft_o15",
+    "probability": 0.7929,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8012,
+      "catboost": 0.7754,
+      "extra_trees": 0.7687
+    },
+    "model_disagreement": 0.0325,
+    "holdout_brier": 0.17522,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Blackpool",
+      "away": "Milton Keynes Dons",
+      "display": "Blackpool vs Milton Keynes Dons",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880789"
+    },
+    "market": "dc_1x",
+    "probability": 0.7921,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8392,
+      "xgboost": 0.7955,
+      "catboost": 0.7933
+    },
+    "model_disagreement": 0.0458,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Blackpool",
+      "away": "Milton Keynes Dons",
+      "display": "Blackpool vs Milton Keynes Dons",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880789"
+    },
+    "market": "dc_12",
+    "probability": 0.7723,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7538,
+      "logistic": 0.7804,
+      "xgboost": 0.7447
+    },
+    "model_disagreement": 0.0356,
+    "holdout_brier": 0.19402,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Blackpool",
+      "away": "Milton Keynes Dons",
+      "display": "Blackpool vs Milton Keynes Dons",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880789"
+    },
+    "market": "corners_o65",
+    "probability": 0.881,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8954,
+      "catboost": 0.8798,
+      "extra_trees": 0.8731
+    },
+    "model_disagreement": 0.0223,
+    "holdout_brier": 0.1306,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Blackpool",
+      "away": "Milton Keynes Dons",
+      "display": "Blackpool vs Milton Keynes Dons",
+      "kickoff": "2026-10-20T18:45Z",
+      "event_id": "401880789"
+    },
+    "market": "cards_o15",
+    "probability": 0.8804,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8657,
+      "hist_gradient_boosting": 0.902,
+      "catboost": 0.8583
+    },
+    "model_disagreement": 0.0437,
+    "holdout_brier": 0.09646,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Gillingham",
+      "away": "Port Vale",
+      "display": "Gillingham vs Port Vale",
+      "kickoff": "2026-10-20T19:00Z",
+      "event_id": "401881306"
+    },
+    "market": "ft_o15",
+    "probability": 0.7211,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.714,
+      "catboost": 0.7269,
+      "extra_trees": 0.7042
+    },
+    "model_disagreement": 0.0227,
+    "holdout_brier": 0.17522,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Gillingham",
+      "away": "Port Vale",
+      "display": "Gillingham vs Port Vale",
+      "kickoff": "2026-10-20T19:00Z",
+      "event_id": "401881306"
+    },
+    "market": "dc_1x",
+    "probability": 0.7008,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6901,
+      "xgboost": 0.7266,
+      "catboost": 0.7126
+    },
+    "model_disagreement": 0.0365,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Gillingham",
+      "away": "Port Vale",
+      "display": "Gillingham vs Port Vale",
+      "kickoff": "2026-10-20T19:00Z",
+      "event_id": "401881306"
+    },
+    "market": "dc_12",
+    "probability": 0.7342,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7336,
+      "logistic": 0.7335,
+      "xgboost": 0.7369
+    },
+    "model_disagreement": 0.0035,
+    "holdout_brier": 0.19402,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Gillingham",
+      "away": "Port Vale",
+      "display": "Gillingham vs Port Vale",
+      "kickoff": "2026-10-20T19:00Z",
+      "event_id": "401881306"
+    },
+    "market": "corners_o65",
+    "probability": 0.8149,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8194,
+      "catboost": 0.8201,
+      "extra_trees": 0.8244
+    },
+    "model_disagreement": 0.005,
+    "holdout_brier": 0.1306,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Gillingham",
+      "away": "Port Vale",
+      "display": "Gillingham vs Port Vale",
+      "kickoff": "2026-10-20T19:00Z",
+      "event_id": "401881306"
+    },
+    "market": "cards_o15",
+    "probability": 0.8804,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8844,
+      "hist_gradient_boosting": 0.8864,
+      "catboost": 0.8764
+    },
+    "model_disagreement": 0.0101,
+    "holdout_brier": 0.09646,
+    "status": "QUALIFIED"
+  }
+]
