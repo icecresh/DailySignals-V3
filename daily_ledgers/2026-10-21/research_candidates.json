@@ -1,0 +1,152 @@
+[
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Reading",
+      "away": "Leyton Orient",
+      "display": "Reading vs Leyton Orient",
+      "kickoff": "2026-10-21T19:00Z",
+      "event_id": "401880779"
+    },
+    "market": "fh_o05",
+    "probability": 0.7438,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7221,
+      "catboost": 0.7361,
+      "xgboost": 0.738
+    },
+    "model_disagreement": 0.016,
+    "holdout_brier": 0.20322,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Reading",
+      "away": "Leyton Orient",
+      "display": "Reading vs Leyton Orient",
+      "kickoff": "2026-10-21T19:00Z",
+      "event_id": "401880779"
+    },
+    "market": "ft_o15",
+    "probability": 0.8105,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7807,
+      "logistic": 0.7942,
+      "xgboost": 0.7671
+    },
+    "model_disagreement": 0.0271,
+    "holdout_brier": 0.17524,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Reading",
+      "away": "Leyton Orient",
+      "display": "Reading vs Leyton Orient",
+      "kickoff": "2026-10-21T19:00Z",
+      "event_id": "401880779"
+    },
+    "market": "dc_1x",
+    "probability": 0.7621,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7831,
+      "xgboost": 0.7429,
+      "catboost": 0.7651
+    },
+    "model_disagreement": 0.0402,
+    "holdout_brier": 0.19688,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Reading",
+      "away": "Leyton Orient",
+      "display": "Reading vs Leyton Orient",
+      "kickoff": "2026-10-21T19:00Z",
+      "event_id": "401880779"
+    },
+    "market": "dc_12",
+    "probability": 0.7416,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7525,
+      "logistic": 0.764,
+      "xgboost": 0.7457
+    },
+    "model_disagreement": 0.0182,
+    "holdout_brier": 0.19318,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Reading",
+      "away": "Leyton Orient",
+      "display": "Reading vs Leyton Orient",
+      "kickoff": "2026-10-21T19:00Z",
+      "event_id": "401880779"
+    },
+    "market": "corners_o65",
+    "probability": 0.8889,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8651,
+      "catboost": 0.8638,
+      "xgboost": 0.8817
+    },
+    "model_disagreement": 0.0179,
+    "holdout_brier": 0.13121,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Reading",
+      "away": "Leyton Orient",
+      "display": "Reading vs Leyton Orient",
+      "kickoff": "2026-10-21T19:00Z",
+      "event_id": "401880779"
+    },
+    "market": "cards_o15",
+    "probability": 0.885,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8685,
+      "catboost": 0.8659,
+      "xgboost": 0.8837
+    },
+    "model_disagreement": 0.0178,
+    "holdout_brier": 0.09764,
+    "status": "QUALIFIED"
+  }
+]
