@@ -1,0 +1,402 @@
+[
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "display": "Sevilla vs Osasuna",
+      "kickoff": "2026-10-26T20:00Z",
+      "event_id": "401882828"
+    },
+    "market": "fh_o05",
+    "probability": 0.7059,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.704,
+      "extra_trees": 0.7174,
+      "logistic": 0.6933
+    },
+    "model_disagreement": 0.0241,
+    "holdout_brier": 0.2022,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "display": "Sevilla vs Osasuna",
+      "kickoff": "2026-10-26T20:00Z",
+      "event_id": "401882828"
+    },
+    "market": "ft_o15",
+    "probability": 0.7463,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7475,
+      "logistic": 0.7503,
+      "xgboost": 0.7595
+    },
+    "model_disagreement": 0.0121,
+    "holdout_brier": 0.17464,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "display": "Sevilla vs Osasuna",
+      "kickoff": "2026-10-26T20:00Z",
+      "event_id": "401882828"
+    },
+    "market": "dc_1x",
+    "probability": 0.739,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.738,
+      "xgboost": 0.7561,
+      "catboost": 0.7599
+    },
+    "model_disagreement": 0.0219,
+    "holdout_brier": 0.19767,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "display": "Sevilla vs Osasuna",
+      "kickoff": "2026-10-26T20:00Z",
+      "event_id": "401882828"
+    },
+    "market": "dc_12",
+    "probability": 0.7209,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7184,
+      "logistic": 0.7015,
+      "xgboost": 0.7026
+    },
+    "model_disagreement": 0.0169,
+    "holdout_brier": 0.19388,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "display": "Sevilla vs Osasuna",
+      "kickoff": "2026-10-26T20:00Z",
+      "event_id": "401882828"
+    },
+    "market": "corners_o65",
+    "probability": 0.8294,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8276,
+      "catboost": 0.8371,
+      "xgboost": 0.8396
+    },
+    "model_disagreement": 0.012,
+    "holdout_brier": 0.13196,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Osasuna",
+      "display": "Sevilla vs Osasuna",
+      "kickoff": "2026-10-26T20:00Z",
+      "event_id": "401882828"
+    },
+    "market": "cards_o25",
+    "probability": 0.8059,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7883,
+      "catboost": 0.803,
+      "hist_gradient_boosting": 0.746
+    },
+    "model_disagreement": 0.057,
+    "holdout_brier": 0.19171,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Andorra",
+      "away": "Burgos",
+      "display": "FC Andorra vs Burgos",
+      "kickoff": "2026-10-26T19:30Z",
+      "event_id": "401883131"
+    },
+    "market": "ft_o15",
+    "probability": 0.7197,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7085,
+      "logistic": 0.6966,
+      "xgboost": 0.7161
+    },
+    "model_disagreement": 0.0195,
+    "holdout_brier": 0.17464,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Andorra",
+      "away": "Burgos",
+      "display": "FC Andorra vs Burgos",
+      "kickoff": "2026-10-26T19:30Z",
+      "event_id": "401883131"
+    },
+    "market": "dc_x2",
+    "probability": 0.7536,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6824,
+      "extra_trees": 0.6782,
+      "xgboost": 0.6946
+    },
+    "model_disagreement": 0.0165,
+    "holdout_brier": 0.23118,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Andorra",
+      "away": "Burgos",
+      "display": "FC Andorra vs Burgos",
+      "kickoff": "2026-10-26T19:30Z",
+      "event_id": "401883131"
+    },
+    "market": "corners_o65",
+    "probability": 0.7626,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7748,
+      "catboost": 0.7901,
+      "xgboost": 0.7857
+    },
+    "model_disagreement": 0.0153,
+    "holdout_brier": 0.13196,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Andorra",
+      "away": "Burgos",
+      "display": "FC Andorra vs Burgos",
+      "kickoff": "2026-10-26T19:30Z",
+      "event_id": "401883131"
+    },
+    "market": "cards_o25",
+    "probability": 0.9023,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8641,
+      "catboost": 0.85,
+      "hist_gradient_boosting": 0.8576
+    },
+    "model_disagreement": 0.0141,
+    "holdout_brier": 0.19171,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "P1",
+      "home": "Santa Clara",
+      "away": "Benfica",
+      "display": "Santa Clara vs Benfica",
+      "kickoff": "2026-10-26T18:45Z",
+      "event_id": "401885414"
+    },
+    "market": "fh_o05",
+    "probability": 0.7546,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7338,
+      "extra_trees": 0.7398,
+      "logistic": 0.7424
+    },
+    "model_disagreement": 0.0085,
+    "holdout_brier": 0.2022,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "P1",
+      "home": "Santa Clara",
+      "away": "Benfica",
+      "display": "Santa Clara vs Benfica",
+      "kickoff": "2026-10-26T18:45Z",
+      "event_id": "401885414"
+    },
+    "market": "ft_o15",
+    "probability": 0.7792,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7663,
+      "logistic": 0.7883,
+      "xgboost": 0.7708
+    },
+    "model_disagreement": 0.022,
+    "holdout_brier": 0.17464,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "P1",
+      "home": "Santa Clara",
+      "away": "Benfica",
+      "display": "Santa Clara vs Benfica",
+      "kickoff": "2026-10-26T18:45Z",
+      "event_id": "401885414"
+    },
+    "market": "dc_x2",
+    "probability": 0.7862,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7232,
+      "extra_trees": 0.7186,
+      "xgboost": 0.7415
+    },
+    "model_disagreement": 0.023,
+    "holdout_brier": 0.23118,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "P1",
+      "home": "Santa Clara",
+      "away": "Benfica",
+      "display": "Santa Clara vs Benfica",
+      "kickoff": "2026-10-26T18:45Z",
+      "event_id": "401885414"
+    },
+    "market": "dc_12",
+    "probability": 0.7331,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7488,
+      "logistic": 0.7281,
+      "xgboost": 0.7427
+    },
+    "model_disagreement": 0.0207,
+    "holdout_brier": 0.19388,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "P1",
+      "home": "Santa Clara",
+      "away": "Benfica",
+      "display": "Santa Clara vs Benfica",
+      "kickoff": "2026-10-26T18:45Z",
+      "event_id": "401885414"
+    },
+    "market": "corners_o65",
+    "probability": 0.8076,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8095,
+      "catboost": 0.7924,
+      "xgboost": 0.8055
+    },
+    "model_disagreement": 0.0172,
+    "holdout_brier": 0.13196,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "P1",
+      "home": "Santa Clara",
+      "away": "Benfica",
+      "display": "Santa Clara vs Benfica",
+      "kickoff": "2026-10-26T18:45Z",
+      "event_id": "401885414"
+    },
+    "market": "cards_o25",
+    "probability": 0.8652,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8163,
+      "catboost": 0.8047,
+      "hist_gradient_boosting": 0.8254
+    },
+    "model_disagreement": 0.0207,
+    "holdout_brier": 0.19171,
+    "status": "QUALIFIED"
+  }
+]
