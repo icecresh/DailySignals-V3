@@ -1,0 +1,1427 @@
+[
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Milton Keynes Dons",
+      "away": "Bromley",
+      "display": "Milton Keynes Dons vs Bromley",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401880832"
+    },
+    "market": "fh_o05",
+    "probability": 0.7032,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7286,
+      "catboost": 0.7063,
+      "logistic": 0.705
+    },
+    "model_disagreement": 0.0236,
+    "holdout_brier": 0.2022,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Milton Keynes Dons",
+      "away": "Bromley",
+      "display": "Milton Keynes Dons vs Bromley",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401880832"
+    },
+    "market": "ft_o15",
+    "probability": 0.7548,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7735,
+      "catboost": 0.7544,
+      "xgboost": 0.762
+    },
+    "model_disagreement": 0.019,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Milton Keynes Dons",
+      "away": "Bromley",
+      "display": "Milton Keynes Dons vs Bromley",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401880832"
+    },
+    "market": "dc_1x",
+    "probability": 0.8175,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8515,
+      "catboost": 0.7886,
+      "xgboost": 0.8327
+    },
+    "model_disagreement": 0.0629,
+    "holdout_brier": 0.1978,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Milton Keynes Dons",
+      "away": "Bromley",
+      "display": "Milton Keynes Dons vs Bromley",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401880832"
+    },
+    "market": "dc_12",
+    "probability": 0.7414,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7301,
+      "logistic": 0.7554,
+      "xgboost": 0.7636
+    },
+    "model_disagreement": 0.0335,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Milton Keynes Dons",
+      "away": "Bromley",
+      "display": "Milton Keynes Dons vs Bromley",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401880832"
+    },
+    "market": "corners_o65",
+    "probability": 0.9429,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.9061,
+      "catboost": 0.8758,
+      "extra_trees": 0.8858
+    },
+    "model_disagreement": 0.0303,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Milton Keynes Dons",
+      "away": "Bromley",
+      "display": "Milton Keynes Dons vs Bromley",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401880832"
+    },
+    "market": "cards_o15",
+    "probability": 0.8864,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8744,
+      "catboost": 0.8644,
+      "xgboost": 0.864
+    },
+    "model_disagreement": 0.0104,
+    "holdout_brier": 0.09814,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "display": "Sassuolo vs Lazio",
+      "kickoff": "2026-10-27T17:30Z",
+      "event_id": "401874980"
+    },
+    "market": "fh_o05",
+    "probability": 0.7032,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7219,
+      "catboost": 0.6916,
+      "logistic": 0.6998
+    },
+    "model_disagreement": 0.0303,
+    "holdout_brier": 0.2022,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "display": "Sassuolo vs Lazio",
+      "kickoff": "2026-10-27T17:30Z",
+      "event_id": "401874980"
+    },
+    "market": "ft_o15",
+    "probability": 0.7479,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7528,
+      "catboost": 0.7418,
+      "xgboost": 0.7682
+    },
+    "model_disagreement": 0.0264,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "display": "Sassuolo vs Lazio",
+      "kickoff": "2026-10-27T17:30Z",
+      "event_id": "401874980"
+    },
+    "market": "dc_x2",
+    "probability": 0.735,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7146,
+      "xgboost": 0.7005,
+      "logistic": 0.7144
+    },
+    "model_disagreement": 0.0142,
+    "holdout_brier": 0.23055,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "display": "Sassuolo vs Lazio",
+      "kickoff": "2026-10-27T17:30Z",
+      "event_id": "401874980"
+    },
+    "market": "dc_12",
+    "probability": 0.7283,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7236,
+      "logistic": 0.7323,
+      "xgboost": 0.7137
+    },
+    "model_disagreement": 0.0186,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "display": "Sassuolo vs Lazio",
+      "kickoff": "2026-10-27T17:30Z",
+      "event_id": "401874980"
+    },
+    "market": "corners_o65",
+    "probability": 0.8167,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7962,
+      "catboost": 0.8221,
+      "extra_trees": 0.8245
+    },
+    "model_disagreement": 0.0283,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Sassuolo",
+      "away": "Lazio",
+      "display": "Sassuolo vs Lazio",
+      "kickoff": "2026-10-27T17:30Z",
+      "event_id": "401874980"
+    },
+    "market": "cards_o15",
+    "probability": 0.8864,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8684,
+      "catboost": 0.8646,
+      "xgboost": 0.8692
+    },
+    "model_disagreement": 0.0046,
+    "holdout_brier": 0.09814,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Roma",
+      "away": "Cagliari",
+      "display": "AS Roma vs Cagliari",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874780"
+    },
+    "market": "fh_o05",
+    "probability": 0.7386,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7305,
+      "catboost": 0.7296,
+      "logistic": 0.7337
+    },
+    "model_disagreement": 0.004,
+    "holdout_brier": 0.2022,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Roma",
+      "away": "Cagliari",
+      "display": "AS Roma vs Cagliari",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874780"
+    },
+    "market": "ft_o15",
+    "probability": 0.8093,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.796,
+      "catboost": 0.7663,
+      "xgboost": 0.8063
+    },
+    "model_disagreement": 0.0401,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Roma",
+      "away": "Cagliari",
+      "display": "AS Roma vs Cagliari",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874780"
+    },
+    "market": "home_win",
+    "probability": 0.8158,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6433,
+      "xgboost": 0.6526,
+      "logistic": 0.7166
+    },
+    "model_disagreement": 0.0733,
+    "holdout_brier": 0.23054,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Roma",
+      "away": "Cagliari",
+      "display": "AS Roma vs Cagliari",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874780"
+    },
+    "market": "dc_1x",
+    "probability": 0.931,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8844,
+      "catboost": 0.8599,
+      "xgboost": 0.879
+    },
+    "model_disagreement": 0.0244,
+    "holdout_brier": 0.1978,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Roma",
+      "away": "Cagliari",
+      "display": "AS Roma vs Cagliari",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874780"
+    },
+    "market": "dc_12",
+    "probability": 0.8021,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7714,
+      "logistic": 0.7896,
+      "xgboost": 0.7495
+    },
+    "model_disagreement": 0.0401,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Roma",
+      "away": "Cagliari",
+      "display": "AS Roma vs Cagliari",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874780"
+    },
+    "market": "corners_o65",
+    "probability": 0.8167,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7985,
+      "catboost": 0.8341,
+      "extra_trees": 0.8322
+    },
+    "model_disagreement": 0.0356,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Roma",
+      "away": "Cagliari",
+      "display": "AS Roma vs Cagliari",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874780"
+    },
+    "market": "cards_o15",
+    "probability": 0.8684,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8163,
+      "catboost": 0.816,
+      "xgboost": 0.7855
+    },
+    "model_disagreement": 0.0308,
+    "holdout_brier": 0.09814,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Como",
+      "display": "Torino vs Como",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874786"
+    },
+    "market": "fh_o05",
+    "probability": 0.7032,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7153,
+      "catboost": 0.7042,
+      "logistic": 0.7018
+    },
+    "model_disagreement": 0.0135,
+    "holdout_brier": 0.2022,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Como",
+      "display": "Torino vs Como",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874786"
+    },
+    "market": "ft_o15",
+    "probability": 0.7479,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7511,
+      "catboost": 0.7518,
+      "xgboost": 0.7731
+    },
+    "model_disagreement": 0.022,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Como",
+      "display": "Torino vs Como",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874786"
+    },
+    "market": "dc_x2",
+    "probability": 0.7844,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7123,
+      "xgboost": 0.7282,
+      "logistic": 0.753
+    },
+    "model_disagreement": 0.0406,
+    "holdout_brier": 0.23055,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Como",
+      "display": "Torino vs Como",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874786"
+    },
+    "market": "dc_12",
+    "probability": 0.7414,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7389,
+      "logistic": 0.7475,
+      "xgboost": 0.7395
+    },
+    "model_disagreement": 0.0086,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Como",
+      "display": "Torino vs Como",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874786"
+    },
+    "market": "corners_o65",
+    "probability": 0.8007,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7831,
+      "catboost": 0.8078,
+      "extra_trees": 0.7972
+    },
+    "model_disagreement": 0.0248,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Torino",
+      "away": "Como",
+      "display": "Torino vs Como",
+      "kickoff": "2026-10-27T19:45Z",
+      "event_id": "401874786"
+    },
+    "market": "cards_o15",
+    "probability": 0.8735,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8614,
+      "catboost": 0.8519,
+      "xgboost": 0.8493
+    },
+    "model_disagreement": 0.0121,
+    "holdout_brier": 0.09814,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Benevento",
+      "away": "Catanzaro",
+      "display": "Benevento vs Catanzaro",
+      "kickoff": "2026-10-27T18:00Z",
+      "event_id": "401899578"
+    },
+    "market": "fh_o05",
+    "probability": 0.7032,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6841,
+      "catboost": 0.7001,
+      "logistic": 0.7151
+    },
+    "model_disagreement": 0.031,
+    "holdout_brier": 0.2022,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Benevento",
+      "away": "Catanzaro",
+      "display": "Benevento vs Catanzaro",
+      "kickoff": "2026-10-27T18:00Z",
+      "event_id": "401899578"
+    },
+    "market": "ft_o15",
+    "probability": 0.7479,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7805,
+      "catboost": 0.7449,
+      "xgboost": 0.7368
+    },
+    "model_disagreement": 0.0437,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Benevento",
+      "away": "Catanzaro",
+      "display": "Benevento vs Catanzaro",
+      "kickoff": "2026-10-27T18:00Z",
+      "event_id": "401899578"
+    },
+    "market": "dc_1x",
+    "probability": 0.8175,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8274,
+      "catboost": 0.7906,
+      "xgboost": 0.8046
+    },
+    "model_disagreement": 0.0368,
+    "holdout_brier": 0.1978,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Benevento",
+      "away": "Catanzaro",
+      "display": "Benevento vs Catanzaro",
+      "kickoff": "2026-10-27T18:00Z",
+      "event_id": "401899578"
+    },
+    "market": "dc_12",
+    "probability": 0.7414,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.745,
+      "logistic": 0.7444,
+      "xgboost": 0.7742
+    },
+    "model_disagreement": 0.0298,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Benevento",
+      "away": "Catanzaro",
+      "display": "Benevento vs Catanzaro",
+      "kickoff": "2026-10-27T18:00Z",
+      "event_id": "401899578"
+    },
+    "market": "corners_o65",
+    "probability": 0.8694,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8558,
+      "catboost": 0.8378,
+      "extra_trees": 0.8615
+    },
+    "model_disagreement": 0.0237,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Benevento",
+      "away": "Catanzaro",
+      "display": "Benevento vs Catanzaro",
+      "kickoff": "2026-10-27T18:00Z",
+      "event_id": "401899578"
+    },
+    "market": "cards_o25",
+    "probability": 0.7979,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7569,
+      "catboost": 0.7674,
+      "hist_gradient_boosting": 0.7899
+    },
+    "model_disagreement": 0.033,
+    "holdout_brier": 0.19174,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Sampdoria",
+      "display": "Ascoli vs Sampdoria",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899579"
+    },
+    "market": "fh_o05",
+    "probability": 0.7032,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6854,
+      "catboost": 0.7172,
+      "logistic": 0.706
+    },
+    "model_disagreement": 0.0318,
+    "holdout_brier": 0.2022,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Sampdoria",
+      "display": "Ascoli vs Sampdoria",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899579"
+    },
+    "market": "ft_o15",
+    "probability": 0.7803,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7618,
+      "catboost": 0.7592,
+      "xgboost": 0.8014
+    },
+    "model_disagreement": 0.0421,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Sampdoria",
+      "display": "Ascoli vs Sampdoria",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899579"
+    },
+    "market": "dc_1x",
+    "probability": 0.8175,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8431,
+      "catboost": 0.8017,
+      "xgboost": 0.8201
+    },
+    "model_disagreement": 0.0414,
+    "holdout_brier": 0.1978,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Sampdoria",
+      "display": "Ascoli vs Sampdoria",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899579"
+    },
+    "market": "dc_12",
+    "probability": 0.7414,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7508,
+      "logistic": 0.7595,
+      "xgboost": 0.7414
+    },
+    "model_disagreement": 0.018,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Sampdoria",
+      "display": "Ascoli vs Sampdoria",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899579"
+    },
+    "market": "corners_o65",
+    "probability": 0.8457,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8386,
+      "catboost": 0.8394,
+      "extra_trees": 0.8604
+    },
+    "model_disagreement": 0.0217,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Sampdoria",
+      "display": "Ascoli vs Sampdoria",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899579"
+    },
+    "market": "cards_o15",
+    "probability": 0.8864,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.867,
+      "catboost": 0.8846,
+      "xgboost": 0.8906
+    },
+    "model_disagreement": 0.0236,
+    "holdout_brier": 0.09814,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Cesena",
+      "away": "Empoli",
+      "display": "Cesena vs Empoli",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899576"
+    },
+    "market": "ft_o15",
+    "probability": 0.7167,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.709,
+      "catboost": 0.6931,
+      "xgboost": 0.677
+    },
+    "model_disagreement": 0.032,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Cesena",
+      "away": "Empoli",
+      "display": "Cesena vs Empoli",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899576"
+    },
+    "market": "dc_1x",
+    "probability": 0.7018,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7383,
+      "catboost": 0.724,
+      "xgboost": 0.7407
+    },
+    "model_disagreement": 0.0167,
+    "holdout_brier": 0.1978,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Cesena",
+      "away": "Empoli",
+      "display": "Cesena vs Empoli",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899576"
+    },
+    "market": "dc_12",
+    "probability": 0.7283,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7221,
+      "logistic": 0.7343,
+      "xgboost": 0.7275
+    },
+    "model_disagreement": 0.0123,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Cesena",
+      "away": "Empoli",
+      "display": "Cesena vs Empoli",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899576"
+    },
+    "market": "corners_o65",
+    "probability": 0.8353,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8254,
+      "catboost": 0.8207,
+      "extra_trees": 0.838
+    },
+    "model_disagreement": 0.0173,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Cesena",
+      "away": "Empoli",
+      "display": "Cesena vs Empoli",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899576"
+    },
+    "market": "cards_o15",
+    "probability": 0.9246,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.9034,
+      "catboost": 0.8814,
+      "xgboost": 0.8896
+    },
+    "model_disagreement": 0.022,
+    "holdout_brier": 0.09814,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Mantova",
+      "away": "Cremonese",
+      "display": "Mantova vs Cremonese",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899573"
+    },
+    "market": "fh_o05",
+    "probability": 0.7032,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6832,
+      "catboost": 0.6909,
+      "logistic": 0.7078
+    },
+    "model_disagreement": 0.0247,
+    "holdout_brier": 0.2022,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Mantova",
+      "away": "Cremonese",
+      "display": "Mantova vs Cremonese",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899573"
+    },
+    "market": "ft_o15",
+    "probability": 0.7203,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7552,
+      "catboost": 0.7276,
+      "xgboost": 0.713
+    },
+    "model_disagreement": 0.0422,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Mantova",
+      "away": "Cremonese",
+      "display": "Mantova vs Cremonese",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899573"
+    },
+    "market": "dc_1x",
+    "probability": 0.7517,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7847,
+      "catboost": 0.7622,
+      "xgboost": 0.7662
+    },
+    "model_disagreement": 0.0225,
+    "holdout_brier": 0.1978,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Mantova",
+      "away": "Cremonese",
+      "display": "Mantova vs Cremonese",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899573"
+    },
+    "market": "dc_12",
+    "probability": 0.7414,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7413,
+      "logistic": 0.7375,
+      "xgboost": 0.7466
+    },
+    "model_disagreement": 0.0091,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Mantova",
+      "away": "Cremonese",
+      "display": "Mantova vs Cremonese",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899573"
+    },
+    "market": "corners_o65",
+    "probability": 0.8152,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8169,
+      "catboost": 0.8064,
+      "extra_trees": 0.8122
+    },
+    "model_disagreement": 0.0106,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Mantova",
+      "away": "Cremonese",
+      "display": "Mantova vs Cremonese",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899573"
+    },
+    "market": "cards_o15",
+    "probability": 0.8864,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8727,
+      "catboost": 0.8852,
+      "xgboost": 0.8755
+    },
+    "model_disagreement": 0.0125,
+    "holdout_brier": 0.09814,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Padova",
+      "away": "Sudtirol",
+      "display": "Padova vs Sudtirol",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899572"
+    },
+    "market": "ft_o15",
+    "probability": 0.7203,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.717,
+      "catboost": 0.7069,
+      "xgboost": 0.6968
+    },
+    "model_disagreement": 0.0202,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Padova",
+      "away": "Sudtirol",
+      "display": "Padova vs Sudtirol",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899572"
+    },
+    "market": "dc_1x",
+    "probability": 0.7517,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.792,
+      "catboost": 0.7567,
+      "xgboost": 0.7551
+    },
+    "model_disagreement": 0.0369,
+    "holdout_brier": 0.1978,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Padova",
+      "away": "Sudtirol",
+      "display": "Padova vs Sudtirol",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899572"
+    },
+    "market": "dc_12",
+    "probability": 0.7283,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7286,
+      "logistic": 0.7295,
+      "xgboost": 0.7234
+    },
+    "model_disagreement": 0.0062,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Padova",
+      "away": "Sudtirol",
+      "display": "Padova vs Sudtirol",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899572"
+    },
+    "market": "corners_o65",
+    "probability": 0.8152,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8085,
+      "catboost": 0.802,
+      "extra_trees": 0.8255
+    },
+    "model_disagreement": 0.0235,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Padova",
+      "away": "Sudtirol",
+      "display": "Padova vs Sudtirol",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899572"
+    },
+    "market": "cards_o15",
+    "probability": 0.9076,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8745,
+      "catboost": 0.8901,
+      "xgboost": 0.894
+    },
+    "model_disagreement": 0.0195,
+    "holdout_brier": 0.09814,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Vicenza",
+      "away": "Modena",
+      "display": "Vicenza vs Modena",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899574"
+    },
+    "market": "ft_o15",
+    "probability": 0.7479,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7753,
+      "catboost": 0.7337,
+      "xgboost": 0.7461
+    },
+    "model_disagreement": 0.0416,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Vicenza",
+      "away": "Modena",
+      "display": "Vicenza vs Modena",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899574"
+    },
+    "market": "dc_12",
+    "probability": 0.7283,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.726,
+      "logistic": 0.7291,
+      "xgboost": 0.7232
+    },
+    "model_disagreement": 0.0059,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Vicenza",
+      "away": "Modena",
+      "display": "Vicenza vs Modena",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899574"
+    },
+    "market": "corners_o65",
+    "probability": 0.8383,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8461,
+      "catboost": 0.8333,
+      "extra_trees": 0.8244
+    },
+    "model_disagreement": 0.0216,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Vicenza",
+      "away": "Modena",
+      "display": "Vicenza vs Modena",
+      "kickoff": "2026-10-27T19:00Z",
+      "event_id": "401899574"
+    },
+    "market": "cards_o25",
+    "probability": 0.7979,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8033,
+      "catboost": 0.7822,
+      "hist_gradient_boosting": 0.8124
+    },
+    "model_disagreement": 0.0302,
+    "holdout_brier": 0.19174,
+    "status": "QUALIFIED"
+  }
+]
