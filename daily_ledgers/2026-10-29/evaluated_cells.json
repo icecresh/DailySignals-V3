@@ -1,0 +1,652 @@
+[
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "fh_o05",
+    "probability": 0.7032,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6924,
+      "catboost": 0.706,
+      "logistic": 0.727
+    },
+    "model_disagreement": 0.0346,
+    "holdout_brier": 0.2022,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "ft_o15",
+    "probability": 0.8093,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7944,
+      "catboost": 0.7656,
+      "xgboost": 0.7939
+    },
+    "model_disagreement": 0.0288,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "ft_o25",
+    "probability": 0.5126,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5154,
+      "logistic": 0.5461,
+      "xgboost": 0.5341
+    },
+    "model_disagreement": 0.0307,
+    "holdout_brier": 0.24517,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "btts",
+    "probability": 0.5487,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5298,
+      "logistic": 0.5495,
+      "extra_trees": 0.527
+    },
+    "model_disagreement": 0.0225,
+    "holdout_brier": 0.24636,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "home_win",
+    "probability": 0.5217,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5271,
+      "xgboost": 0.5143,
+      "logistic": 0.5557
+    },
+    "model_disagreement": 0.0413,
+    "holdout_brier": 0.23054,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "draw",
+    "probability": 0.2598,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2596,
+      "logistic": 0.2422,
+      "xgboost": 0.2603
+    },
+    "model_disagreement": 0.0181,
+    "holdout_brier": 0.19311,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "away_win",
+    "probability": 0.1836,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.1982,
+      "catboost": 0.2103,
+      "xgboost": 0.1768
+    },
+    "model_disagreement": 0.0334,
+    "holdout_brier": 0.19777,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "dc_1x",
+    "probability": 0.8175,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8018,
+      "catboost": 0.7897,
+      "xgboost": 0.8232
+    },
+    "model_disagreement": 0.0334,
+    "holdout_brier": 0.1978,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "dc_x2",
+    "probability": 0.4706,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4729,
+      "xgboost": 0.4857,
+      "logistic": 0.4432
+    },
+    "model_disagreement": 0.0425,
+    "holdout_brier": 0.23055,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "dc_12",
+    "probability": 0.7414,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7404,
+      "logistic": 0.7581,
+      "xgboost": 0.7397
+    },
+    "model_disagreement": 0.0185,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "corners_o65",
+    "probability": 0.8457,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8454,
+      "catboost": 0.8382,
+      "extra_trees": 0.833
+    },
+    "model_disagreement": 0.0124,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "cards_o15",
+    "probability": 0.8864,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8642,
+      "catboost": 0.8632,
+      "xgboost": 0.8699
+    },
+    "model_disagreement": 0.0067,
+    "holdout_brier": 0.09814,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Frosinone",
+      "away": "Lecce",
+      "display": "Frosinone vs Lecce",
+      "kickoff": "2026-10-29T17:30Z",
+      "event_id": "401874976"
+    },
+    "market": "cards_o25",
+    "probability": 0.7279,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7157,
+      "catboost": 0.6849,
+      "hist_gradient_boosting": 0.7032
+    },
+    "model_disagreement": 0.0308,
+    "holdout_brier": 0.19174,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "fh_o05",
+    "probability": 0.6637,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6517,
+      "catboost": 0.6739,
+      "logistic": 0.7079
+    },
+    "model_disagreement": 0.0562,
+    "holdout_brier": 0.2022,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "ft_o15",
+    "probability": 0.7203,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7546,
+      "catboost": 0.7235,
+      "xgboost": 0.7285
+    },
+    "model_disagreement": 0.0311,
+    "holdout_brier": 0.17401,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "ft_o25",
+    "probability": 0.4738,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.472,
+      "logistic": 0.4951,
+      "xgboost": 0.474
+    },
+    "model_disagreement": 0.0231,
+    "holdout_brier": 0.24517,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "btts",
+    "probability": 0.5359,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5174,
+      "logistic": 0.536,
+      "extra_trees": 0.523
+    },
+    "model_disagreement": 0.0186,
+    "holdout_brier": 0.24636,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "home_win",
+    "probability": 0.3145,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.3596,
+      "xgboost": 0.3457,
+      "logistic": 0.3543
+    },
+    "model_disagreement": 0.014,
+    "holdout_brier": 0.23054,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "draw",
+    "probability": 0.2707,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2702,
+      "logistic": 0.2623,
+      "xgboost": 0.2568
+    },
+    "model_disagreement": 0.0134,
+    "holdout_brier": 0.19311,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "away_win",
+    "probability": 0.3699,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.3716,
+      "catboost": 0.3799,
+      "xgboost": 0.3838
+    },
+    "model_disagreement": 0.0122,
+    "holdout_brier": 0.19777,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "dc_1x",
+    "probability": 0.6313,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6288,
+      "catboost": 0.6201,
+      "xgboost": 0.6162
+    },
+    "model_disagreement": 0.0127,
+    "holdout_brier": 0.1978,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "dc_x2",
+    "probability": 0.6855,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6404,
+      "xgboost": 0.6543,
+      "logistic": 0.6449
+    },
+    "model_disagreement": 0.014,
+    "holdout_brier": 0.23055,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "dc_12",
+    "probability": 0.7283,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7298,
+      "logistic": 0.7383,
+      "xgboost": 0.7432
+    },
+    "model_disagreement": 0.0134,
+    "holdout_brier": 0.19314,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "corners_o65",
+    "probability": 0.8383,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8363,
+      "catboost": 0.828,
+      "extra_trees": 0.8248
+    },
+    "model_disagreement": 0.0114,
+    "holdout_brier": 0.13159,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "cards_o15",
+    "probability": 0.8684,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8452,
+      "catboost": 0.8479,
+      "xgboost": 0.8411
+    },
+    "model_disagreement": 0.0068,
+    "holdout_brier": 0.09814,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Fiorentina",
+      "away": "Atalanta",
+      "display": "Fiorentina vs Atalanta",
+      "kickoff": "2026-10-29T19:45Z",
+      "event_id": "401874969"
+    },
+    "market": "cards_o25",
+    "probability": 0.709,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6556,
+      "catboost": 0.6616,
+      "hist_gradient_boosting": 0.6751
+    },
+    "model_disagreement": 0.0195,
+    "holdout_brier": 0.19174,
+    "status": "REJECTED"
+  }
+]
