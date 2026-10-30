@@ -1,0 +1,652 @@
+[
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Wrexham",
+      "display": "Sheffield United vs Wrexham",
+      "kickoff": "2026-10-30T20:00Z",
+      "event_id": "401880190"
+    },
+    "market": "fh_o05",
+    "probability": 0.7187,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7104,
+      "xgboost": 0.6821,
+      "logistic": 0.7052
+    },
+    "model_disagreement": 0.0283,
+    "holdout_brier": 0.20245,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Wrexham",
+      "display": "Sheffield United vs Wrexham",
+      "kickoff": "2026-10-30T20:00Z",
+      "event_id": "401880190"
+    },
+    "market": "ft_o15",
+    "probability": 0.766,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.749,
+      "catboost": 0.7672,
+      "extra_trees": 0.7578
+    },
+    "model_disagreement": 0.0182,
+    "holdout_brier": 0.17389,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Wrexham",
+      "display": "Sheffield United vs Wrexham",
+      "kickoff": "2026-10-30T20:00Z",
+      "event_id": "401880190"
+    },
+    "market": "dc_12",
+    "probability": 0.7342,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7382,
+      "logistic": 0.7513,
+      "xgboost": 0.7423
+    },
+    "model_disagreement": 0.0131,
+    "holdout_brier": 0.19397,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Wrexham",
+      "display": "Sheffield United vs Wrexham",
+      "kickoff": "2026-10-30T20:00Z",
+      "event_id": "401880190"
+    },
+    "market": "corners_o65",
+    "probability": 0.8809,
+    "models": [
+      "logistic",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8492,
+      "catboost": 0.8482,
+      "hist_gradient_boosting": 0.8663
+    },
+    "model_disagreement": 0.0181,
+    "holdout_brier": 0.13168,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Wrexham",
+      "display": "Sheffield United vs Wrexham",
+      "kickoff": "2026-10-30T20:00Z",
+      "event_id": "401880190"
+    },
+    "market": "cards_o15",
+    "probability": 0.8695,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8755,
+      "catboost": 0.8719,
+      "xgboost": 0.8535
+    },
+    "model_disagreement": 0.0221,
+    "holdout_brier": 0.09733,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Newport County",
+      "away": "Chesterfield",
+      "display": "Newport County vs Chesterfield",
+      "kickoff": "2026-10-30T19:45Z",
+      "event_id": "401881283"
+    },
+    "market": "fh_o05",
+    "probability": 0.7187,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7022,
+      "xgboost": 0.6968,
+      "logistic": 0.705
+    },
+    "model_disagreement": 0.0082,
+    "holdout_brier": 0.20245,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Newport County",
+      "away": "Chesterfield",
+      "display": "Newport County vs Chesterfield",
+      "kickoff": "2026-10-30T19:45Z",
+      "event_id": "401881283"
+    },
+    "market": "ft_o15",
+    "probability": 0.722,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7394,
+      "catboost": 0.7396,
+      "extra_trees": 0.7538
+    },
+    "model_disagreement": 0.0144,
+    "holdout_brier": 0.17389,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Newport County",
+      "away": "Chesterfield",
+      "display": "Newport County vs Chesterfield",
+      "kickoff": "2026-10-30T19:45Z",
+      "event_id": "401881283"
+    },
+    "market": "dc_x2",
+    "probability": 0.7391,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7194,
+      "catboost": 0.7019,
+      "xgboost": 0.7176
+    },
+    "model_disagreement": 0.0175,
+    "holdout_brier": 0.23021,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Newport County",
+      "away": "Chesterfield",
+      "display": "Newport County vs Chesterfield",
+      "kickoff": "2026-10-30T19:45Z",
+      "event_id": "401881283"
+    },
+    "market": "dc_12",
+    "probability": 0.7317,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7346,
+      "logistic": 0.7262,
+      "xgboost": 0.7341
+    },
+    "model_disagreement": 0.0083,
+    "holdout_brier": 0.19397,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Newport County",
+      "away": "Chesterfield",
+      "display": "Newport County vs Chesterfield",
+      "kickoff": "2026-10-30T19:45Z",
+      "event_id": "401881283"
+    },
+    "market": "corners_o65",
+    "probability": 0.8432,
+    "models": [
+      "logistic",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8364,
+      "catboost": 0.8335,
+      "hist_gradient_boosting": 0.8625
+    },
+    "model_disagreement": 0.029,
+    "holdout_brier": 0.13168,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Newport County",
+      "away": "Chesterfield",
+      "display": "Newport County vs Chesterfield",
+      "kickoff": "2026-10-30T19:45Z",
+      "event_id": "401881283"
+    },
+    "market": "cards_o15",
+    "probability": 0.9038,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8959,
+      "catboost": 0.8845,
+      "xgboost": 0.8933
+    },
+    "model_disagreement": 0.0115,
+    "holdout_brier": 0.09733,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Nice",
+      "away": "Rennes",
+      "display": "Nice vs Stade Rennais",
+      "kickoff": "2026-10-30T18:00Z",
+      "event_id": "401876416"
+    },
+    "market": "fh_o05",
+    "probability": 0.7196,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7223,
+      "xgboost": 0.7143,
+      "logistic": 0.7
+    },
+    "model_disagreement": 0.0223,
+    "holdout_brier": 0.20245,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Nice",
+      "away": "Rennes",
+      "display": "Nice vs Stade Rennais",
+      "kickoff": "2026-10-30T18:00Z",
+      "event_id": "401876416"
+    },
+    "market": "ft_o15",
+    "probability": 0.7678,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7803,
+      "catboost": 0.7755,
+      "extra_trees": 0.7565
+    },
+    "model_disagreement": 0.0239,
+    "holdout_brier": 0.17389,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Nice",
+      "away": "Rennes",
+      "display": "Nice vs Stade Rennais",
+      "kickoff": "2026-10-30T18:00Z",
+      "event_id": "401876416"
+    },
+    "market": "dc_12",
+    "probability": 0.7317,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.742,
+      "logistic": 0.7343,
+      "xgboost": 0.7256
+    },
+    "model_disagreement": 0.0165,
+    "holdout_brier": 0.19397,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Nice",
+      "away": "Rennes",
+      "display": "Nice vs Stade Rennais",
+      "kickoff": "2026-10-30T18:00Z",
+      "event_id": "401876416"
+    },
+    "market": "corners_o65",
+    "probability": 0.8809,
+    "models": [
+      "logistic",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8524,
+      "catboost": 0.8436,
+      "hist_gradient_boosting": 0.8731
+    },
+    "model_disagreement": 0.0295,
+    "holdout_brier": 0.13168,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Nice",
+      "away": "Rennes",
+      "display": "Nice vs Stade Rennais",
+      "kickoff": "2026-10-30T18:00Z",
+      "event_id": "401876416"
+    },
+    "market": "cards_o15",
+    "probability": 0.8888,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8597,
+      "catboost": 0.8704,
+      "xgboost": 0.8833
+    },
+    "model_disagreement": 0.0236,
+    "holdout_brier": 0.09733,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lille",
+      "away": "Lens",
+      "display": "Lille vs Lens",
+      "kickoff": "2026-10-30T20:05Z",
+      "event_id": "401876420"
+    },
+    "market": "fh_o05",
+    "probability": 0.7187,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.726,
+      "xgboost": 0.6968,
+      "logistic": 0.6981
+    },
+    "model_disagreement": 0.0292,
+    "holdout_brier": 0.20245,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lille",
+      "away": "Lens",
+      "display": "Lille vs Lens",
+      "kickoff": "2026-10-30T20:05Z",
+      "event_id": "401876420"
+    },
+    "market": "ft_o15",
+    "probability": 0.7678,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7538,
+      "catboost": 0.7819,
+      "extra_trees": 0.7671
+    },
+    "model_disagreement": 0.0281,
+    "holdout_brier": 0.17389,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lille",
+      "away": "Lens",
+      "display": "Lille vs Lens",
+      "kickoff": "2026-10-30T20:05Z",
+      "event_id": "401876420"
+    },
+    "market": "dc_12",
+    "probability": 0.7317,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7426,
+      "logistic": 0.7336,
+      "xgboost": 0.7354
+    },
+    "model_disagreement": 0.0091,
+    "holdout_brier": 0.19397,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lille",
+      "away": "Lens",
+      "display": "Lille vs Lens",
+      "kickoff": "2026-10-30T20:05Z",
+      "event_id": "401876420"
+    },
+    "market": "corners_o65",
+    "probability": 0.8319,
+    "models": [
+      "logistic",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8032,
+      "catboost": 0.8301,
+      "hist_gradient_boosting": 0.857
+    },
+    "model_disagreement": 0.0537,
+    "holdout_brier": 0.13168,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lille",
+      "away": "Lens",
+      "display": "Lille vs Lens",
+      "kickoff": "2026-10-30T20:05Z",
+      "event_id": "401876420"
+    },
+    "market": "cards_o15",
+    "probability": 0.9038,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8832,
+      "catboost": 0.8759,
+      "xgboost": 0.8918
+    },
+    "model_disagreement": 0.0159,
+    "holdout_brier": 0.09733,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Livingston",
+      "display": "Stenhousemuir vs Livingston",
+      "kickoff": "2026-10-30T19:30Z",
+      "event_id": "401878532"
+    },
+    "market": "ft_o15",
+    "probability": 0.7202,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6961,
+      "catboost": 0.7075,
+      "extra_trees": 0.7216
+    },
+    "model_disagreement": 0.0255,
+    "holdout_brier": 0.17389,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Livingston",
+      "display": "Stenhousemuir vs Livingston",
+      "kickoff": "2026-10-30T19:30Z",
+      "event_id": "401878532"
+    },
+    "market": "dc_1x",
+    "probability": 0.7349,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7382,
+      "xgboost": 0.7504,
+      "catboost": 0.7443
+    },
+    "model_disagreement": 0.0122,
+    "holdout_brier": 0.19729,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Livingston",
+      "display": "Stenhousemuir vs Livingston",
+      "kickoff": "2026-10-30T19:30Z",
+      "event_id": "401878532"
+    },
+    "market": "dc_12",
+    "probability": 0.7317,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7389,
+      "logistic": 0.733,
+      "xgboost": 0.7368
+    },
+    "model_disagreement": 0.0059,
+    "holdout_brier": 0.19397,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Livingston",
+      "display": "Stenhousemuir vs Livingston",
+      "kickoff": "2026-10-30T19:30Z",
+      "event_id": "401878532"
+    },
+    "market": "corners_o65",
+    "probability": 0.8194,
+    "models": [
+      "logistic",
+      "catboost",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8035,
+      "catboost": 0.8168,
+      "hist_gradient_boosting": 0.8397
+    },
+    "model_disagreement": 0.0362,
+    "holdout_brier": 0.13168,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Livingston",
+      "display": "Stenhousemuir vs Livingston",
+      "kickoff": "2026-10-30T19:30Z",
+      "event_id": "401878532"
+    },
+    "market": "cards_o25",
+    "probability": 0.8007,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7653,
+      "catboost": 0.768,
+      "xgboost": 0.76
+    },
+    "model_disagreement": 0.008,
+    "holdout_brier": 0.19195,
+    "status": "QUALIFIED"
+  }
+]
