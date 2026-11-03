@@ -1,0 +1,1952 @@
+[
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "fh_o05",
+    "probability": 0.7458,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.735,
+      "catboost": 0.7393,
+      "xgboost": 0.7279
+    },
+    "model_disagreement": 0.0113,
+    "holdout_brier": 0.20156,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "ft_o15",
+    "probability": 0.818,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7958,
+      "catboost": 0.7859,
+      "extra_trees": 0.7943
+    },
+    "model_disagreement": 0.0099,
+    "holdout_brier": 0.17235,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "ft_o25",
+    "probability": 0.5719,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5671,
+      "logistic": 0.5588,
+      "xgboost": 0.5591
+    },
+    "model_disagreement": 0.0083,
+    "holdout_brier": 0.24528,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "btts",
+    "probability": 0.5683,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5761,
+      "logistic": 0.5557,
+      "extra_trees": 0.5529
+    },
+    "model_disagreement": 0.0232,
+    "holdout_brier": 0.2462,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "home_win",
+    "probability": 0.462,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.418,
+      "logistic": 0.4207,
+      "xgboost": 0.4488
+    },
+    "model_disagreement": 0.0309,
+    "holdout_brier": 0.23142,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "draw",
+    "probability": 0.2762,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2651,
+      "xgboost": 0.2627,
+      "logistic": 0.251
+    },
+    "model_disagreement": 0.0142,
+    "holdout_brier": 0.19241,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "away_win",
+    "probability": 0.3167,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.3068,
+      "xgboost": 0.3075,
+      "catboost": 0.3115
+    },
+    "model_disagreement": 0.0047,
+    "holdout_brier": 0.19684,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "dc_1x",
+    "probability": 0.6786,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6935,
+      "xgboost": 0.6925,
+      "catboost": 0.6885
+    },
+    "model_disagreement": 0.005,
+    "holdout_brier": 0.19692,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "dc_x2",
+    "probability": 0.54,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.582,
+      "logistic": 0.5795,
+      "xgboost": 0.5512
+    },
+    "model_disagreement": 0.0309,
+    "holdout_brier": 0.23148,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "dc_12",
+    "probability": 0.7234,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7349,
+      "xgboost": 0.7373,
+      "logistic": 0.7488
+    },
+    "model_disagreement": 0.014,
+    "holdout_brier": 0.19239,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "corners_o65",
+    "probability": 0.884,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8691,
+      "catboost": 0.8586,
+      "xgboost": 0.8677
+    },
+    "model_disagreement": 0.0105,
+    "holdout_brier": 0.12979,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "cards_o15",
+    "probability": 0.8806,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8675,
+      "catboost": 0.8837,
+      "xgboost": 0.8805
+    },
+    "model_disagreement": 0.0162,
+    "holdout_brier": 0.09703,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Blackburn",
+      "away": "Stoke",
+      "display": "Blackburn Rovers vs Stoke City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880183"
+    },
+    "market": "cards_o25",
+    "probability": 0.8116,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.748,
+      "extra_trees": 0.749,
+      "xgboost": 0.7513
+    },
+    "model_disagreement": 0.0033,
+    "holdout_brier": 0.19211,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "fh_o05",
+    "probability": 0.6988,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6598,
+      "catboost": 0.703,
+      "xgboost": 0.7131
+    },
+    "model_disagreement": 0.0534,
+    "holdout_brier": 0.20156,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "ft_o15",
+    "probability": 0.725,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7518,
+      "catboost": 0.7545,
+      "extra_trees": 0.7313
+    },
+    "model_disagreement": 0.0232,
+    "holdout_brier": 0.17235,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "ft_o25",
+    "probability": 0.4995,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4945,
+      "logistic": 0.513,
+      "xgboost": 0.495
+    },
+    "model_disagreement": 0.0186,
+    "holdout_brier": 0.24528,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "btts",
+    "probability": 0.5382,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5264,
+      "logistic": 0.5278,
+      "extra_trees": 0.5382
+    },
+    "model_disagreement": 0.0118,
+    "holdout_brier": 0.2462,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "home_win",
+    "probability": 0.3513,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.3713,
+      "logistic": 0.3696,
+      "xgboost": 0.3847
+    },
+    "model_disagreement": 0.0151,
+    "holdout_brier": 0.23142,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "draw",
+    "probability": 0.2762,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2688,
+      "xgboost": 0.2628,
+      "logistic": 0.2612
+    },
+    "model_disagreement": 0.0075,
+    "holdout_brier": 0.19241,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "away_win",
+    "probability": 0.3387,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.3531,
+      "xgboost": 0.3454,
+      "catboost": 0.336
+    },
+    "model_disagreement": 0.0171,
+    "holdout_brier": 0.19684,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "dc_1x",
+    "probability": 0.6624,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6465,
+      "xgboost": 0.6546,
+      "catboost": 0.664
+    },
+    "model_disagreement": 0.0174,
+    "holdout_brier": 0.19692,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "dc_x2",
+    "probability": 0.65,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6287,
+      "logistic": 0.6307,
+      "xgboost": 0.6153
+    },
+    "model_disagreement": 0.0154,
+    "holdout_brier": 0.23148,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "dc_12",
+    "probability": 0.7234,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7312,
+      "xgboost": 0.7372,
+      "logistic": 0.7388
+    },
+    "model_disagreement": 0.0075,
+    "holdout_brier": 0.19239,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "corners_o65",
+    "probability": 0.884,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8795,
+      "catboost": 0.8549,
+      "xgboost": 0.8572
+    },
+    "model_disagreement": 0.0246,
+    "holdout_brier": 0.12979,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "cards_o15",
+    "probability": 0.8651,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8579,
+      "catboost": 0.8728,
+      "xgboost": 0.8369
+    },
+    "model_disagreement": 0.0359,
+    "holdout_brier": 0.09703,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Charlton",
+      "away": "Bolton",
+      "display": "Charlton Athletic vs Bolton Wanderers",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880174"
+    },
+    "market": "cards_o25",
+    "probability": 0.7281,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7177,
+      "extra_trees": 0.7012,
+      "xgboost": 0.7097
+    },
+    "model_disagreement": 0.0165,
+    "holdout_brier": 0.19211,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "fh_o05",
+    "probability": 0.6988,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7126,
+      "catboost": 0.7193,
+      "xgboost": 0.7025
+    },
+    "model_disagreement": 0.0168,
+    "holdout_brier": 0.20156,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "ft_o15",
+    "probability": 0.7833,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7677,
+      "catboost": 0.7815,
+      "extra_trees": 0.7826
+    },
+    "model_disagreement": 0.0149,
+    "holdout_brier": 0.17235,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "ft_o25",
+    "probability": 0.5283,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5544,
+      "logistic": 0.5245,
+      "xgboost": 0.5431
+    },
+    "model_disagreement": 0.0298,
+    "holdout_brier": 0.24528,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "btts",
+    "probability": 0.5382,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5743,
+      "logistic": 0.5091,
+      "extra_trees": 0.5288
+    },
+    "model_disagreement": 0.0652,
+    "holdout_brier": 0.2462,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "home_win",
+    "probability": 0.462,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4351,
+      "logistic": 0.486,
+      "xgboost": 0.4441
+    },
+    "model_disagreement": 0.0508,
+    "holdout_brier": 0.23142,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "draw",
+    "probability": 0.2577,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2646,
+      "xgboost": 0.2669,
+      "logistic": 0.232
+    },
+    "model_disagreement": 0.0349,
+    "holdout_brier": 0.19241,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "away_win",
+    "probability": 0.2935,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.2662,
+      "xgboost": 0.3093,
+      "catboost": 0.3051
+    },
+    "model_disagreement": 0.0431,
+    "holdout_brier": 0.19684,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "dc_1x",
+    "probability": 0.7068,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7339,
+      "xgboost": 0.6907,
+      "catboost": 0.6949
+    },
+    "model_disagreement": 0.0432,
+    "holdout_brier": 0.19692,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "dc_x2",
+    "probability": 0.54,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5649,
+      "logistic": 0.5149,
+      "xgboost": 0.5559
+    },
+    "model_disagreement": 0.05,
+    "holdout_brier": 0.23148,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "dc_12",
+    "probability": 0.7431,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7354,
+      "xgboost": 0.7331,
+      "logistic": 0.7675
+    },
+    "model_disagreement": 0.0344,
+    "holdout_brier": 0.19239,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "corners_o65",
+    "probability": 0.8557,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8484,
+      "catboost": 0.8523,
+      "xgboost": 0.8561
+    },
+    "model_disagreement": 0.0077,
+    "holdout_brier": 0.12979,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "cards_o15",
+    "probability": 0.8806,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8682,
+      "catboost": 0.8628,
+      "xgboost": 0.848
+    },
+    "model_disagreement": 0.0202,
+    "holdout_brier": 0.09703,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Portsmouth",
+      "away": "Swansea",
+      "display": "Portsmouth vs Swansea City",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880181"
+    },
+    "market": "cards_o25",
+    "probability": 0.7281,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6918,
+      "extra_trees": 0.6873,
+      "xgboost": 0.6763
+    },
+    "model_disagreement": 0.0155,
+    "holdout_brier": 0.19211,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "fh_o05",
+    "probability": 0.6988,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7004,
+      "catboost": 0.7157,
+      "xgboost": 0.7193
+    },
+    "model_disagreement": 0.0189,
+    "holdout_brier": 0.20156,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "ft_o15",
+    "probability": 0.725,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7507,
+      "catboost": 0.761,
+      "extra_trees": 0.7442
+    },
+    "model_disagreement": 0.0168,
+    "holdout_brier": 0.17235,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "ft_o25",
+    "probability": 0.4995,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5022,
+      "logistic": 0.4989,
+      "xgboost": 0.5054
+    },
+    "model_disagreement": 0.0066,
+    "holdout_brier": 0.24528,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "btts",
+    "probability": 0.5059,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5052,
+      "logistic": 0.5352,
+      "extra_trees": 0.5108
+    },
+    "model_disagreement": 0.0299,
+    "holdout_brier": 0.2462,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "home_win",
+    "probability": 0.3045,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.3704,
+      "logistic": 0.3155,
+      "xgboost": 0.3672
+    },
+    "model_disagreement": 0.055,
+    "holdout_brier": 0.23142,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "draw",
+    "probability": 0.2762,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2674,
+      "xgboost": 0.2524,
+      "logistic": 0.2728
+    },
+    "model_disagreement": 0.0204,
+    "holdout_brier": 0.19241,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "away_win",
+    "probability": 0.3675,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.4107,
+      "xgboost": 0.3493,
+      "catboost": 0.3552
+    },
+    "model_disagreement": 0.0614,
+    "holdout_brier": 0.19684,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "dc_1x",
+    "probability": 0.6303,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.5896,
+      "xgboost": 0.6507,
+      "catboost": 0.6448
+    },
+    "model_disagreement": 0.0611,
+    "holdout_brier": 0.19692,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "dc_x2",
+    "probability": 0.696,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6296,
+      "logistic": 0.6846,
+      "xgboost": 0.6328
+    },
+    "model_disagreement": 0.0551,
+    "holdout_brier": 0.23148,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "dc_12",
+    "probability": 0.7234,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7326,
+      "xgboost": 0.7476,
+      "logistic": 0.7272
+    },
+    "model_disagreement": 0.0203,
+    "holdout_brier": 0.19239,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "corners_o65",
+    "probability": 0.884,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8688,
+      "catboost": 0.8608,
+      "xgboost": 0.9041
+    },
+    "model_disagreement": 0.0433,
+    "holdout_brier": 0.12979,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "cards_o15",
+    "probability": 0.8806,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8512,
+      "catboost": 0.8862,
+      "xgboost": 0.8654
+    },
+    "model_disagreement": 0.035,
+    "holdout_brier": 0.09703,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Preston",
+      "away": "Sheffield United",
+      "display": "Preston North End vs Sheffield United",
+      "kickoff": "2026-11-03T19:45Z",
+      "event_id": "401880180"
+    },
+    "market": "cards_o25",
+    "probability": 0.7289,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.746,
+      "extra_trees": 0.7265,
+      "xgboost": 0.7428
+    },
+    "model_disagreement": 0.0195,
+    "holdout_brier": 0.19211,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "fh_o05",
+    "probability": 0.7515,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7306,
+      "catboost": 0.7509,
+      "xgboost": 0.7461
+    },
+    "model_disagreement": 0.0203,
+    "holdout_brier": 0.20156,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "ft_o15",
+    "probability": 0.818,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8186,
+      "catboost": 0.8009,
+      "extra_trees": 0.8042
+    },
+    "model_disagreement": 0.0177,
+    "holdout_brier": 0.17235,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "ft_o25",
+    "probability": 0.5825,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5931,
+      "logistic": 0.5983,
+      "xgboost": 0.5893
+    },
+    "model_disagreement": 0.009,
+    "holdout_brier": 0.24528,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "btts",
+    "probability": 0.6011,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5811,
+      "logistic": 0.5824,
+      "extra_trees": 0.6112
+    },
+    "model_disagreement": 0.0301,
+    "holdout_brier": 0.2462,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "home_win",
+    "probability": 0.5294,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5155,
+      "logistic": 0.499,
+      "xgboost": 0.509
+    },
+    "model_disagreement": 0.0165,
+    "holdout_brier": 0.23142,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "draw",
+    "probability": 0.2577,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2521,
+      "xgboost": 0.2708,
+      "logistic": 0.2412
+    },
+    "model_disagreement": 0.0296,
+    "holdout_brier": 0.19241,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "away_win",
+    "probability": 0.2454,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.2384,
+      "xgboost": 0.2453,
+      "catboost": 0.2457
+    },
+    "model_disagreement": 0.0073,
+    "holdout_brier": 0.19684,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "dc_1x",
+    "probability": 0.7528,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7619,
+      "xgboost": 0.7547,
+      "catboost": 0.7543
+    },
+    "model_disagreement": 0.0075,
+    "holdout_brier": 0.19692,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "dc_x2",
+    "probability": 0.4724,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4845,
+      "logistic": 0.4999,
+      "xgboost": 0.491
+    },
+    "model_disagreement": 0.0154,
+    "holdout_brier": 0.23148,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "dc_12",
+    "probability": 0.7431,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7479,
+      "xgboost": 0.7292,
+      "logistic": 0.7588
+    },
+    "model_disagreement": 0.0296,
+    "holdout_brier": 0.19239,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "corners_o65",
+    "probability": 0.884,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8734,
+      "catboost": 0.8672,
+      "xgboost": 0.8771
+    },
+    "model_disagreement": 0.0098,
+    "holdout_brier": 0.12979,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "cards_o15",
+    "probability": 0.8928,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8854,
+      "catboost": 0.8776,
+      "xgboost": 0.8805
+    },
+    "model_disagreement": 0.0078,
+    "holdout_brier": 0.09703,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Birmingham",
+      "away": "Millwall",
+      "display": "Birmingham City vs Millwall",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880184"
+    },
+    "market": "cards_o25",
+    "probability": 0.7289,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7346,
+      "extra_trees": 0.7343,
+      "xgboost": 0.7313
+    },
+    "model_disagreement": 0.0032,
+    "holdout_brier": 0.19211,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "fh_o05",
+    "probability": 0.7515,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7391,
+      "catboost": 0.748,
+      "xgboost": 0.7418
+    },
+    "model_disagreement": 0.0089,
+    "holdout_brier": 0.20156,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "ft_o15",
+    "probability": 0.818,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8112,
+      "catboost": 0.7948,
+      "extra_trees": 0.7826
+    },
+    "model_disagreement": 0.0286,
+    "holdout_brier": 0.17235,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "ft_o25",
+    "probability": 0.5825,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5774,
+      "logistic": 0.5886,
+      "xgboost": 0.5576
+    },
+    "model_disagreement": 0.031,
+    "holdout_brier": 0.24528,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "btts",
+    "probability": 0.6011,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5928,
+      "logistic": 0.5588,
+      "extra_trees": 0.5684
+    },
+    "model_disagreement": 0.034,
+    "holdout_brier": 0.2462,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "home_win",
+    "probability": 0.3513,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.3619,
+      "logistic": 0.387,
+      "xgboost": 0.3379
+    },
+    "model_disagreement": 0.0491,
+    "holdout_brier": 0.23142,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "draw",
+    "probability": 0.2577,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2528,
+      "xgboost": 0.2601,
+      "logistic": 0.2322
+    },
+    "model_disagreement": 0.0278,
+    "holdout_brier": 0.19241,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "away_win",
+    "probability": 0.3387,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.3569,
+      "xgboost": 0.3326,
+      "catboost": 0.3456
+    },
+    "model_disagreement": 0.0243,
+    "holdout_brier": 0.19684,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "dc_1x",
+    "probability": 0.6624,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6436,
+      "xgboost": 0.6674,
+      "catboost": 0.6544
+    },
+    "model_disagreement": 0.0238,
+    "holdout_brier": 0.19692,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "dc_x2",
+    "probability": 0.65,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6381,
+      "logistic": 0.6128,
+      "xgboost": 0.6621
+    },
+    "model_disagreement": 0.0493,
+    "holdout_brier": 0.23148,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "dc_12",
+    "probability": 0.7431,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7472,
+      "xgboost": 0.7399,
+      "logistic": 0.7674
+    },
+    "model_disagreement": 0.0275,
+    "holdout_brier": 0.19239,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "corners_o65",
+    "probability": 0.884,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.864,
+      "catboost": 0.8576,
+      "xgboost": 0.8822
+    },
+    "model_disagreement": 0.0246,
+    "holdout_brier": 0.12979,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "cards_o15",
+    "probability": 0.8806,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8816,
+      "catboost": 0.876,
+      "xgboost": 0.8616
+    },
+    "model_disagreement": 0.0199,
+    "holdout_brier": 0.09703,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Brom",
+      "away": "Southampton",
+      "display": "West Bromwich Albion vs Southampton",
+      "kickoff": "2026-11-03T20:00Z",
+      "event_id": "401880177"
+    },
+    "market": "cards_o25",
+    "probability": 0.7289,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.728,
+      "extra_trees": 0.7224,
+      "xgboost": 0.7154
+    },
+    "model_disagreement": 0.0126,
+    "holdout_brier": 0.19211,
+    "status": "REJECTED"
+  }
+]
