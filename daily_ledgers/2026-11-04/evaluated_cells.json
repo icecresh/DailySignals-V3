@@ -1,0 +1,977 @@
+[
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "fh_o05",
+    "probability": 0.7984,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7529,
+      "catboost": 0.7626,
+      "xgboost": 0.7714
+    },
+    "model_disagreement": 0.0185,
+    "holdout_brier": 0.20156,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "ft_o15",
+    "probability": 0.818,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8376,
+      "catboost": 0.814,
+      "extra_trees": 0.7945
+    },
+    "model_disagreement": 0.0431,
+    "holdout_brier": 0.17235,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "ft_o25",
+    "probability": 0.7234,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.615,
+      "logistic": 0.6331,
+      "xgboost": 0.6033
+    },
+    "model_disagreement": 0.0299,
+    "holdout_brier": 0.24528,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "btts",
+    "probability": 0.6011,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6011,
+      "logistic": 0.605,
+      "extra_trees": 0.6114
+    },
+    "model_disagreement": 0.0103,
+    "holdout_brier": 0.2462,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "home_win",
+    "probability": 0.2068,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.3022,
+      "logistic": 0.2931,
+      "xgboost": 0.2764
+    },
+    "model_disagreement": 0.0259,
+    "holdout_brier": 0.23142,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "draw",
+    "probability": 0.2051,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2464,
+      "xgboost": 0.23,
+      "logistic": 0.2333
+    },
+    "model_disagreement": 0.0164,
+    "holdout_brier": 0.19241,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "away_win",
+    "probability": 0.5294,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.4638,
+      "xgboost": 0.4791,
+      "catboost": 0.4427
+    },
+    "model_disagreement": 0.0364,
+    "holdout_brier": 0.19684,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "dc_1x",
+    "probability": 0.4706,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.5369,
+      "xgboost": 0.5209,
+      "catboost": 0.5573
+    },
+    "model_disagreement": 0.0364,
+    "holdout_brier": 0.19692,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "dc_x2",
+    "probability": 0.7928,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6978,
+      "logistic": 0.7057,
+      "xgboost": 0.7236
+    },
+    "model_disagreement": 0.0259,
+    "holdout_brier": 0.23148,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "dc_12",
+    "probability": 0.7908,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7536,
+      "xgboost": 0.77,
+      "logistic": 0.7668
+    },
+    "model_disagreement": 0.0164,
+    "holdout_brier": 0.19239,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "corners_o65",
+    "probability": 0.8846,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8928,
+      "catboost": 0.8677,
+      "xgboost": 0.8837
+    },
+    "model_disagreement": 0.0251,
+    "holdout_brier": 0.12979,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "cards_o15",
+    "probability": 0.8928,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.886,
+      "catboost": 0.8811,
+      "xgboost": 0.878
+    },
+    "model_disagreement": 0.0079,
+    "holdout_brier": 0.09703,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Cardiff",
+      "away": "West Ham",
+      "display": "Cardiff City vs West Ham United",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880175"
+    },
+    "market": "cards_o25",
+    "probability": 0.7289,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7401,
+      "extra_trees": 0.7573,
+      "xgboost": 0.7347
+    },
+    "model_disagreement": 0.0226,
+    "holdout_brier": 0.19211,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "fh_o05",
+    "probability": 0.7515,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7435,
+      "catboost": 0.7435,
+      "xgboost": 0.7542
+    },
+    "model_disagreement": 0.0108,
+    "holdout_brier": 0.20156,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "ft_o15",
+    "probability": 0.818,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7958,
+      "catboost": 0.7952,
+      "extra_trees": 0.8186
+    },
+    "model_disagreement": 0.0234,
+    "holdout_brier": 0.17235,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "ft_o25",
+    "probability": 0.5825,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5807,
+      "logistic": 0.569,
+      "xgboost": 0.5746
+    },
+    "model_disagreement": 0.0117,
+    "holdout_brier": 0.24528,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "btts",
+    "probability": 0.6011,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5847,
+      "logistic": 0.555,
+      "extra_trees": 0.5784
+    },
+    "model_disagreement": 0.0297,
+    "holdout_brier": 0.2462,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "home_win",
+    "probability": 0.2068,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2555,
+      "logistic": 0.2697,
+      "xgboost": 0.262
+    },
+    "model_disagreement": 0.0142,
+    "holdout_brier": 0.23142,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "draw",
+    "probability": 0.2577,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2494,
+      "xgboost": 0.2334,
+      "logistic": 0.2338
+    },
+    "model_disagreement": 0.0161,
+    "holdout_brier": 0.19241,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "away_win",
+    "probability": 0.5634,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.5013,
+      "xgboost": 0.5646,
+      "catboost": 0.5637
+    },
+    "model_disagreement": 0.0634,
+    "holdout_brier": 0.19684,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "dc_1x",
+    "probability": 0.4366,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.4982,
+      "xgboost": 0.4354,
+      "catboost": 0.4363
+    },
+    "model_disagreement": 0.0628,
+    "holdout_brier": 0.19692,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "dc_x2",
+    "probability": 0.7928,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7445,
+      "logistic": 0.7304,
+      "xgboost": 0.738
+    },
+    "model_disagreement": 0.014,
+    "holdout_brier": 0.23148,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "dc_12",
+    "probability": 0.7431,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7506,
+      "xgboost": 0.7666,
+      "logistic": 0.7659
+    },
+    "model_disagreement": 0.0161,
+    "holdout_brier": 0.19239,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "corners_o65",
+    "probability": 0.884,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.875,
+      "catboost": 0.8551,
+      "xgboost": 0.853
+    },
+    "model_disagreement": 0.022,
+    "holdout_brier": 0.12979,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "cards_o15",
+    "probability": 0.8806,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8685,
+      "catboost": 0.8583,
+      "xgboost": 0.8547
+    },
+    "model_disagreement": 0.0138,
+    "holdout_brier": 0.09703,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wrexham",
+      "away": "Middlesbrough",
+      "display": "Wrexham vs Middlesbrough",
+      "kickoff": "2026-11-04T19:45Z",
+      "event_id": "401880173"
+    },
+    "market": "cards_o25",
+    "probability": 0.7281,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6841,
+      "extra_trees": 0.6872,
+      "xgboost": 0.6698
+    },
+    "model_disagreement": 0.0174,
+    "holdout_brier": 0.19211,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "fh_o05",
+    "probability": 0.7458,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7348,
+      "catboost": 0.7329,
+      "xgboost": 0.7081
+    },
+    "model_disagreement": 0.0268,
+    "holdout_brier": 0.20156,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "ft_o15",
+    "probability": 0.818,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7843,
+      "catboost": 0.7875,
+      "extra_trees": 0.794
+    },
+    "model_disagreement": 0.0097,
+    "holdout_brier": 0.17235,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "ft_o25",
+    "probability": 0.5719,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5733,
+      "logistic": 0.5546,
+      "xgboost": 0.5566
+    },
+    "model_disagreement": 0.0187,
+    "holdout_brier": 0.24528,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "btts",
+    "probability": 0.5683,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5807,
+      "logistic": 0.5424,
+      "extra_trees": 0.5673
+    },
+    "model_disagreement": 0.0382,
+    "holdout_brier": 0.2462,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "home_win",
+    "probability": 0.3513,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.3589,
+      "logistic": 0.3559,
+      "xgboost": 0.3601
+    },
+    "model_disagreement": 0.0042,
+    "holdout_brier": 0.23142,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "draw",
+    "probability": 0.2577,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2593,
+      "xgboost": 0.2522,
+      "logistic": 0.2425
+    },
+    "model_disagreement": 0.0168,
+    "holdout_brier": 0.19241,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "away_win",
+    "probability": 0.3675,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.3821,
+      "xgboost": 0.3955,
+      "catboost": 0.3808
+    },
+    "model_disagreement": 0.0147,
+    "holdout_brier": 0.19684,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "dc_1x",
+    "probability": 0.6303,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6178,
+      "xgboost": 0.6045,
+      "catboost": 0.6192
+    },
+    "model_disagreement": 0.0147,
+    "holdout_brier": 0.19692,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "dc_x2",
+    "probability": 0.65,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6411,
+      "logistic": 0.6448,
+      "xgboost": 0.6399
+    },
+    "model_disagreement": 0.0049,
+    "holdout_brier": 0.23148,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "dc_12",
+    "probability": 0.7431,
+    "models": [
+      "catboost",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7407,
+      "xgboost": 0.7478,
+      "logistic": 0.7572
+    },
+    "model_disagreement": 0.0165,
+    "holdout_brier": 0.19239,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "corners_o65",
+    "probability": 0.884,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8646,
+      "catboost": 0.8581,
+      "xgboost": 0.8582
+    },
+    "model_disagreement": 0.0065,
+    "holdout_brier": 0.12979,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "cards_o15",
+    "probability": 0.8806,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8731,
+      "catboost": 0.8753,
+      "xgboost": 0.8815
+    },
+    "model_disagreement": 0.0084,
+    "holdout_brier": 0.09703,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bristol City",
+      "away": "Wolves",
+      "display": "Bristol City vs Wolverhampton Wanderers",
+      "kickoff": "2026-11-04T20:00Z",
+      "event_id": "401880176"
+    },
+    "market": "cards_o25",
+    "probability": 0.7281,
+    "models": [
+      "catboost",
+      "extra_trees",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7134,
+      "extra_trees": 0.7113,
+      "xgboost": 0.7077
+    },
+    "model_disagreement": 0.0057,
+    "holdout_brier": 0.19211,
+    "status": "REJECTED"
+  }
+]
