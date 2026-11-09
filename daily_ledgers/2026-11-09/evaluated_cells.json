@@ -1,0 +1,327 @@
+[
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "fh_o05",
+    "probability": 0.6978,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6743,
+      "xgboost": 0.6896,
+      "logistic": 0.6948
+    },
+    "model_disagreement": 0.0205,
+    "holdout_brier": 0.20268,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "ft_o15",
+    "probability": 0.7343,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7442,
+      "catboost": 0.7296,
+      "xgboost": 0.745
+    },
+    "model_disagreement": 0.0154,
+    "holdout_brier": 0.17375,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "ft_o25",
+    "probability": 0.5082,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4623,
+      "logistic": 0.5022,
+      "xgboost": 0.4895
+    },
+    "model_disagreement": 0.0399,
+    "holdout_brier": 0.24555,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "btts",
+    "probability": 0.5689,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5566,
+      "logistic": 0.5532,
+      "extra_trees": 0.5618
+    },
+    "model_disagreement": 0.0086,
+    "holdout_brier": 0.24651,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "home_win",
+    "probability": 0.3609,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.3941,
+      "logistic": 0.3795,
+      "xgboost": 0.3939
+    },
+    "model_disagreement": 0.0146,
+    "holdout_brier": 0.23033,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "draw",
+    "probability": 0.3689,
+    "models": [
+      "catboost",
+      "logistic",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "catboost": 0.3159,
+      "logistic": 0.2884,
+      "hist_gradient_boosting": 0.3851
+    },
+    "model_disagreement": 0.0967,
+    "holdout_brier": 0.19177,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "away_win",
+    "probability": 0.2955,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.3136,
+      "xgboost": 0.2668,
+      "catboost": 0.2932
+    },
+    "model_disagreement": 0.0468,
+    "holdout_brier": 0.19764,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "dc_1x",
+    "probability": 0.7041,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6868,
+      "xgboost": 0.7332,
+      "catboost": 0.7068
+    },
+    "model_disagreement": 0.0464,
+    "holdout_brier": 0.19758,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "dc_x2",
+    "probability": 0.6392,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6059,
+      "logistic": 0.6207,
+      "xgboost": 0.6061
+    },
+    "model_disagreement": 0.0148,
+    "holdout_brier": 0.23032,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "dc_12",
+    "probability": 0.6782,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6841,
+      "logistic": 0.7112,
+      "xgboost": 0.6756
+    },
+    "model_disagreement": 0.0355,
+    "holdout_brier": 0.19166,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "corners_o65",
+    "probability": 0.8133,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8235,
+      "catboost": 0.818,
+      "xgboost": 0.8363
+    },
+    "model_disagreement": 0.0183,
+    "holdout_brier": 0.13049,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "cards_o15",
+    "probability": 0.9622,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.9453,
+      "hist_gradient_boosting": 0.9518,
+      "catboost": 0.9241
+    },
+    "model_disagreement": 0.0277,
+    "holdout_brier": 0.09856,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "cards_o25",
+    "probability": 0.8974,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8396,
+      "catboost": 0.8302,
+      "xgboost": 0.8608
+    },
+    "model_disagreement": 0.0306,
+    "holdout_brier": 0.19169,
+    "status": "QUALIFIED"
+  }
+]

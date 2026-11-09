@@ -1,0 +1,1050 @@
+{
+  "date": "2026-11-09",
+  "as_of_utc": "2026-11-09T12:55:30.731811+00:00",
+  "status": "RESEARCH_ONLY_NOT_PRODUCTION_AUTHORIZED",
+  "sources": [
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E0.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E0.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E0.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/E0.csv",
+      "rows": 100
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E1.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E1.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E1.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/E1.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E2.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E2.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E2.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/E2.csv",
+      "rows": 158
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/E3.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/E3.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/E3.csv",
+      "rows": 552
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/E3.csv",
+      "rows": 164
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/D1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/D1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/D1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/D1.csv",
+      "rows": 81
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/D2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/D2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/D2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/D2.csv",
+      "rows": 99
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SP1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SP1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SP1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SP1.csv",
+      "rows": 119
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SP2.csv",
+      "rows": 462
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SP2.csv",
+      "rows": 462
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SP2.csv",
+      "rows": 462
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SP2.csv",
+      "rows": 138
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/I1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/I1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/I1.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/I1.csv",
+      "rows": 110
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/I2.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/I2.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/I2.csv",
+      "rows": 380
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/I2.csv",
+      "rows": 110
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/F1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/F1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/F1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/F1.csv",
+      "rows": 90
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/F2.csv",
+      "rows": 379
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/F2.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/F2.csv",
+      "rows": 305
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/F2.csv",
+      "rows": 108
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/N1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/N1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/N1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/N1.csv",
+      "rows": 108
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/B1.csv",
+      "rows": 312
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/B1.csv",
+      "rows": 312
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/B1.csv",
+      "rows": 311
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/B1.csv",
+      "rows": 99
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/P1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/P1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/P1.csv",
+      "rows": 306
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/P1.csv",
+      "rows": 98
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC0.csv",
+      "rows": 228
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC0.csv",
+      "rows": 228
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC0.csv",
+      "rows": 228
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SC0.csv",
+      "rows": 75
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC1.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC1.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC1.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SC1.csv",
+      "rows": 69
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC2.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC2.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC2.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SC2.csv",
+      "rows": 69
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2324/SC3.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2425/SC3.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2526/SC3.csv",
+      "rows": 180
+    },
+    {
+      "url": "https://www.football-data.co.uk/mmz4281/2627/SC3.csv",
+      "rows": 65
+    }
+  ],
+  "warnings": [],
+  "historical_rows": 21773,
+  "feature_rows": 19849,
+  "split_dates": {
+    "calibration_start": "2025-08-20",
+    "holdout_start": "2026-02-24"
+  },
+  "evaluations": {
+    "fh_o05": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11564,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "extra_trees": 0.20582,
+        "xgboost": 0.20608,
+        "logistic": 0.20609,
+        "catboost": 0.20617,
+        "lightgbm": 0.20666,
+        "random_forest": 0.20691,
+        "hist_gradient_boosting": 0.20714,
+        "poisson": 0.2078
+      },
+      "selected": [
+        "extra_trees",
+        "xgboost",
+        "logistic"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.20171,
+        "log_loss": 0.59248,
+        "observed": 0.71618,
+        "predicted": 0.7087
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.20268,
+        "log_loss": 0.59637,
+        "observed": 0.71618,
+        "predicted": 0.71592
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "ft_o15": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11566,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.18549,
+        "catboost": 0.18563,
+        "xgboost": 0.18617,
+        "extra_trees": 0.18634,
+        "lightgbm": 0.18692,
+        "poisson": 0.18753,
+        "random_forest": 0.18803,
+        "hist_gradient_boosting": 0.18814
+      },
+      "selected": [
+        "logistic",
+        "catboost",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.17272,
+        "log_loss": 0.52839,
+        "observed": 0.77574,
+        "predicted": 0.75549
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.17375,
+        "log_loss": 0.53308,
+        "observed": 0.77574,
+        "predicted": 0.76153
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "ft_o25": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11566,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.24786,
+        "logistic": 0.24792,
+        "xgboost": 0.24831,
+        "extra_trees": 0.24843,
+        "lightgbm": 0.2489,
+        "hist_gradient_boosting": 0.24891,
+        "random_forest": 0.25174,
+        "poisson": 0.25251
+      },
+      "selected": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.24442,
+        "log_loss": 0.68189,
+        "observed": 0.53995,
+        "predicted": 0.51797
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.24555,
+        "log_loss": 0.68751,
+        "observed": 0.53995,
+        "predicted": 0.53107
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "btts": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11566,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.24793,
+        "logistic": 0.24796,
+        "extra_trees": 0.24865,
+        "xgboost": 0.24891,
+        "poisson": 0.24944,
+        "hist_gradient_boosting": 0.24968,
+        "lightgbm": 0.2501,
+        "random_forest": 0.2503
+      },
+      "selected": [
+        "catboost",
+        "logistic",
+        "extra_trees"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.24631,
+        "log_loss": 0.68572,
+        "observed": 0.55515,
+        "predicted": 0.53488
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.24651,
+        "log_loss": 0.68722,
+        "observed": 0.55515,
+        "predicted": 0.54462
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "home_win": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11566,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.22874,
+        "logistic": 0.22901,
+        "xgboost": 0.2292,
+        "lightgbm": 0.22922,
+        "extra_trees": 0.2295,
+        "random_forest": 0.22969,
+        "hist_gradient_boosting": 0.23048,
+        "poisson": 0.23421
+      },
+      "selected": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.22931,
+        "log_loss": 0.65018,
+        "observed": 0.43725,
+        "predicted": 0.43291
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.23033,
+        "log_loss": 0.65347,
+        "observed": 0.43725,
+        "predicted": 0.42908
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "draw": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11566,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.19438,
+        "logistic": 0.19447,
+        "hist_gradient_boosting": 0.19451,
+        "xgboost": 0.19465,
+        "extra_trees": 0.19481,
+        "lightgbm": 0.19481,
+        "poisson": 0.19522,
+        "random_forest": 0.19606
+      },
+      "selected": [
+        "catboost",
+        "logistic",
+        "hist_gradient_boosting"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.19133,
+        "log_loss": 0.57067,
+        "observed": 0.2576,
+        "predicted": 0.26153
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.19177,
+        "log_loss": 0.57505,
+        "observed": 0.2576,
+        "predicted": 0.25921
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "away_win": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11566,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.20063,
+        "xgboost": 0.20074,
+        "catboost": 0.20081,
+        "extra_trees": 0.2012,
+        "lightgbm": 0.20134,
+        "hist_gradient_boosting": 0.20221,
+        "random_forest": 0.20294,
+        "poisson": 0.20689
+      },
+      "selected": [
+        "logistic",
+        "xgboost",
+        "catboost"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.19774,
+        "log_loss": 0.58067,
+        "observed": 0.30515,
+        "predicted": 0.30714
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.19764,
+        "log_loss": 0.58231,
+        "observed": 0.30515,
+        "predicted": 0.30949
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "dc_1x": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11566,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.20062,
+        "xgboost": 0.20074,
+        "catboost": 0.20081,
+        "extra_trees": 0.2012,
+        "lightgbm": 0.20134,
+        "hist_gradient_boosting": 0.2022,
+        "random_forest": 0.20294,
+        "poisson": 0.20689
+      },
+      "selected": [
+        "logistic",
+        "xgboost",
+        "catboost"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.19774,
+        "log_loss": 0.58067,
+        "observed": 0.69485,
+        "predicted": 0.69286
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.19758,
+        "log_loss": 0.58219,
+        "observed": 0.69485,
+        "predicted": 0.69051
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "dc_x2": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11566,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.22874,
+        "logistic": 0.22901,
+        "xgboost": 0.2292,
+        "lightgbm": 0.22922,
+        "extra_trees": 0.2295,
+        "random_forest": 0.22969,
+        "hist_gradient_boosting": 0.23105,
+        "poisson": 0.23421
+      },
+      "selected": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.22931,
+        "log_loss": 0.65018,
+        "observed": 0.56275,
+        "predicted": 0.56709
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.23032,
+        "log_loss": 0.65345,
+        "observed": 0.56275,
+        "predicted": 0.57101
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "dc_12": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11566,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "catboost": 0.19438,
+        "logistic": 0.19448,
+        "xgboost": 0.19465,
+        "extra_trees": 0.19481,
+        "lightgbm": 0.19481,
+        "hist_gradient_boosting": 0.19486,
+        "poisson": 0.19522,
+        "random_forest": 0.19606
+      },
+      "selected": [
+        "catboost",
+        "logistic",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.19128,
+        "log_loss": 0.57054,
+        "observed": 0.7424,
+        "predicted": 0.7387
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.19166,
+        "log_loss": 0.57466,
+        "observed": 0.7424,
+        "predicted": 0.74133
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "corners_o65": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11563,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "logistic": 0.13804,
+        "catboost": 0.13816,
+        "xgboost": 0.13818,
+        "lightgbm": 0.13822,
+        "hist_gradient_boosting": 0.1384,
+        "extra_trees": 0.13869,
+        "random_forest": 0.1387,
+        "poisson": 0.14727
+      },
+      "selected": [
+        "logistic",
+        "catboost",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.13013,
+        "log_loss": 0.42808,
+        "observed": 0.8451,
+        "predicted": 0.8393
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.13049,
+        "log_loss": 0.43008,
+        "observed": 0.8451,
+        "predicted": 0.84409
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "cards_o15": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11564,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "extra_trees": 0.08387,
+        "hist_gradient_boosting": 0.08389,
+        "catboost": 0.08398,
+        "xgboost": 0.08407,
+        "logistic": 0.08417,
+        "lightgbm": 0.08433,
+        "random_forest": 0.08464,
+        "poisson": 0.08559
+      },
+      "selected": [
+        "extra_trees",
+        "hist_gradient_boosting",
+        "catboost"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.09824,
+        "log_loss": 0.34483,
+        "observed": 0.88799,
+        "predicted": 0.88438
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.09856,
+        "log_loss": 0.34671,
+        "observed": 0.88799,
+        "predicted": 0.90288
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    },
+    "cards_o25": {
+      "status": "VALIDATED_RESEARCH",
+      "sizes": {
+        "train": 11564,
+        "calibration": 4203,
+        "holdout": 4080
+      },
+      "candidate_calibration_brier": {
+        "extra_trees": 0.17021,
+        "catboost": 0.17028,
+        "xgboost": 0.1707,
+        "hist_gradient_boosting": 0.17119,
+        "lightgbm": 0.17123,
+        "logistic": 0.17125,
+        "random_forest": 0.17176,
+        "poisson": 0.17617
+      },
+      "selected": [
+        "extra_trees",
+        "catboost",
+        "xgboost"
+      ],
+      "holdout_raw": {
+        "n": 4080,
+        "brier": 0.19016,
+        "log_loss": 0.56602,
+        "observed": 0.73529,
+        "predicted": 0.74144
+      },
+      "holdout_calibrated": {
+        "n": 4080,
+        "brier": 0.19169,
+        "log_loss": 0.57004,
+        "observed": 0.73529,
+        "predicted": 0.77234
+      },
+      "calibration": "isotonic trained only on chronological calibration slice"
+    }
+  },
+  "fixtures_seen": 1,
+  "fixture_issues": [
+    {
+      "league": "E0",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "E1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "E2",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "E3",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "D1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "D2",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "SP1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "SP2",
+      "fixture": "CD Sabadell vs Real Sociedad II",
+      "error": "UNMAPPED_TEAM",
+      "unmapped_home": "CD Sabadell",
+      "unmapped_away": "Real Sociedad II"
+    },
+    {
+      "league": "I1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "I2",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "F1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "F2",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "N1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "B1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "P1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "SC0",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "SC1",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "SC2",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    },
+    {
+      "league": "SC3",
+      "error": "NO_SCHEDULED_EVENTS",
+      "severity": "INFO"
+    }
+  ],
+  "competitions_configured": [
+    "E0",
+    "E1",
+    "E2",
+    "E3",
+    "D1",
+    "D2",
+    "SP1",
+    "SP2",
+    "I1",
+    "I2",
+    "F1",
+    "F2",
+    "N1",
+    "B1",
+    "P1",
+    "SC0",
+    "SC1",
+    "SC2",
+    "SC3"
+  ],
+  "fixture_exclusion_counts": {
+    "NO_SCHEDULED_EVENTS": 18,
+    "UNMAPPED_TEAM": 1
+  },
+  "evaluated_cells": 13,
+  "research_qualified": [
+    {
+      "fixture": {
+        "league": "SP2",
+        "home": "Las Palmas",
+        "away": "Eldense",
+        "display": "Las Palmas vs Eldense",
+        "kickoff": "2026-11-09T19:30Z",
+        "event_id": "401883140"
+      },
+      "market": "ft_o15",
+      "probability": 0.7343,
+      "models": [
+        "logistic",
+        "catboost",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "logistic": 0.7442,
+        "catboost": 0.7296,
+        "xgboost": 0.745
+      },
+      "model_disagreement": 0.0154,
+      "holdout_brier": 0.17375,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SP2",
+        "home": "Las Palmas",
+        "away": "Eldense",
+        "display": "Las Palmas vs Eldense",
+        "kickoff": "2026-11-09T19:30Z",
+        "event_id": "401883140"
+      },
+      "market": "dc_1x",
+      "probability": 0.7041,
+      "models": [
+        "logistic",
+        "xgboost",
+        "catboost"
+      ],
+      "model_probabilities": {
+        "logistic": 0.6868,
+        "xgboost": 0.7332,
+        "catboost": 0.7068
+      },
+      "model_disagreement": 0.0464,
+      "holdout_brier": 0.19758,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SP2",
+        "home": "Las Palmas",
+        "away": "Eldense",
+        "display": "Las Palmas vs Eldense",
+        "kickoff": "2026-11-09T19:30Z",
+        "event_id": "401883140"
+      },
+      "market": "corners_o65",
+      "probability": 0.8133,
+      "models": [
+        "logistic",
+        "catboost",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "logistic": 0.8235,
+        "catboost": 0.818,
+        "xgboost": 0.8363
+      },
+      "model_disagreement": 0.0183,
+      "holdout_brier": 0.13049,
+      "status": "QUALIFIED"
+    },
+    {
+      "fixture": {
+        "league": "SP2",
+        "home": "Las Palmas",
+        "away": "Eldense",
+        "display": "Las Palmas vs Eldense",
+        "kickoff": "2026-11-09T19:30Z",
+        "event_id": "401883140"
+      },
+      "market": "cards_o25",
+      "probability": 0.8974,
+      "models": [
+        "extra_trees",
+        "catboost",
+        "xgboost"
+      ],
+      "model_probabilities": {
+        "extra_trees": 0.8396,
+        "catboost": 0.8302,
+        "xgboost": 0.8608
+      },
+      "model_disagreement": 0.0306,
+      "holdout_brier": 0.19169,
+      "status": "QUALIFIED"
+    }
+  ],
+  "publication_authorized": false,
+  "notes": [
+    "Models calibrated on a middle time slice, tested on a later holdout.",
+    "Models are research candidates, not independently approved for publication.",
+    "Cards are yellow cards only; verify settlement conventions.",
+    "Only verified ESPN pre-match fixtures with exact mapped teams evaluated.",
+    "No historical odds used."
+  ]
+}

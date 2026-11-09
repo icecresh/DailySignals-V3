@@ -1,0 +1,102 @@
+[
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "ft_o15",
+    "probability": 0.7343,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7442,
+      "catboost": 0.7296,
+      "xgboost": 0.745
+    },
+    "model_disagreement": 0.0154,
+    "holdout_brier": 0.17375,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "dc_1x",
+    "probability": 0.7041,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6868,
+      "xgboost": 0.7332,
+      "catboost": 0.7068
+    },
+    "model_disagreement": 0.0464,
+    "holdout_brier": 0.19758,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "corners_o65",
+    "probability": 0.8133,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8235,
+      "catboost": 0.818,
+      "xgboost": 0.8363
+    },
+    "model_disagreement": 0.0183,
+    "holdout_brier": 0.13049,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Las Palmas",
+      "away": "Eldense",
+      "display": "Las Palmas vs Eldense",
+      "kickoff": "2026-11-09T19:30Z",
+      "event_id": "401883140"
+    },
+    "market": "cards_o25",
+    "probability": 0.8974,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8396,
+      "catboost": 0.8302,
+      "xgboost": 0.8608
+    },
+    "model_disagreement": 0.0306,
+    "holdout_brier": 0.19169,
+    "status": "QUALIFIED"
+  }
+]
