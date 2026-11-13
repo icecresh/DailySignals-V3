@@ -1,0 +1,77 @@
+[
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Leganes",
+      "away": "Burgos",
+      "display": "Legan\u00e9s vs Burgos",
+      "kickoff": "2026-11-13T19:30Z",
+      "event_id": "401883136"
+    },
+    "market": "dc_x2",
+    "probability": 0.735,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6868,
+      "logistic": 0.7346,
+      "xgboost": 0.7153
+    },
+    "model_disagreement": 0.0478,
+    "holdout_brier": 0.23036,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Leganes",
+      "away": "Burgos",
+      "display": "Legan\u00e9s vs Burgos",
+      "kickoff": "2026-11-13T19:30Z",
+      "event_id": "401883136"
+    },
+    "market": "corners_o65",
+    "probability": 0.8133,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7957,
+      "catboost": 0.8019,
+      "xgboost": 0.8039
+    },
+    "model_disagreement": 0.0082,
+    "holdout_brier": 0.13045,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Leganes",
+      "away": "Burgos",
+      "display": "Legan\u00e9s vs Burgos",
+      "kickoff": "2026-11-13T19:30Z",
+      "event_id": "401883136"
+    },
+    "market": "cards_o25",
+    "probability": 0.8974,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8702,
+      "catboost": 0.8483,
+      "xgboost": 0.8778
+    },
+    "model_disagreement": 0.0296,
+    "holdout_brier": 0.1916,
+    "status": "QUALIFIED"
+  }
+]
