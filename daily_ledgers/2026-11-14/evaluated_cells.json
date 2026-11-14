@@ -1,0 +1,1302 @@
+[
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "fh_o05",
+    "probability": 0.7596,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7463,
+      "xgboost": 0.742,
+      "logistic": 0.7151
+    },
+    "model_disagreement": 0.0312,
+    "holdout_brier": 0.2028,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "ft_o15",
+    "probability": 0.7343,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7651,
+      "catboost": 0.75,
+      "xgboost": 0.754
+    },
+    "model_disagreement": 0.015,
+    "holdout_brier": 0.17381,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "ft_o25",
+    "probability": 0.5232,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.516,
+      "logistic": 0.5362,
+      "xgboost": 0.5145
+    },
+    "model_disagreement": 0.0217,
+    "holdout_brier": 0.24554,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "btts",
+    "probability": 0.5132,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5129,
+      "logistic": 0.5071,
+      "extra_trees": 0.5311
+    },
+    "model_disagreement": 0.0239,
+    "holdout_brier": 0.24654,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "home_win",
+    "probability": 0.4726,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.428,
+      "logistic": 0.4197,
+      "xgboost": 0.4521
+    },
+    "model_disagreement": 0.0324,
+    "holdout_brier": 0.23037,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "draw",
+    "probability": 0.2699,
+    "models": [
+      "catboost",
+      "logistic",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2584,
+      "logistic": 0.2545,
+      "hist_gradient_boosting": 0.2566
+    },
+    "model_disagreement": 0.0039,
+    "holdout_brier": 0.1918,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "away_win",
+    "probability": 0.2955,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.3039,
+      "xgboost": 0.2796,
+      "catboost": 0.2864
+    },
+    "model_disagreement": 0.0242,
+    "holdout_brier": 0.19757,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "dc_1x",
+    "probability": 0.7041,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6961,
+      "xgboost": 0.7204,
+      "catboost": 0.7136
+    },
+    "model_disagreement": 0.0243,
+    "holdout_brier": 0.19751,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "dc_x2",
+    "probability": 0.5279,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.572,
+      "logistic": 0.5803,
+      "xgboost": 0.5479
+    },
+    "model_disagreement": 0.0324,
+    "holdout_brier": 0.23036,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "dc_12",
+    "probability": 0.7274,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7416,
+      "logistic": 0.7446,
+      "xgboost": 0.7349
+    },
+    "model_disagreement": 0.0097,
+    "holdout_brier": 0.1917,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "corners_o65",
+    "probability": 0.8822,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.9064,
+      "catboost": 0.87,
+      "xgboost": 0.88
+    },
+    "model_disagreement": 0.0363,
+    "holdout_brier": 0.13045,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "cards_o15",
+    "probability": 0.8797,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8597,
+      "hist_gradient_boosting": 0.8884,
+      "catboost": 0.8711
+    },
+    "model_disagreement": 0.0287,
+    "holdout_brier": 0.09851,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "AFC Wimbledon",
+      "away": "Blackpool",
+      "display": "AFC Wimbledon vs Blackpool",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401880754"
+    },
+    "market": "cards_o25",
+    "probability": 0.7249,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7007,
+      "catboost": 0.6993,
+      "xgboost": 0.6993
+    },
+    "model_disagreement": 0.0015,
+    "holdout_brier": 0.1916,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "fh_o05",
+    "probability": 0.731,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7229,
+      "xgboost": 0.729,
+      "logistic": 0.72
+    },
+    "model_disagreement": 0.009,
+    "holdout_brier": 0.2028,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "ft_o15",
+    "probability": 0.7714,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7565,
+      "catboost": 0.7589,
+      "xgboost": 0.7657
+    },
+    "model_disagreement": 0.0092,
+    "holdout_brier": 0.17381,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "ft_o25",
+    "probability": 0.5232,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5209,
+      "logistic": 0.5334,
+      "xgboost": 0.5455
+    },
+    "model_disagreement": 0.0246,
+    "holdout_brier": 0.24554,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "btts",
+    "probability": 0.5689,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5584,
+      "logistic": 0.5683,
+      "extra_trees": 0.5273
+    },
+    "model_disagreement": 0.041,
+    "holdout_brier": 0.24654,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "home_win",
+    "probability": 0.5659,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5829,
+      "logistic": 0.5731,
+      "xgboost": 0.6319
+    },
+    "model_disagreement": 0.0589,
+    "holdout_brier": 0.23037,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "draw",
+    "probability": 0.2686,
+    "models": [
+      "catboost",
+      "logistic",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2485,
+      "logistic": 0.2788,
+      "hist_gradient_boosting": 0.2064
+    },
+    "model_disagreement": 0.0724,
+    "holdout_brier": 0.1918,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "away_win",
+    "probability": 0.1854,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.1602,
+      "xgboost": 0.227,
+      "catboost": 0.2119
+    },
+    "model_disagreement": 0.0668,
+    "holdout_brier": 0.19757,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "dc_1x",
+    "probability": 0.8146,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8396,
+      "xgboost": 0.773,
+      "catboost": 0.7881
+    },
+    "model_disagreement": 0.0666,
+    "holdout_brier": 0.19751,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "dc_x2",
+    "probability": 0.4331,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4171,
+      "logistic": 0.4265,
+      "xgboost": 0.3681
+    },
+    "model_disagreement": 0.0584,
+    "holdout_brier": 0.23036,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "dc_12",
+    "probability": 0.764,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7515,
+      "logistic": 0.7204,
+      "xgboost": 0.8168
+    },
+    "model_disagreement": 0.0964,
+    "holdout_brier": 0.1917,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "corners_o65",
+    "probability": 0.8133,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8066,
+      "catboost": 0.8022,
+      "xgboost": 0.799
+    },
+    "model_disagreement": 0.0076,
+    "holdout_brier": 0.13045,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "cards_o15",
+    "probability": 0.9375,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.909,
+      "hist_gradient_boosting": 0.9336,
+      "catboost": 0.9169
+    },
+    "model_disagreement": 0.0246,
+    "holdout_brier": 0.09851,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Almeria",
+      "away": "Andorra",
+      "display": "Almer\u00eda vs FC Andorra",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883118"
+    },
+    "market": "cards_o25",
+    "probability": 0.8974,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7943,
+      "catboost": 0.8238,
+      "xgboost": 0.8591
+    },
+    "model_disagreement": 0.0649,
+    "holdout_brier": 0.1916,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "fh_o05",
+    "probability": 0.6978,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6844,
+      "xgboost": 0.6854,
+      "logistic": 0.6713
+    },
+    "model_disagreement": 0.0141,
+    "holdout_brier": 0.2028,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "ft_o15",
+    "probability": 0.7343,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.735,
+      "catboost": 0.7435,
+      "xgboost": 0.7457
+    },
+    "model_disagreement": 0.0107,
+    "holdout_brier": 0.17381,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "ft_o25",
+    "probability": 0.5082,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5043,
+      "logistic": 0.4936,
+      "xgboost": 0.5216
+    },
+    "model_disagreement": 0.028,
+    "holdout_brier": 0.24554,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "btts",
+    "probability": 0.5611,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5475,
+      "logistic": 0.5563,
+      "extra_trees": 0.527
+    },
+    "model_disagreement": 0.0293,
+    "holdout_brier": 0.24654,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "home_win",
+    "probability": 0.4176,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4325,
+      "logistic": 0.391,
+      "xgboost": 0.4167
+    },
+    "model_disagreement": 0.0415,
+    "holdout_brier": 0.23037,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "draw",
+    "probability": 0.2853,
+    "models": [
+      "catboost",
+      "logistic",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2899,
+      "logistic": 0.3263,
+      "hist_gradient_boosting": 0.2516
+    },
+    "model_disagreement": 0.0747,
+    "holdout_brier": 0.1918,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "away_win",
+    "probability": 0.2955,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.2654,
+      "xgboost": 0.3115,
+      "catboost": 0.3214
+    },
+    "model_disagreement": 0.056,
+    "holdout_brier": 0.19757,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "dc_1x",
+    "probability": 0.7041,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.735,
+      "xgboost": 0.6885,
+      "catboost": 0.6786
+    },
+    "model_disagreement": 0.0564,
+    "holdout_brier": 0.19751,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "dc_x2",
+    "probability": 0.583,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5675,
+      "logistic": 0.6089,
+      "xgboost": 0.5833
+    },
+    "model_disagreement": 0.0414,
+    "holdout_brier": 0.23036,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "dc_12",
+    "probability": 0.7182,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7101,
+      "logistic": 0.673,
+      "xgboost": 0.7251
+    },
+    "model_disagreement": 0.0521,
+    "holdout_brier": 0.1917,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "corners_o65",
+    "probability": 0.8133,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7942,
+      "catboost": 0.8119,
+      "xgboost": 0.8144
+    },
+    "model_disagreement": 0.0202,
+    "holdout_brier": 0.13045,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "cards_o15",
+    "probability": 0.9622,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.9361,
+      "hist_gradient_boosting": 0.9522,
+      "catboost": 0.9297
+    },
+    "model_disagreement": 0.0225,
+    "holdout_brier": 0.09851,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Mallorca",
+      "away": "Cordoba",
+      "display": "Mallorca vs C\u00f3rdoba",
+      "kickoff": "2026-11-14T17:30Z",
+      "event_id": "401883135"
+    },
+    "market": "cards_o25",
+    "probability": 0.9388,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8786,
+      "catboost": 0.8505,
+      "xgboost": 0.8942
+    },
+    "model_disagreement": 0.0437,
+    "holdout_brier": 0.1916,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "fh_o05",
+    "probability": 0.6935,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6698,
+      "xgboost": 0.669,
+      "logistic": 0.6581
+    },
+    "model_disagreement": 0.0117,
+    "holdout_brier": 0.2028,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "ft_o15",
+    "probability": 0.7343,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7027,
+      "catboost": 0.7098,
+      "xgboost": 0.7197
+    },
+    "model_disagreement": 0.017,
+    "holdout_brier": 0.17381,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "ft_o25",
+    "probability": 0.4672,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4524,
+      "logistic": 0.4562,
+      "xgboost": 0.4711
+    },
+    "model_disagreement": 0.0187,
+    "holdout_brier": 0.24554,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "btts",
+    "probability": 0.5132,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.519,
+      "logistic": 0.4979,
+      "extra_trees": 0.5108
+    },
+    "model_disagreement": 0.021,
+    "holdout_brier": 0.24654,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "home_win",
+    "probability": 0.5021,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.4752,
+      "logistic": 0.5366,
+      "xgboost": 0.4904
+    },
+    "model_disagreement": 0.0614,
+    "holdout_brier": 0.23037,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "draw",
+    "probability": 0.2853,
+    "models": [
+      "catboost",
+      "logistic",
+      "hist_gradient_boosting"
+    ],
+    "model_probabilities": {
+      "catboost": 0.2793,
+      "logistic": 0.2914,
+      "hist_gradient_boosting": 0.2694
+    },
+    "model_disagreement": 0.0221,
+    "holdout_brier": 0.1918,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "away_win",
+    "probability": 0.2094,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.1839,
+      "xgboost": 0.2373,
+      "catboost": 0.2301
+    },
+    "model_disagreement": 0.0534,
+    "holdout_brier": 0.19757,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "dc_1x",
+    "probability": 0.7884,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8161,
+      "xgboost": 0.7627,
+      "catboost": 0.7699
+    },
+    "model_disagreement": 0.0534,
+    "holdout_brier": 0.19751,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "dc_x2",
+    "probability": 0.496,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.5248,
+      "logistic": 0.4634,
+      "xgboost": 0.5096
+    },
+    "model_disagreement": 0.0614,
+    "holdout_brier": 0.23036,
+    "status": "REJECTED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "dc_12",
+    "probability": 0.7182,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7207,
+      "logistic": 0.7082,
+      "xgboost": 0.7053
+    },
+    "model_disagreement": 0.0153,
+    "holdout_brier": 0.1917,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "corners_o65",
+    "probability": 0.8133,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8336,
+      "catboost": 0.8055,
+      "xgboost": 0.8228
+    },
+    "model_disagreement": 0.0281,
+    "holdout_brier": 0.13045,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "cards_o15",
+    "probability": 0.9243,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8921,
+      "hist_gradient_boosting": 0.902,
+      "catboost": 0.9027
+    },
+    "model_disagreement": 0.0106,
+    "holdout_brier": 0.09851,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Stenhousemuir",
+      "away": "Queens Park",
+      "display": "Stenhousemuir vs Queen's Park",
+      "kickoff": "2026-11-14T15:00Z",
+      "event_id": "401878522"
+    },
+    "market": "cards_o25",
+    "probability": 0.8079,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7455,
+      "catboost": 0.7873,
+      "xgboost": 0.7936
+    },
+    "model_disagreement": 0.0482,
+    "holdout_brier": 0.1916,
+    "status": "QUALIFIED"
+  }
+]
