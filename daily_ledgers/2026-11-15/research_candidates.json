@@ -1,0 +1,377 @@
+[
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Ceuta",
+      "display": "Tenerife vs Ceuta",
+      "kickoff": "2026-11-15T13:00Z",
+      "event_id": "401883113"
+    },
+    "market": "ft_o15",
+    "probability": 0.7343,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7201,
+      "catboost": 0.728,
+      "xgboost": 0.7508
+    },
+    "model_disagreement": 0.0307,
+    "holdout_brier": 0.17381,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Ceuta",
+      "display": "Tenerife vs Ceuta",
+      "kickoff": "2026-11-15T13:00Z",
+      "event_id": "401883113"
+    },
+    "market": "dc_1x",
+    "probability": 0.7041,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7459,
+      "xgboost": 0.7133,
+      "catboost": 0.6892
+    },
+    "model_disagreement": 0.0567,
+    "holdout_brier": 0.19751,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Ceuta",
+      "display": "Tenerife vs Ceuta",
+      "kickoff": "2026-11-15T13:00Z",
+      "event_id": "401883113"
+    },
+    "market": "corners_o65",
+    "probability": 0.8133,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8235,
+      "catboost": 0.8104,
+      "xgboost": 0.8154
+    },
+    "model_disagreement": 0.0131,
+    "holdout_brier": 0.13045,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Ceuta",
+      "display": "Tenerife vs Ceuta",
+      "kickoff": "2026-11-15T13:00Z",
+      "event_id": "401883113"
+    },
+    "market": "cards_o25",
+    "probability": 0.8974,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8437,
+      "catboost": 0.8417,
+      "xgboost": 0.8596
+    },
+    "model_disagreement": 0.0179,
+    "holdout_brier": 0.1916,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Granada",
+      "away": "Las Palmas",
+      "display": "Granada vs Las Palmas",
+      "kickoff": "2026-11-15T15:15Z",
+      "event_id": "401883116"
+    },
+    "market": "fh_o05",
+    "probability": 0.7047,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7251,
+      "xgboost": 0.7169,
+      "logistic": 0.6925
+    },
+    "model_disagreement": 0.0326,
+    "holdout_brier": 0.2028,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Granada",
+      "away": "Las Palmas",
+      "display": "Granada vs Las Palmas",
+      "kickoff": "2026-11-15T15:15Z",
+      "event_id": "401883116"
+    },
+    "market": "ft_o15",
+    "probability": 0.7714,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7744,
+      "catboost": 0.7553,
+      "xgboost": 0.7596
+    },
+    "model_disagreement": 0.0191,
+    "holdout_brier": 0.17381,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Granada",
+      "away": "Las Palmas",
+      "display": "Granada vs Las Palmas",
+      "kickoff": "2026-11-15T15:15Z",
+      "event_id": "401883116"
+    },
+    "market": "dc_1x",
+    "probability": 0.7884,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8102,
+      "xgboost": 0.7717,
+      "catboost": 0.7746
+    },
+    "model_disagreement": 0.0385,
+    "holdout_brier": 0.19751,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Granada",
+      "away": "Las Palmas",
+      "display": "Granada vs Las Palmas",
+      "kickoff": "2026-11-15T15:15Z",
+      "event_id": "401883116"
+    },
+    "market": "dc_12",
+    "probability": 0.7274,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7328,
+      "logistic": 0.6969,
+      "xgboost": 0.7429
+    },
+    "model_disagreement": 0.046,
+    "holdout_brier": 0.1917,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Granada",
+      "away": "Las Palmas",
+      "display": "Granada vs Las Palmas",
+      "kickoff": "2026-11-15T15:15Z",
+      "event_id": "401883116"
+    },
+    "market": "corners_o65",
+    "probability": 0.8133,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8225,
+      "catboost": 0.8234,
+      "xgboost": 0.8205
+    },
+    "model_disagreement": 0.003,
+    "holdout_brier": 0.13045,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Granada",
+      "away": "Las Palmas",
+      "display": "Granada vs Las Palmas",
+      "kickoff": "2026-11-15T15:15Z",
+      "event_id": "401883116"
+    },
+    "market": "cards_o25",
+    "probability": 0.8974,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8039,
+      "catboost": 0.8189,
+      "xgboost": 0.8571
+    },
+    "model_disagreement": 0.0532,
+    "holdout_brier": 0.1916,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Eibar",
+      "away": "Cadiz",
+      "display": "Eibar vs C\u00e1diz",
+      "kickoff": "2026-11-15T17:30Z",
+      "event_id": "401883117"
+    },
+    "market": "ft_o15",
+    "probability": 0.7343,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7628,
+      "catboost": 0.7506,
+      "xgboost": 0.7618
+    },
+    "model_disagreement": 0.0122,
+    "holdout_brier": 0.17381,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Eibar",
+      "away": "Cadiz",
+      "display": "Eibar vs C\u00e1diz",
+      "kickoff": "2026-11-15T17:30Z",
+      "event_id": "401883117"
+    },
+    "market": "dc_1x",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7798,
+      "xgboost": 0.7702,
+      "catboost": 0.7612
+    },
+    "model_disagreement": 0.0186,
+    "holdout_brier": 0.19751,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Eibar",
+      "away": "Cadiz",
+      "display": "Eibar vs C\u00e1diz",
+      "kickoff": "2026-11-15T17:30Z",
+      "event_id": "401883117"
+    },
+    "market": "dc_12",
+    "probability": 0.7274,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7306,
+      "logistic": 0.679,
+      "xgboost": 0.7565
+    },
+    "model_disagreement": 0.0775,
+    "holdout_brier": 0.1917,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Eibar",
+      "away": "Cadiz",
+      "display": "Eibar vs C\u00e1diz",
+      "kickoff": "2026-11-15T17:30Z",
+      "event_id": "401883117"
+    },
+    "market": "corners_o65",
+    "probability": 0.8133,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8023,
+      "catboost": 0.8014,
+      "xgboost": 0.8111
+    },
+    "model_disagreement": 0.0096,
+    "holdout_brier": 0.13045,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Eibar",
+      "away": "Cadiz",
+      "display": "Eibar vs C\u00e1diz",
+      "kickoff": "2026-11-15T17:30Z",
+      "event_id": "401883117"
+    },
+    "market": "cards_o25",
+    "probability": 0.8974,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8031,
+      "catboost": 0.8271,
+      "xgboost": 0.8686
+    },
+    "model_disagreement": 0.0656,
+    "holdout_brier": 0.1916,
+    "status": "QUALIFIED"
+  }
+]
