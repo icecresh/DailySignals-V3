@@ -1,0 +1,602 @@
+[
+  {
+    "fixture": {
+      "league": "D1",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "display": "Bayern Munich vs FC Cologne",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401884736"
+    },
+    "market": "fh_o05",
+    "probability": 0.9216,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7857,
+      "xgboost": 0.8321,
+      "logistic": 0.8433
+    },
+    "model_disagreement": 0.0576,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D1",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "display": "Bayern Munich vs FC Cologne",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401884736"
+    },
+    "market": "ft_o15",
+    "probability": 0.999,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8986,
+      "catboost": 0.8564,
+      "extra_trees": 0.8918
+    },
+    "model_disagreement": 0.0421,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D1",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "display": "Bayern Munich vs FC Cologne",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401884736"
+    },
+    "market": "ft_o25",
+    "probability": 0.9298,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.675,
+      "logistic": 0.7152,
+      "extra_trees": 0.6916
+    },
+    "model_disagreement": 0.0402,
+    "holdout_brier": 0.24516,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D1",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "display": "Bayern Munich vs FC Cologne",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401884736"
+    },
+    "market": "home_win",
+    "probability": 0.999,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7947,
+      "catboost": 0.7626,
+      "lightgbm": 0.8221
+    },
+    "model_disagreement": 0.0595,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D1",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "display": "Bayern Munich vs FC Cologne",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401884736"
+    },
+    "market": "dc_1x",
+    "probability": 0.9714,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.9234,
+      "catboost": 0.8901,
+      "xgboost": 0.9228
+    },
+    "model_disagreement": 0.0333,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D1",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "display": "Bayern Munich vs FC Cologne",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401884736"
+    },
+    "market": "dc_12",
+    "probability": 0.999,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.8073,
+      "logistic": 0.8139,
+      "xgboost": 0.8534
+    },
+    "model_disagreement": 0.046,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D1",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "display": "Bayern Munich vs FC Cologne",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401884736"
+    },
+    "market": "corners_o65",
+    "probability": 0.999,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.9051,
+      "catboost": 0.8901,
+      "xgboost": 0.9344
+    },
+    "model_disagreement": 0.0443,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D1",
+      "home": "Bayern Munich",
+      "away": "FC Koln",
+      "display": "Bayern Munich vs FC Cologne",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401884736"
+    },
+    "market": "cards_o15",
+    "probability": 0.8468,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7833,
+      "hist_gradient_boosting": 0.729,
+      "catboost": 0.7725
+    },
+    "model_disagreement": 0.0543,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Andorra",
+      "away": "Leganes",
+      "display": "FC Andorra vs Legan\u00e9s",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401883112"
+    },
+    "market": "ft_o15",
+    "probability": 0.715,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7277,
+      "catboost": 0.6912,
+      "extra_trees": 0.6876
+    },
+    "model_disagreement": 0.0401,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Andorra",
+      "away": "Leganes",
+      "display": "FC Andorra vs Legan\u00e9s",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401883112"
+    },
+    "market": "dc_1x",
+    "probability": 0.7066,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.749,
+      "catboost": 0.725,
+      "xgboost": 0.7231
+    },
+    "model_disagreement": 0.0259,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Andorra",
+      "away": "Leganes",
+      "display": "FC Andorra vs Legan\u00e9s",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401883112"
+    },
+    "market": "corners_o65",
+    "probability": 0.8395,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8375,
+      "catboost": 0.8149,
+      "xgboost": 0.8503
+    },
+    "model_disagreement": 0.0354,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Andorra",
+      "away": "Leganes",
+      "display": "FC Andorra vs Legan\u00e9s",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401883112"
+    },
+    "market": "cards_o25",
+    "probability": 0.9524,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8959,
+      "catboost": 0.8545,
+      "xgboost": 0.8946
+    },
+    "model_disagreement": 0.0414,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Verona",
+      "away": "Cesena",
+      "display": "Hellas Verona vs Cesena",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401899543"
+    },
+    "market": "fh_o05",
+    "probability": 0.7151,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7191,
+      "xgboost": 0.7123,
+      "logistic": 0.7253
+    },
+    "model_disagreement": 0.0129,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Verona",
+      "away": "Cesena",
+      "display": "Hellas Verona vs Cesena",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401899543"
+    },
+    "market": "ft_o15",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7728,
+      "catboost": 0.7563,
+      "extra_trees": 0.7247
+    },
+    "model_disagreement": 0.0482,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Verona",
+      "away": "Cesena",
+      "display": "Hellas Verona vs Cesena",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401899543"
+    },
+    "market": "dc_1x",
+    "probability": 0.8041,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7971,
+      "catboost": 0.7945,
+      "xgboost": 0.7836
+    },
+    "model_disagreement": 0.0135,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Verona",
+      "away": "Cesena",
+      "display": "Hellas Verona vs Cesena",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401899543"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7382,
+      "logistic": 0.754,
+      "xgboost": 0.7434
+    },
+    "model_disagreement": 0.0158,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Verona",
+      "away": "Cesena",
+      "display": "Hellas Verona vs Cesena",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401899543"
+    },
+    "market": "corners_o65",
+    "probability": 0.8395,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8404,
+      "catboost": 0.8388,
+      "xgboost": 0.8397
+    },
+    "model_disagreement": 0.0016,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Verona",
+      "away": "Cesena",
+      "display": "Hellas Verona vs Cesena",
+      "kickoff": "2026-11-20T19:30Z",
+      "event_id": "401899543"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8762,
+      "hist_gradient_boosting": 0.8746,
+      "catboost": 0.8837
+    },
+    "model_disagreement": 0.0091,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F2",
+      "home": "Metz",
+      "away": "Boulogne",
+      "display": "Metz vs Boulogne",
+      "kickoff": "2026-11-20T19:00Z",
+      "event_id": "401876688"
+    },
+    "market": "fh_o05",
+    "probability": 0.7151,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7062,
+      "xgboost": 0.7345,
+      "logistic": 0.7134
+    },
+    "model_disagreement": 0.0283,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F2",
+      "home": "Metz",
+      "away": "Boulogne",
+      "display": "Metz vs Boulogne",
+      "kickoff": "2026-11-20T19:00Z",
+      "event_id": "401876688"
+    },
+    "market": "ft_o15",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7514,
+      "catboost": 0.7436,
+      "extra_trees": 0.7641
+    },
+    "model_disagreement": 0.0205,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F2",
+      "home": "Metz",
+      "away": "Boulogne",
+      "display": "Metz vs Boulogne",
+      "kickoff": "2026-11-20T19:00Z",
+      "event_id": "401876688"
+    },
+    "market": "dc_1x",
+    "probability": 0.7513,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7211,
+      "catboost": 0.7646,
+      "xgboost": 0.7738
+    },
+    "model_disagreement": 0.0526,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F2",
+      "home": "Metz",
+      "away": "Boulogne",
+      "display": "Metz vs Boulogne",
+      "kickoff": "2026-11-20T19:00Z",
+      "event_id": "401876688"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7205,
+      "logistic": 0.7322,
+      "xgboost": 0.7111
+    },
+    "model_disagreement": 0.021,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F2",
+      "home": "Metz",
+      "away": "Boulogne",
+      "display": "Metz vs Boulogne",
+      "kickoff": "2026-11-20T19:00Z",
+      "event_id": "401876688"
+    },
+    "market": "corners_o65",
+    "probability": 0.8152,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7857,
+      "catboost": 0.8215,
+      "xgboost": 0.7908
+    },
+    "model_disagreement": 0.0358,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F2",
+      "home": "Metz",
+      "away": "Boulogne",
+      "display": "Metz vs Boulogne",
+      "kickoff": "2026-11-20T19:00Z",
+      "event_id": "401876688"
+    },
+    "market": "cards_o15",
+    "probability": 0.9353,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8997,
+      "hist_gradient_boosting": 0.9204,
+      "catboost": 0.8889
+    },
+    "model_disagreement": 0.0314,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  }
+]
