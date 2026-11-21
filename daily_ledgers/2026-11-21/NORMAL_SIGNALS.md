@@ -1,0 +1,372 @@
+# Daily Signals V3 — 2026-11-21
+
+As of UTC: 2026-11-21T12:42:23.396804+00:00
+
+**NORMAL SIGNALS: No production-approved signals.**
+
+Historical matches: 21815
+Upcoming mapped fixtures: 44
+Evaluated cells: 572
+Research-qualified candidates: 257
+
+## Research candidates — NOT publication-approved
+
+- Parma vs AS Roma | away_win | research estimate 73.3% | logistic, xgboost, catboost
+- KV Mechelen vs Club Brugge | away_win | research estimate 73.3% | logistic, xgboost, catboost
+- Stoke City vs Birmingham City | cards_o15 | research estimate 90.3% | extra_trees, hist_gradient_boosting, catboost
+- Parma vs AS Roma | cards_o15 | research estimate 89.6% | extra_trees, hist_gradient_boosting, catboost
+- Sudtirol vs Cremonese | cards_o15 | research estimate 89.6% | extra_trees, hist_gradient_boosting, catboost
+- Falkirk vs St Johnstone | cards_o15 | research estimate 89.6% | extra_trees, hist_gradient_boosting, catboost
+- Motherwell vs Rangers | cards_o15 | research estimate 89.6% | extra_trees, hist_gradient_boosting, catboost
+- Bolton Wanderers vs Portsmouth | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Middlesbrough vs Bristol City | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Swansea City vs West Bromwich Albion | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- West Ham United vs Preston North End | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Leyton Orient vs AFC Wimbledon | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Barnet vs Port Vale | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Real Madrid vs Celta Vigo | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Napoli vs Torino | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Modena vs Juve Stabia | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Catanzaro vs Palermo | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Lens vs Toulouse | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Lille vs Lyon | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Strasbourg vs Brest | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Royal Charleroi SC vs Sint-Truidense | cards_o15 | research estimate 88.0% | extra_trees, hist_gradient_boosting, catboost
+- Como vs Cagliari | cards_o15 | research estimate 84.7% | extra_trees, hist_gradient_boosting, catboost
+- Lazio vs Lecce | cards_o15 | research estimate 84.7% | extra_trees, hist_gradient_boosting, catboost
+- FC Utrecht vs SC Cambuur | cards_o15 | research estimate 84.7% | extra_trees, hist_gradient_boosting, catboost
+- FC Groningen vs Heerenveen | cards_o15 | research estimate 84.7% | extra_trees, hist_gradient_boosting, catboost
+- Telstar vs PEC Zwolle | cards_o15 | research estimate 84.7% | extra_trees, hist_gradient_boosting, catboost
+- KV Mechelen vs Club Brugge | cards_o15 | research estimate 84.7% | extra_trees, hist_gradient_boosting, catboost
+- Celtic vs St Mirren | cards_o15 | research estimate 84.7% | extra_trees, hist_gradient_boosting, catboost
+- Tenerife vs Mallorca | cards_o25 | research estimate 89.7% | extra_trees, catboost, xgboost
+- Castellón vs Eldense | cards_o25 | research estimate 82.7% | extra_trees, catboost, xgboost
+- St. Pauli vs VfL Bochum | cards_o25 | research estimate 82.4% | extra_trees, catboost, xgboost
+- Queen's Park vs Livingston | cards_o25 | research estimate 82.4% | extra_trees, catboost, xgboost
+- Newcastle United vs Arsenal | cards_o25 | research estimate 81.0% | extra_trees, catboost, xgboost
+- Aston Villa vs Sunderland | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Sheffield United vs Watford | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Wolverhampton Wanderers vs Charlton Athletic | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Notts County vs Stevenage | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Crawley Town vs Fleetwood Town | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Sevilla vs Real Betis | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Ascoli vs Vicenza | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Carrarese vs Virtus Entella | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Sampdoria vs Benevento | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Empoli vs Pisa | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Hibernian vs Dundee United | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Kilmarnock vs Aberdeen | cards_o25 | research estimate 80.5% | extra_trees, catboost, xgboost
+- Arbroath vs Stenhousemuir | cards_o25 | research estimate 78.2% | extra_trees, catboost, xgboost
+- West Ham United vs Preston North End | corners_o65 | research estimate 99.9% | logistic, catboost, xgboost
+- Celtic vs St Mirren | corners_o65 | research estimate 99.9% | logistic, catboost, xgboost
+- Wolverhampton Wanderers vs Charlton Athletic | corners_o65 | research estimate 89.5% | logistic, catboost, xgboost
+- FC Utrecht vs SC Cambuur | corners_o65 | research estimate 89.5% | logistic, catboost, xgboost
+- Hibernian vs Dundee United | corners_o65 | research estimate 89.5% | logistic, catboost, xgboost
+- Bolton Wanderers vs Portsmouth | corners_o65 | research estimate 88.2% | logistic, catboost, xgboost
+- Middlesbrough vs Bristol City | corners_o65 | research estimate 88.2% | logistic, catboost, xgboost
+- Barnet vs Port Vale | corners_o65 | research estimate 88.2% | logistic, catboost, xgboost
+- Ascoli vs Vicenza | corners_o65 | research estimate 88.2% | logistic, catboost, xgboost
+- FC Groningen vs Heerenveen | corners_o65 | research estimate 88.2% | logistic, catboost, xgboost
+- Telstar vs PEC Zwolle | corners_o65 | research estimate 88.2% | logistic, catboost, xgboost
+- Royal Charleroi SC vs Sint-Truidense | corners_o65 | research estimate 88.2% | logistic, catboost, xgboost
+- KV Mechelen vs Club Brugge | corners_o65 | research estimate 88.2% | logistic, catboost, xgboost
+- Kilmarnock vs Aberdeen | corners_o65 | research estimate 88.2% | logistic, catboost, xgboost
+- Motherwell vs Rangers | corners_o65 | research estimate 88.2% | logistic, catboost, xgboost
+- Stoke City vs Birmingham City | corners_o65 | research estimate 86.0% | logistic, catboost, xgboost
+- Leyton Orient vs AFC Wimbledon | corners_o65 | research estimate 86.0% | logistic, catboost, xgboost
+- Notts County vs Stevenage | corners_o65 | research estimate 86.0% | logistic, catboost, xgboost
+- St. Pauli vs VfL Bochum | corners_o65 | research estimate 86.0% | logistic, catboost, xgboost
+- Lazio vs Lecce | corners_o65 | research estimate 86.0% | logistic, catboost, xgboost
+- Catanzaro vs Palermo | corners_o65 | research estimate 85.0% | logistic, catboost, xgboost
+- Sheffield United vs Watford | corners_o65 | research estimate 84.6% | logistic, catboost, xgboost
+- Real Madrid vs Celta Vigo | corners_o65 | research estimate 84.6% | logistic, catboost, xgboost
+- Como vs Cagliari | corners_o65 | research estimate 84.6% | logistic, catboost, xgboost
+- Lens vs Toulouse | corners_o65 | research estimate 84.6% | logistic, catboost, xgboost
+- Strasbourg vs Brest | corners_o65 | research estimate 84.6% | logistic, catboost, xgboost
+- Falkirk vs St Johnstone | corners_o65 | research estimate 84.6% | logistic, catboost, xgboost
+- Aston Villa vs Sunderland | corners_o65 | research estimate 84.0% | logistic, catboost, xgboost
+- Swansea City vs West Bromwich Albion | corners_o65 | research estimate 84.0% | logistic, catboost, xgboost
+- Crawley Town vs Fleetwood Town | corners_o65 | research estimate 84.0% | logistic, catboost, xgboost
+- Napoli vs Torino | corners_o65 | research estimate 84.0% | logistic, catboost, xgboost
+- Sampdoria vs Benevento | corners_o65 | research estimate 82.0% | logistic, catboost, xgboost
+- Empoli vs Pisa | corners_o65 | research estimate 82.0% | logistic, catboost, xgboost
+- Arbroath vs Stenhousemuir | corners_o65 | research estimate 82.0% | logistic, catboost, xgboost
+- Sevilla vs Real Betis | corners_o65 | research estimate 81.9% | logistic, catboost, xgboost
+- Newcastle United vs Arsenal | corners_o65 | research estimate 81.5% | logistic, catboost, xgboost
+- Castellón vs Eldense | corners_o65 | research estimate 81.5% | logistic, catboost, xgboost
+- Parma vs AS Roma | corners_o65 | research estimate 81.5% | logistic, catboost, xgboost
+- Carrarese vs Virtus Entella | corners_o65 | research estimate 81.5% | logistic, catboost, xgboost
+- Lille vs Lyon | corners_o65 | research estimate 81.5% | logistic, catboost, xgboost
+- Queen's Park vs Livingston | corners_o65 | research estimate 81.5% | logistic, catboost, xgboost
+- Modena vs Juve Stabia | corners_o65 | research estimate 80.8% | logistic, catboost, xgboost
+- Tenerife vs Mallorca | corners_o65 | research estimate 76.9% | logistic, catboost, xgboost
+- Sudtirol vs Cremonese | corners_o65 | research estimate 76.9% | logistic, catboost, xgboost
+- Celtic vs St Mirren | dc_12 | research estimate 99.9% | catboost, logistic, xgboost
+- Real Madrid vs Celta Vigo | dc_12 | research estimate 89.2% | catboost, logistic, xgboost
+- West Ham United vs Preston North End | dc_12 | research estimate 84.2% | catboost, logistic, xgboost
+- Como vs Cagliari | dc_12 | research estimate 84.2% | catboost, logistic, xgboost
+- Lazio vs Lecce | dc_12 | research estimate 84.2% | catboost, logistic, xgboost
+- FC Groningen vs Heerenveen | dc_12 | research estimate 84.2% | catboost, logistic, xgboost
+- Middlesbrough vs Bristol City | dc_12 | research estimate 82.0% | catboost, logistic, xgboost
+- Royal Charleroi SC vs Sint-Truidense | dc_12 | research estimate 82.0% | catboost, logistic, xgboost
+- KV Mechelen vs Club Brugge | dc_12 | research estimate 82.0% | catboost, logistic, xgboost
+- Modena vs Juve Stabia | dc_12 | research estimate 76.1% | catboost, logistic, xgboost
+- FC Utrecht vs SC Cambuur | dc_12 | research estimate 76.1% | catboost, logistic, xgboost
+- Falkirk vs St Johnstone | dc_12 | research estimate 76.1% | catboost, logistic, xgboost
+- Castellón vs Eldense | dc_12 | research estimate 76.0% | catboost, logistic, xgboost
+- Ascoli vs Vicenza | dc_12 | research estimate 76.0% | catboost, logistic, xgboost
+- Stoke City vs Birmingham City | dc_12 | research estimate 75.5% | catboost, logistic, xgboost
+- Wolverhampton Wanderers vs Charlton Athletic | dc_12 | research estimate 75.5% | catboost, logistic, xgboost
+- Barnet vs Port Vale | dc_12 | research estimate 75.5% | catboost, logistic, xgboost
+- Napoli vs Torino | dc_12 | research estimate 75.5% | catboost, logistic, xgboost
+- Lille vs Lyon | dc_12 | research estimate 75.5% | catboost, logistic, xgboost
+- Motherwell vs Rangers | dc_12 | research estimate 75.5% | catboost, logistic, xgboost
+- Aston Villa vs Sunderland | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Newcastle United vs Arsenal | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Bolton Wanderers vs Portsmouth | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Swansea City vs West Bromwich Albion | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Notts County vs Stevenage | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- St. Pauli vs VfL Bochum | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Sevilla vs Real Betis | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Parma vs AS Roma | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Sampdoria vs Benevento | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Sudtirol vs Cremonese | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Catanzaro vs Palermo | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Empoli vs Pisa | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Lens vs Toulouse | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Strasbourg vs Brest | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Telstar vs PEC Zwolle | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Hibernian vs Dundee United | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Kilmarnock vs Aberdeen | dc_12 | research estimate 72.6% | catboost, logistic, xgboost
+- Sheffield United vs Watford | dc_12 | research estimate 71.8% | catboost, logistic, xgboost
+- Leyton Orient vs AFC Wimbledon | dc_12 | research estimate 71.8% | catboost, logistic, xgboost
+- Carrarese vs Virtus Entella | dc_12 | research estimate 71.8% | catboost, logistic, xgboost
+- Queen's Park vs Livingston | dc_12 | research estimate 71.8% | catboost, logistic, xgboost
+- Real Madrid vs Celta Vigo | dc_1x | research estimate 97.1% | logistic, catboost, xgboost
+- Lazio vs Lecce | dc_1x | research estimate 97.1% | logistic, catboost, xgboost
+- Celtic vs St Mirren | dc_1x | research estimate 97.1% | logistic, catboost, xgboost
+- West Ham United vs Preston North End | dc_1x | research estimate 87.0% | logistic, catboost, xgboost
+- Wolverhampton Wanderers vs Charlton Athletic | dc_1x | research estimate 87.0% | logistic, catboost, xgboost
+- Castellón vs Eldense | dc_1x | research estimate 85.5% | logistic, catboost, xgboost
+- Como vs Cagliari | dc_1x | research estimate 85.5% | logistic, catboost, xgboost
+- Royal Charleroi SC vs Sint-Truidense | dc_1x | research estimate 85.5% | logistic, catboost, xgboost
+- Ascoli vs Vicenza | dc_1x | research estimate 84.2% | logistic, catboost, xgboost
+- Middlesbrough vs Bristol City | dc_1x | research estimate 80.4% | logistic, catboost, xgboost
+- Sheffield United vs Watford | dc_1x | research estimate 80.4% | logistic, catboost, xgboost
+- Barnet vs Port Vale | dc_1x | research estimate 80.4% | logistic, catboost, xgboost
+- Aston Villa vs Sunderland | dc_1x | research estimate 75.1% | logistic, catboost, xgboost
+- Stoke City vs Birmingham City | dc_1x | research estimate 75.1% | logistic, catboost, xgboost
+- Napoli vs Torino | dc_1x | research estimate 75.1% | logistic, catboost, xgboost
+- Modena vs Juve Stabia | dc_1x | research estimate 75.1% | logistic, catboost, xgboost
+- Lens vs Toulouse | dc_1x | research estimate 75.1% | logistic, catboost, xgboost
+- Falkirk vs St Johnstone | dc_1x | research estimate 75.1% | logistic, catboost, xgboost
+- Leyton Orient vs AFC Wimbledon | dc_1x | research estimate 70.7% | logistic, catboost, xgboost
+- St. Pauli vs VfL Bochum | dc_1x | research estimate 70.7% | logistic, catboost, xgboost
+- Carrarese vs Virtus Entella | dc_1x | research estimate 70.7% | logistic, catboost, xgboost
+- Sudtirol vs Cremonese | dc_1x | research estimate 70.7% | logistic, catboost, xgboost
+- Telstar vs PEC Zwolle | dc_1x | research estimate 70.7% | logistic, catboost, xgboost
+- Parma vs AS Roma | dc_x2 | research estimate 87.8% | logistic, catboost, lightgbm
+- KV Mechelen vs Club Brugge | dc_x2 | research estimate 87.8% | logistic, catboost, lightgbm
+- Newcastle United vs Arsenal | dc_x2 | research estimate 77.2% | logistic, catboost, lightgbm
+- Sevilla vs Real Betis | dc_x2 | research estimate 77.2% | logistic, catboost, lightgbm
+- Empoli vs Pisa | dc_x2 | research estimate 77.2% | logistic, catboost, lightgbm
+- Motherwell vs Rangers | dc_x2 | research estimate 77.2% | logistic, catboost, lightgbm
+- Catanzaro vs Palermo | dc_x2 | research estimate 75.0% | logistic, catboost, lightgbm
+- Crawley Town vs Fleetwood Town | dc_x2 | research estimate 74.9% | logistic, catboost, lightgbm
+- Tenerife vs Mallorca | dc_x2 | research estimate 74.9% | logistic, catboost, lightgbm
+- Queen's Park vs Livingston | dc_x2 | research estimate 74.9% | logistic, catboost, lightgbm
+- FC Groningen vs Heerenveen | fh_o05 | research estimate 92.2% | extra_trees, xgboost, logistic
+- Celtic vs St Mirren | fh_o05 | research estimate 92.2% | extra_trees, xgboost, logistic
+- West Ham United vs Preston North End | fh_o05 | research estimate 85.7% | extra_trees, xgboost, logistic
+- FC Utrecht vs SC Cambuur | fh_o05 | research estimate 85.7% | extra_trees, xgboost, logistic
+- Royal Charleroi SC vs Sint-Truidense | fh_o05 | research estimate 85.7% | extra_trees, xgboost, logistic
+- KV Mechelen vs Club Brugge | fh_o05 | research estimate 85.7% | extra_trees, xgboost, logistic
+- Middlesbrough vs Bristol City | fh_o05 | research estimate 76.0% | extra_trees, xgboost, logistic
+- Wolverhampton Wanderers vs Charlton Athletic | fh_o05 | research estimate 76.0% | extra_trees, xgboost, logistic
+- Barnet vs Port Vale | fh_o05 | research estimate 76.0% | extra_trees, xgboost, logistic
+- Real Madrid vs Celta Vigo | fh_o05 | research estimate 76.0% | extra_trees, xgboost, logistic
+- Como vs Cagliari | fh_o05 | research estimate 76.0% | extra_trees, xgboost, logistic
+- Lazio vs Lecce | fh_o05 | research estimate 76.0% | extra_trees, xgboost, logistic
+- Napoli vs Torino | fh_o05 | research estimate 76.0% | extra_trees, xgboost, logistic
+- Lens vs Toulouse | fh_o05 | research estimate 76.0% | extra_trees, xgboost, logistic
+- Strasbourg vs Brest | fh_o05 | research estimate 76.0% | extra_trees, xgboost, logistic
+- Bolton Wanderers vs Portsmouth | fh_o05 | research estimate 75.3% | extra_trees, xgboost, logistic
+- Stoke City vs Birmingham City | fh_o05 | research estimate 75.3% | extra_trees, xgboost, logistic
+- Sheffield United vs Watford | fh_o05 | research estimate 71.6% | extra_trees, xgboost, logistic
+- Parma vs AS Roma | fh_o05 | research estimate 71.6% | extra_trees, xgboost, logistic
+- Telstar vs PEC Zwolle | fh_o05 | research estimate 71.6% | extra_trees, xgboost, logistic
+- Falkirk vs St Johnstone | fh_o05 | research estimate 71.6% | extra_trees, xgboost, logistic
+- Hibernian vs Dundee United | fh_o05 | research estimate 71.6% | extra_trees, xgboost, logistic
+- Kilmarnock vs Aberdeen | fh_o05 | research estimate 71.6% | extra_trees, xgboost, logistic
+- Motherwell vs Rangers | fh_o05 | research estimate 71.6% | extra_trees, xgboost, logistic
+- Aston Villa vs Sunderland | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Newcastle United vs Arsenal | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Swansea City vs West Bromwich Albion | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Leyton Orient vs AFC Wimbledon | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Notts County vs Stevenage | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- St. Pauli vs VfL Bochum | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Sevilla vs Real Betis | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Castellón vs Eldense | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Ascoli vs Vicenza | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Modena vs Juve Stabia | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Sampdoria vs Benevento | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Catanzaro vs Palermo | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Empoli vs Pisa | fh_o05 | research estimate 70.1% | extra_trees, xgboost, logistic
+- Celtic vs St Mirren | ft_o15 | research estimate 91.7% | logistic, catboost, extra_trees
+- West Ham United vs Preston North End | ft_o15 | research estimate 90.2% | logistic, catboost, extra_trees
+- FC Utrecht vs SC Cambuur | ft_o15 | research estimate 90.2% | logistic, catboost, extra_trees
+- FC Groningen vs Heerenveen | ft_o15 | research estimate 90.2% | logistic, catboost, extra_trees
+- Royal Charleroi SC vs Sint-Truidense | ft_o15 | research estimate 90.2% | logistic, catboost, extra_trees
+- Bolton Wanderers vs Portsmouth | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Middlesbrough vs Bristol City | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Stoke City vs Birmingham City | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Wolverhampton Wanderers vs Charlton Athletic | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Barnet vs Port Vale | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Real Madrid vs Celta Vigo | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Como vs Cagliari | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Lazio vs Lecce | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Napoli vs Torino | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Strasbourg vs Brest | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Telstar vs PEC Zwolle | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- KV Mechelen vs Club Brugge | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Hibernian vs Dundee United | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Motherwell vs Rangers | ft_o15 | research estimate 81.5% | logistic, catboost, extra_trees
+- Lens vs Toulouse | ft_o15 | research estimate 78.6% | logistic, catboost, extra_trees
+- Sheffield United vs Watford | ft_o15 | research estimate 77.5% | logistic, catboost, extra_trees
+- Swansea City vs West Bromwich Albion | ft_o15 | research estimate 77.5% | logistic, catboost, extra_trees
+- Ascoli vs Vicenza | ft_o15 | research estimate 77.5% | logistic, catboost, extra_trees
+- Falkirk vs St Johnstone | ft_o15 | research estimate 77.5% | logistic, catboost, extra_trees
+- St. Pauli vs VfL Bochum | ft_o15 | research estimate 75.1% | logistic, catboost, extra_trees
+- Sevilla vs Real Betis | ft_o15 | research estimate 75.1% | logistic, catboost, extra_trees
+- Castellón vs Eldense | ft_o15 | research estimate 75.1% | logistic, catboost, extra_trees
+- Kilmarnock vs Aberdeen | ft_o15 | research estimate 75.1% | logistic, catboost, extra_trees
+- Aston Villa vs Sunderland | ft_o15 | research estimate 74.7% | logistic, catboost, extra_trees
+- Newcastle United vs Arsenal | ft_o15 | research estimate 74.7% | logistic, catboost, extra_trees
+- Leyton Orient vs AFC Wimbledon | ft_o15 | research estimate 74.7% | logistic, catboost, extra_trees
+- Notts County vs Stevenage | ft_o15 | research estimate 74.7% | logistic, catboost, extra_trees
+- Parma vs AS Roma | ft_o15 | research estimate 74.7% | logistic, catboost, extra_trees
+- Catanzaro vs Palermo | ft_o15 | research estimate 74.7% | logistic, catboost, extra_trees
+- Empoli vs Pisa | ft_o15 | research estimate 74.7% | logistic, catboost, extra_trees
+- Lille vs Lyon | ft_o15 | research estimate 74.7% | logistic, catboost, extra_trees
+- Crawley Town vs Fleetwood Town | ft_o15 | research estimate 72.6% | logistic, catboost, extra_trees
+- Tenerife vs Mallorca | ft_o15 | research estimate 72.6% | logistic, catboost, extra_trees
+- Modena vs Juve Stabia | ft_o15 | research estimate 72.6% | logistic, catboost, extra_trees
+- Sampdoria vs Benevento | ft_o15 | research estimate 72.6% | logistic, catboost, extra_trees
+- Sudtirol vs Cremonese | ft_o15 | research estimate 72.6% | logistic, catboost, extra_trees
+- Carrarese vs Virtus Entella | ft_o15 | research estimate 71.5% | logistic, catboost, extra_trees
+- Arbroath vs Stenhousemuir | ft_o15 | research estimate 71.5% | logistic, catboost, extra_trees
+- Queen's Park vs Livingston | ft_o15 | research estimate 70.5% | logistic, catboost, extra_trees
+- Celtic vs St Mirren | ft_o25 | research estimate 86.4% | catboost, logistic, extra_trees
+- West Ham United vs Preston North End | ft_o25 | research estimate 71.4% | catboost, logistic, extra_trees
+- FC Utrecht vs SC Cambuur | ft_o25 | research estimate 71.4% | catboost, logistic, extra_trees
+- FC Groningen vs Heerenveen | ft_o25 | research estimate 71.4% | catboost, logistic, extra_trees
+- Royal Charleroi SC vs Sint-Truidense | ft_o25 | research estimate 71.4% | catboost, logistic, extra_trees
+- Celtic vs St Mirren | home_win | research estimate 99.9% | logistic, catboost, lightgbm
+- Real Madrid vs Celta Vigo | home_win | research estimate 84.0% | logistic, catboost, lightgbm
+- Lazio vs Lecce | home_win | research estimate 84.0% | logistic, catboost, lightgbm
+- West Ham United vs Preston North End | home_win | research estimate 72.7% | logistic, catboost, lightgbm
+- Wolverhampton Wanderers vs Charlton Athletic | home_win | research estimate 72.7% | logistic, catboost, lightgbm
+- Como vs Cagliari | home_win | research estimate 72.7% | logistic, catboost, lightgbm
+- Castellón vs Eldense | home_win | research estimate 71.4% | logistic, catboost, lightgbm
+
+## Holdout research validation
+
+- fh_o05: holdout N=3979, Brier=0.20204, selected=extra_trees, xgboost, logistic
+- ft_o15: holdout N=3979, Brier=0.17257, selected=logistic, catboost, extra_trees
+- ft_o25: holdout N=3979, Brier=0.24516, selected=catboost, logistic, extra_trees
+- btts: holdout N=3979, Brier=0.24667, selected=catboost, logistic, xgboost
+- home_win: holdout N=3979, Brier=0.232, selected=logistic, catboost, lightgbm
+- draw: holdout N=3979, Brier=0.19108, selected=catboost, logistic, xgboost
+- away_win: holdout N=3979, Brier=0.19671, selected=logistic, xgboost, catboost
+- dc_1x: holdout N=3979, Brier=0.19693, selected=logistic, catboost, xgboost
+- dc_x2: holdout N=3979, Brier=0.232, selected=logistic, catboost, lightgbm
+- dc_12: holdout N=3979, Brier=0.19106, selected=catboost, logistic, xgboost
+- corners_o65: holdout N=3979, Brier=0.13003, selected=logistic, catboost, xgboost
+- cards_o15: holdout N=3979, Brier=0.09824, selected=extra_trees, hist_gradient_boosting, catboost
+- cards_o25: holdout N=3979, Brier=0.19115, selected=extra_trees, catboost, xgboost
+
+## Independent production audit
+
+Production approval: BLOCKED
+Blocking reasons: 15
+
+- FIXTURE_INTEGRITY_ISSUES
+- INSUFFICIENT_PROSPECTIVE_OUTCOMES
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_away_win
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_btts
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_cards_o15
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_cards_o25
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_corners_o65
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_dc_12
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_dc_1x
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_dc_x2
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_draw
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_fh_o05
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_ft_o15
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_ft_o25
+- MISSING_HIGH_CONFIDENCE_CALIBRATION_home_win
+
+## Exclusions and warnings
+
+Competition coverage is limited to configured leagues with available historical and fixture sources; not all global football.
+Card events are yellow cards only, pending verified settlement rules.
+Unmapped fixture names and missing source data are excluded.
+Research-qualified is NOT equivalent to publication-authorized.
+
+Configured competitions: 19
+Fixture exclusion counts: {"NOT_PREMATCH": 11, "NO_SCHEDULED_EVENTS": 3, "UNMAPPED_TEAM": 41}
+- [EXCLUSION] {"league": "E0", "event_id": "401879233", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "E0", "fixture": "AFC Bournemouth vs Nottingham Forest", "error": "UNMAPPED_TEAM", "unmapped_home": "AFC Bournemouth", "unmapped_away": null}
+- [EXCLUSION] {"league": "E0", "fixture": "Chelsea vs Leeds United", "error": "UNMAPPED_TEAM", "unmapped_home": null, "unmapped_away": "Leeds United"}
+- [EXCLUSION] {"league": "E0", "fixture": "Coventry City vs Crystal Palace", "error": "UNMAPPED_TEAM", "unmapped_home": "Coventry City", "unmapped_away": null}
+- [EXCLUSION] {"league": "E0", "fixture": "Tottenham Hotspur vs Ipswich Town", "error": "UNMAPPED_TEAM", "unmapped_home": null, "unmapped_away": "Ipswich Town"}
+- [EXCLUSION] {"league": "E1", "event_id": "401880156", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "E1", "event_id": "401880155", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "E1", "event_id": "401880153", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "E1", "fixture": "Lincoln City vs Wrexham", "error": "UNMAPPED_TEAM", "unmapped_home": "Lincoln City", "unmapped_away": null}
+- [EXCLUSION] {"league": "E2", "event_id": "401880741", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "E2", "event_id": "401880731", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "E2", "fixture": "Bradford City vs Doncaster Rovers", "error": "UNMAPPED_TEAM", "unmapped_home": "Bradford City", "unmapped_away": "Doncaster Rovers"}
+- [EXCLUSION] {"league": "E2", "fixture": "Burton Albion vs Luton Town", "error": "UNMAPPED_TEAM", "unmapped_home": "Burton Albion", "unmapped_away": "Luton Town"}
+- [EXCLUSION] {"league": "E2", "fixture": "Cambridge United vs Stockport County", "error": "UNMAPPED_TEAM", "unmapped_home": "Cambridge United", "unmapped_away": "Stockport County"}
+- [EXCLUSION] {"league": "E2", "fixture": "Huddersfield Town vs Leicester City", "error": "UNMAPPED_TEAM", "unmapped_home": "Huddersfield Town", "unmapped_away": "Leicester City"}
+- [EXCLUSION] {"league": "E2", "fixture": "Mansfield Town vs Milton Keynes Dons", "error": "UNMAPPED_TEAM", "unmapped_home": "Mansfield Town", "unmapped_away": null}
+- [EXCLUSION] {"league": "E2", "fixture": "Oxford United vs Wycombe Wanderers", "error": "UNMAPPED_TEAM", "unmapped_home": "Oxford United", "unmapped_away": "Wycombe Wanderers"}
+- [EXCLUSION] {"league": "E2", "fixture": "Plymouth Argyle vs Peterborough United", "error": "UNMAPPED_TEAM", "unmapped_home": "Plymouth Argyle", "unmapped_away": "Peterborough United"}
+- [EXCLUSION] {"league": "E3", "event_id": "401881259", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "E3", "event_id": "401881257", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "E3", "fixture": "Accrington Stanley vs Salford City", "error": "UNMAPPED_TEAM", "unmapped_home": "Accrington Stanley", "unmapped_away": "Salford City"}
+- [EXCLUSION] {"league": "E3", "fixture": "Cheltenham Town vs Bristol Rovers", "error": "UNMAPPED_TEAM", "unmapped_home": "Cheltenham Town", "unmapped_away": "Bristol Rovers"}
+- [EXCLUSION] {"league": "E3", "fixture": "Chesterfield vs Shrewsbury Town", "error": "UNMAPPED_TEAM", "unmapped_home": null, "unmapped_away": "Shrewsbury Town"}
+- [EXCLUSION] {"league": "E3", "fixture": "Grimsby Town vs Rotherham United", "error": "UNMAPPED_TEAM", "unmapped_home": "Grimsby Town", "unmapped_away": "Rotherham United"}
+- [EXCLUSION] {"league": "E3", "fixture": "Northampton Town vs Rochdale", "error": "UNMAPPED_TEAM", "unmapped_home": "Northampton Town", "unmapped_away": null}
+- [EXCLUSION] {"league": "E3", "fixture": "Oldham Athletic vs Exeter City", "error": "UNMAPPED_TEAM", "unmapped_home": "Oldham Athletic", "unmapped_away": "Exeter City"}
+- [EXCLUSION] {"league": "E3", "fixture": "Tranmere Rovers vs Colchester United", "error": "UNMAPPED_TEAM", "unmapped_home": "Tranmere Rovers", "unmapped_away": "Colchester United"}
+- [EXCLUSION] {"league": "E3", "fixture": "York City vs Walsall", "error": "UNMAPPED_TEAM", "unmapped_home": "York City", "unmapped_away": null}
+- [EXCLUSION] {"league": "D1", "fixture": "1. FC Union Berlin vs RB Leipzig", "error": "UNMAPPED_TEAM", "unmapped_home": "1. FC Union Berlin", "unmapped_away": null}
+- [EXCLUSION] {"league": "D1", "fixture": "Bayer Leverkusen vs SC Paderborn 07", "error": "UNMAPPED_TEAM", "unmapped_home": "Bayer Leverkusen", "unmapped_away": "SC Paderborn 07"}
+- [EXCLUSION] {"league": "D1", "fixture": "Borussia Mönchengladbach vs Borussia Dortmund", "error": "UNMAPPED_TEAM", "unmapped_home": null, "unmapped_away": "Borussia Dortmund"}
+- [EXCLUSION] {"league": "D1", "fixture": "Eintracht Frankfurt vs TSG Hoffenheim", "error": "UNMAPPED_TEAM", "unmapped_home": "Eintracht Frankfurt", "unmapped_away": "TSG Hoffenheim"}
+- [EXCLUSION] {"league": "D1", "fixture": "SV Elversberg vs SC Freiburg", "error": "UNMAPPED_TEAM", "unmapped_home": "SV Elversberg", "unmapped_away": null}
+- [EXCLUSION] {"league": "D1", "fixture": "Schalke 04 vs VfB Stuttgart", "error": "UNMAPPED_TEAM", "unmapped_home": null, "unmapped_away": "VfB Stuttgart"}
+- [EXCLUSION] {"league": "D2", "event_id": "401885051", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "D2", "event_id": "401885054", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "D2", "event_id": "401885056", "error": "NOT_PREMATCH"}
+- [EXCLUSION] {"league": "SP1", "fixture": "Alavés vs Deportivo", "error": "UNMAPPED_TEAM", "unmapped_home": null, "unmapped_away": "Deportivo"}
+- [EXCLUSION] {"league": "SP1", "fixture": "Rayo Vallecano vs Valencia", "error": "UNMAPPED_TEAM", "unmapped_home": "Rayo Vallecano", "unmapped_away": null}
+- [EXCLUSION] {"league": "SP2", "fixture": "CD Sabadell vs Granada", "error": "UNMAPPED_TEAM", "unmapped_home": "CD Sabadell", "unmapped_away": null}
+- [EXCLUSION] {"league": "SP2", "fixture": "Real Sociedad II vs Cádiz", "error": "UNMAPPED_TEAM", "unmapped_home": "Real Sociedad II", "unmapped_away": null}
+- [EXCLUSION] {"league": "F1", "fixture": "Nice vs Paris Saint-Germain", "error": "UNMAPPED_TEAM", "unmapped_home": null, "unmapped_away": "Paris Saint-Germain"}
+- [EXCLUSION] {"league": "F1", "fixture": "AS Monaco vs AJ Auxerre", "error": "UNMAPPED_TEAM", "unmapped_home": "AS Monaco", "unmapped_away": null}
+- [EXCLUSION] {"league": "F2", "fixture": "Stade Laval vs Montpellier", "error": "UNMAPPED_TEAM", "unmapped_home": "Stade Laval", "unmapped_away": null}
+- [EXCLUSION] {"league": "F2", "fixture": "Stade de Reims vs Saint-Étienne", "error": "UNMAPPED_TEAM", "unmapped_home": "Stade de Reims", "unmapped_away": "Saint-Étienne"}
+- [EXCLUSION] {"league": "N1", "fixture": "NEC Nijmegen vs PSV Eindhoven", "error": "UNMAPPED_TEAM", "unmapped_home": "NEC Nijmegen", "unmapped_away": null}
+- [EXCLUSION] {"league": "N1", "fixture": "Feyenoord Rotterdam vs Excelsior", "error": "UNMAPPED_TEAM", "unmapped_home": "Feyenoord Rotterdam", "unmapped_away": null}
+- [EXCLUSION] {"league": "B1", "fixture": "Racing Genk vs RAAL La Louvière", "error": "UNMAPPED_TEAM", "unmapped_home": "Racing Genk", "unmapped_away": null}
+- [EXCLUSION] {"league": "B1", "fixture": "Zulte-Waregem vs Antwerp", "error": "UNMAPPED_TEAM", "unmapped_home": "Zulte-Waregem", "unmapped_away": null}
+- [INFO] {"league": "P1", "error": "NO_SCHEDULED_EVENTS", "severity": "INFO"}
+- [EXCLUSION] {"league": "SC0", "fixture": "Dundee vs Heart of Midlothian", "error": "UNMAPPED_TEAM", "unmapped_home": null, "unmapped_away": "Heart of Midlothian"}
+- [EXCLUSION] {"league": "SC1", "fixture": "Dunfermline Athletic vs Greenock Morton", "error": "UNMAPPED_TEAM", "unmapped_home": "Dunfermline Athletic", "unmapped_away": "Greenock Morton"}
+- [EXCLUSION] {"league": "SC1", "fixture": "Raith Rovers vs Partick Thistle", "error": "UNMAPPED_TEAM", "unmapped_home": "Raith Rovers", "unmapped_away": "Partick Thistle"}
+- [INFO] {"league": "SC2", "error": "NO_SCHEDULED_EVENTS", "severity": "INFO"}
+- [INFO] {"league": "SC3", "error": "NO_SCHEDULED_EVENTS", "severity": "INFO"}

@@ -1,0 +1,6427 @@
+[
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "display": "Aston Villa vs Sunderland",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878756"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7265,
+      "xgboost": 0.7096,
+      "logistic": 0.7127
+    },
+    "model_disagreement": 0.017,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "display": "Aston Villa vs Sunderland",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878756"
+    },
+    "market": "ft_o15",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7669,
+      "catboost": 0.741,
+      "extra_trees": 0.7637
+    },
+    "model_disagreement": 0.0259,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "display": "Aston Villa vs Sunderland",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878756"
+    },
+    "market": "dc_1x",
+    "probability": 0.7513,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7529,
+      "catboost": 0.76,
+      "xgboost": 0.7504
+    },
+    "model_disagreement": 0.0096,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "display": "Aston Villa vs Sunderland",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878756"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7295,
+      "logistic": 0.7273,
+      "xgboost": 0.7117
+    },
+    "model_disagreement": 0.0178,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "display": "Aston Villa vs Sunderland",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878756"
+    },
+    "market": "corners_o65",
+    "probability": 0.8395,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.838,
+      "catboost": 0.8305,
+      "xgboost": 0.8353
+    },
+    "model_disagreement": 0.0075,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Aston Villa",
+      "away": "Sunderland",
+      "display": "Aston Villa vs Sunderland",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878756"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7659,
+      "catboost": 0.761,
+      "xgboost": 0.7508
+    },
+    "model_disagreement": 0.0151,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "display": "Newcastle United vs Arsenal",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401879232"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7367,
+      "xgboost": 0.7204,
+      "logistic": 0.6744
+    },
+    "model_disagreement": 0.0623,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "display": "Newcastle United vs Arsenal",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401879232"
+    },
+    "market": "ft_o15",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7339,
+      "catboost": 0.7546,
+      "extra_trees": 0.774
+    },
+    "model_disagreement": 0.0401,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "display": "Newcastle United vs Arsenal",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401879232"
+    },
+    "market": "dc_x2",
+    "probability": 0.7717,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7253,
+      "catboost": 0.7371,
+      "lightgbm": 0.785
+    },
+    "model_disagreement": 0.0597,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "display": "Newcastle United vs Arsenal",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401879232"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7405,
+      "logistic": 0.7329,
+      "xgboost": 0.7457
+    },
+    "model_disagreement": 0.0128,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "display": "Newcastle United vs Arsenal",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401879232"
+    },
+    "market": "corners_o65",
+    "probability": 0.8152,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8049,
+      "catboost": 0.8149,
+      "xgboost": 0.8236
+    },
+    "model_disagreement": 0.0187,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E0",
+      "home": "Newcastle",
+      "away": "Arsenal",
+      "display": "Newcastle United vs Arsenal",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401879232"
+    },
+    "market": "cards_o25",
+    "probability": 0.8095,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7974,
+      "catboost": 0.7834,
+      "xgboost": 0.7878
+    },
+    "model_disagreement": 0.014,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bolton",
+      "away": "Portsmouth",
+      "display": "Bolton Wanderers vs Portsmouth",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880160"
+    },
+    "market": "fh_o05",
+    "probability": 0.7528,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7425,
+      "xgboost": 0.7257,
+      "logistic": 0.7415
+    },
+    "model_disagreement": 0.0168,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bolton",
+      "away": "Portsmouth",
+      "display": "Bolton Wanderers vs Portsmouth",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880160"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7956,
+      "catboost": 0.7812,
+      "extra_trees": 0.7887
+    },
+    "model_disagreement": 0.0144,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bolton",
+      "away": "Portsmouth",
+      "display": "Bolton Wanderers vs Portsmouth",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880160"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7471,
+      "logistic": 0.7457,
+      "xgboost": 0.7564
+    },
+    "model_disagreement": 0.0106,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bolton",
+      "away": "Portsmouth",
+      "display": "Bolton Wanderers vs Portsmouth",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880160"
+    },
+    "market": "corners_o65",
+    "probability": 0.8819,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8727,
+      "catboost": 0.8661,
+      "xgboost": 0.8767
+    },
+    "model_disagreement": 0.0106,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Bolton",
+      "away": "Portsmouth",
+      "display": "Bolton Wanderers vs Portsmouth",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880160"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8861,
+      "hist_gradient_boosting": 0.8522,
+      "catboost": 0.8685
+    },
+    "model_disagreement": 0.0339,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Middlesbrough",
+      "away": "Bristol City",
+      "display": "Middlesbrough vs Bristol City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880157"
+    },
+    "market": "fh_o05",
+    "probability": 0.7603,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7452,
+      "xgboost": 0.7482,
+      "logistic": 0.7541
+    },
+    "model_disagreement": 0.0089,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Middlesbrough",
+      "away": "Bristol City",
+      "display": "Middlesbrough vs Bristol City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880157"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.814,
+      "catboost": 0.7974,
+      "extra_trees": 0.7843
+    },
+    "model_disagreement": 0.0297,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Middlesbrough",
+      "away": "Bristol City",
+      "display": "Middlesbrough vs Bristol City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880157"
+    },
+    "market": "dc_1x",
+    "probability": 0.8041,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8199,
+      "catboost": 0.8028,
+      "xgboost": 0.8076
+    },
+    "model_disagreement": 0.0171,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Middlesbrough",
+      "away": "Bristol City",
+      "display": "Middlesbrough vs Bristol City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880157"
+    },
+    "market": "dc_12",
+    "probability": 0.82,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7733,
+      "logistic": 0.7841,
+      "xgboost": 0.7775
+    },
+    "model_disagreement": 0.0108,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Middlesbrough",
+      "away": "Bristol City",
+      "display": "Middlesbrough vs Bristol City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880157"
+    },
+    "market": "corners_o65",
+    "probability": 0.8819,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8765,
+      "catboost": 0.8682,
+      "xgboost": 0.8628
+    },
+    "model_disagreement": 0.0137,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Middlesbrough",
+      "away": "Bristol City",
+      "display": "Middlesbrough vs Bristol City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880157"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8354,
+      "hist_gradient_boosting": 0.8576,
+      "catboost": 0.8487
+    },
+    "model_disagreement": 0.0222,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Watford",
+      "display": "Sheffield United vs Watford",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880154"
+    },
+    "market": "fh_o05",
+    "probability": 0.7162,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7329,
+      "xgboost": 0.7346,
+      "logistic": 0.7114
+    },
+    "model_disagreement": 0.0232,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Watford",
+      "display": "Sheffield United vs Watford",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880154"
+    },
+    "market": "ft_o15",
+    "probability": 0.7751,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7674,
+      "catboost": 0.7713,
+      "extra_trees": 0.7715
+    },
+    "model_disagreement": 0.0041,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Watford",
+      "display": "Sheffield United vs Watford",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880154"
+    },
+    "market": "dc_1x",
+    "probability": 0.8041,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8168,
+      "catboost": 0.7828,
+      "xgboost": 0.7659
+    },
+    "model_disagreement": 0.0508,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Watford",
+      "display": "Sheffield United vs Watford",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880154"
+    },
+    "market": "dc_12",
+    "probability": 0.718,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.721,
+      "logistic": 0.7242,
+      "xgboost": 0.7121
+    },
+    "model_disagreement": 0.0122,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Watford",
+      "display": "Sheffield United vs Watford",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880154"
+    },
+    "market": "corners_o65",
+    "probability": 0.8456,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.853,
+      "catboost": 0.843,
+      "xgboost": 0.8484
+    },
+    "model_disagreement": 0.01,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Sheffield United",
+      "away": "Watford",
+      "display": "Sheffield United vs Watford",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880154"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7673,
+      "catboost": 0.7646,
+      "xgboost": 0.7636
+    },
+    "model_disagreement": 0.0037,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Stoke",
+      "away": "Birmingham",
+      "display": "Stoke City vs Birmingham City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880152"
+    },
+    "market": "fh_o05",
+    "probability": 0.7528,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7168,
+      "xgboost": 0.7345,
+      "logistic": 0.7477
+    },
+    "model_disagreement": 0.0309,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Stoke",
+      "away": "Birmingham",
+      "display": "Stoke City vs Birmingham City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880152"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8059,
+      "catboost": 0.8005,
+      "extra_trees": 0.7901
+    },
+    "model_disagreement": 0.0159,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Stoke",
+      "away": "Birmingham",
+      "display": "Stoke City vs Birmingham City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880152"
+    },
+    "market": "dc_1x",
+    "probability": 0.7513,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7154,
+      "catboost": 0.7455,
+      "xgboost": 0.808
+    },
+    "model_disagreement": 0.0927,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Stoke",
+      "away": "Birmingham",
+      "display": "Stoke City vs Birmingham City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880152"
+    },
+    "market": "dc_12",
+    "probability": 0.7554,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7541,
+      "logistic": 0.7548,
+      "xgboost": 0.7595
+    },
+    "model_disagreement": 0.0055,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Stoke",
+      "away": "Birmingham",
+      "display": "Stoke City vs Birmingham City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880152"
+    },
+    "market": "corners_o65",
+    "probability": 0.8604,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8397,
+      "catboost": 0.8529,
+      "xgboost": 0.8735
+    },
+    "model_disagreement": 0.0337,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Stoke",
+      "away": "Birmingham",
+      "display": "Stoke City vs Birmingham City",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880152"
+    },
+    "market": "cards_o15",
+    "probability": 0.9026,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.886,
+      "hist_gradient_boosting": 0.9202,
+      "catboost": 0.8791
+    },
+    "model_disagreement": 0.0411,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Swansea",
+      "away": "West Brom",
+      "display": "Swansea City vs West Bromwich Albion",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880151"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.714,
+      "xgboost": 0.7244,
+      "logistic": 0.7107
+    },
+    "model_disagreement": 0.0137,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Swansea",
+      "away": "West Brom",
+      "display": "Swansea City vs West Bromwich Albion",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880151"
+    },
+    "market": "ft_o15",
+    "probability": 0.7751,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7626,
+      "catboost": 0.7767,
+      "extra_trees": 0.7779
+    },
+    "model_disagreement": 0.0152,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Swansea",
+      "away": "West Brom",
+      "display": "Swansea City vs West Bromwich Albion",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880151"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7377,
+      "logistic": 0.7419,
+      "xgboost": 0.729
+    },
+    "model_disagreement": 0.0129,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Swansea",
+      "away": "West Brom",
+      "display": "Swansea City vs West Bromwich Albion",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880151"
+    },
+    "market": "corners_o65",
+    "probability": 0.8395,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.833,
+      "catboost": 0.8404,
+      "xgboost": 0.8243
+    },
+    "model_disagreement": 0.0161,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Swansea",
+      "away": "West Brom",
+      "display": "Swansea City vs West Bromwich Albion",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880151"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8827,
+      "hist_gradient_boosting": 0.8219,
+      "catboost": 0.8744
+    },
+    "model_disagreement": 0.0607,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Ham",
+      "away": "Preston",
+      "display": "West Ham United vs Preston North End",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880150"
+    },
+    "market": "fh_o05",
+    "probability": 0.8571,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7616,
+      "xgboost": 0.7882,
+      "logistic": 0.8082
+    },
+    "model_disagreement": 0.0466,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Ham",
+      "away": "Preston",
+      "display": "West Ham United vs Preston North End",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880150"
+    },
+    "market": "ft_o15",
+    "probability": 0.9024,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.856,
+      "catboost": 0.8208,
+      "extra_trees": 0.8462
+    },
+    "model_disagreement": 0.0352,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Ham",
+      "away": "Preston",
+      "display": "West Ham United vs Preston North End",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880150"
+    },
+    "market": "ft_o25",
+    "probability": 0.7143,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6287,
+      "logistic": 0.6437,
+      "extra_trees": 0.5862
+    },
+    "model_disagreement": 0.0576,
+    "holdout_brier": 0.24516,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Ham",
+      "away": "Preston",
+      "display": "West Ham United vs Preston North End",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880150"
+    },
+    "market": "home_win",
+    "probability": 0.7273,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7112,
+      "catboost": 0.654,
+      "lightgbm": 0.6607
+    },
+    "model_disagreement": 0.0572,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Ham",
+      "away": "Preston",
+      "display": "West Ham United vs Preston North End",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880150"
+    },
+    "market": "dc_1x",
+    "probability": 0.8704,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.891,
+      "catboost": 0.8462,
+      "xgboost": 0.8611
+    },
+    "model_disagreement": 0.0448,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Ham",
+      "away": "Preston",
+      "display": "West Ham United vs Preston North End",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880150"
+    },
+    "market": "dc_12",
+    "probability": 0.8416,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7779,
+      "logistic": 0.7804,
+      "xgboost": 0.8135
+    },
+    "model_disagreement": 0.0355,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Ham",
+      "away": "Preston",
+      "display": "West Ham United vs Preston North End",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880150"
+    },
+    "market": "corners_o65",
+    "probability": 0.999,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8992,
+      "catboost": 0.8886,
+      "xgboost": 0.9208
+    },
+    "model_disagreement": 0.0323,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "West Ham",
+      "away": "Preston",
+      "display": "West Ham United vs Preston North End",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880150"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8622,
+      "hist_gradient_boosting": 0.8772,
+      "catboost": 0.8481
+    },
+    "model_disagreement": 0.0291,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Charlton",
+      "display": "Wolverhampton Wanderers vs Charlton Athletic",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880149"
+    },
+    "market": "fh_o05",
+    "probability": 0.7603,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.742,
+      "xgboost": 0.7494,
+      "logistic": 0.7218
+    },
+    "model_disagreement": 0.0277,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Charlton",
+      "display": "Wolverhampton Wanderers vs Charlton Athletic",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880149"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7858,
+      "catboost": 0.8067,
+      "extra_trees": 0.8198
+    },
+    "model_disagreement": 0.0341,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Charlton",
+      "display": "Wolverhampton Wanderers vs Charlton Athletic",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880149"
+    },
+    "market": "home_win",
+    "probability": 0.7273,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6692,
+      "catboost": 0.6057,
+      "lightgbm": 0.649
+    },
+    "model_disagreement": 0.0634,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Charlton",
+      "display": "Wolverhampton Wanderers vs Charlton Athletic",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880149"
+    },
+    "market": "dc_1x",
+    "probability": 0.8704,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8763,
+      "catboost": 0.8357,
+      "xgboost": 0.872
+    },
+    "model_disagreement": 0.0405,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Charlton",
+      "display": "Wolverhampton Wanderers vs Charlton Athletic",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880149"
+    },
+    "market": "dc_12",
+    "probability": 0.7554,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7565,
+      "logistic": 0.7533,
+      "xgboost": 0.7635
+    },
+    "model_disagreement": 0.0102,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Charlton",
+      "display": "Wolverhampton Wanderers vs Charlton Athletic",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880149"
+    },
+    "market": "corners_o65",
+    "probability": 0.8947,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8769,
+      "catboost": 0.8766,
+      "xgboost": 0.9054
+    },
+    "model_disagreement": 0.0288,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E1",
+      "home": "Wolves",
+      "away": "Charlton",
+      "display": "Wolverhampton Wanderers vs Charlton Athletic",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880149"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7627,
+      "catboost": 0.7476,
+      "xgboost": 0.7551
+    },
+    "model_disagreement": 0.0151,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Leyton Orient",
+      "away": "AFC Wimbledon",
+      "display": "Leyton Orient vs AFC Wimbledon",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880736"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7206,
+      "xgboost": 0.7141,
+      "logistic": 0.6717
+    },
+    "model_disagreement": 0.0489,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Leyton Orient",
+      "away": "AFC Wimbledon",
+      "display": "Leyton Orient vs AFC Wimbledon",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880736"
+    },
+    "market": "ft_o15",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7438,
+      "catboost": 0.7488,
+      "extra_trees": 0.7706
+    },
+    "model_disagreement": 0.0268,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Leyton Orient",
+      "away": "AFC Wimbledon",
+      "display": "Leyton Orient vs AFC Wimbledon",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880736"
+    },
+    "market": "dc_1x",
+    "probability": 0.7066,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7303,
+      "catboost": 0.7314,
+      "xgboost": 0.7413
+    },
+    "model_disagreement": 0.011,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Leyton Orient",
+      "away": "AFC Wimbledon",
+      "display": "Leyton Orient vs AFC Wimbledon",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880736"
+    },
+    "market": "dc_12",
+    "probability": 0.718,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7272,
+      "logistic": 0.7107,
+      "xgboost": 0.7212
+    },
+    "model_disagreement": 0.0165,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Leyton Orient",
+      "away": "AFC Wimbledon",
+      "display": "Leyton Orient vs AFC Wimbledon",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880736"
+    },
+    "market": "corners_o65",
+    "probability": 0.8604,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8618,
+      "catboost": 0.8432,
+      "xgboost": 0.8527
+    },
+    "model_disagreement": 0.0187,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Leyton Orient",
+      "away": "AFC Wimbledon",
+      "display": "Leyton Orient vs AFC Wimbledon",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880736"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8798,
+      "hist_gradient_boosting": 0.8807,
+      "catboost": 0.8701
+    },
+    "model_disagreement": 0.0105,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Notts County",
+      "away": "Stevenage",
+      "display": "Notts County vs Stevenage",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880734"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7116,
+      "xgboost": 0.709,
+      "logistic": 0.7049
+    },
+    "model_disagreement": 0.0067,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Notts County",
+      "away": "Stevenage",
+      "display": "Notts County vs Stevenage",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880734"
+    },
+    "market": "ft_o15",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7331,
+      "catboost": 0.7472,
+      "extra_trees": 0.7762
+    },
+    "model_disagreement": 0.0431,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Notts County",
+      "away": "Stevenage",
+      "display": "Notts County vs Stevenage",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880734"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7209,
+      "logistic": 0.7267,
+      "xgboost": 0.7243
+    },
+    "model_disagreement": 0.0058,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Notts County",
+      "away": "Stevenage",
+      "display": "Notts County vs Stevenage",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880734"
+    },
+    "market": "corners_o65",
+    "probability": 0.8604,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8644,
+      "catboost": 0.8457,
+      "xgboost": 0.8547
+    },
+    "model_disagreement": 0.0188,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E2",
+      "home": "Notts County",
+      "away": "Stevenage",
+      "display": "Notts County vs Stevenage",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401880734"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7654,
+      "catboost": 0.7518,
+      "xgboost": 0.7483
+    },
+    "model_disagreement": 0.0171,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Barnet",
+      "away": "Port Vale",
+      "display": "Barnet vs Port Vale",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401881263"
+    },
+    "market": "fh_o05",
+    "probability": 0.7603,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7617,
+      "xgboost": 0.7513,
+      "logistic": 0.7418
+    },
+    "model_disagreement": 0.0199,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Barnet",
+      "away": "Port Vale",
+      "display": "Barnet vs Port Vale",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401881263"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8222,
+      "catboost": 0.7794,
+      "extra_trees": 0.7711
+    },
+    "model_disagreement": 0.0511,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Barnet",
+      "away": "Port Vale",
+      "display": "Barnet vs Port Vale",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401881263"
+    },
+    "market": "dc_1x",
+    "probability": 0.8041,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7938,
+      "catboost": 0.7996,
+      "xgboost": 0.8074
+    },
+    "model_disagreement": 0.0136,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Barnet",
+      "away": "Port Vale",
+      "display": "Barnet vs Port Vale",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401881263"
+    },
+    "market": "dc_12",
+    "probability": 0.7554,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7623,
+      "logistic": 0.7341,
+      "xgboost": 0.7694
+    },
+    "model_disagreement": 0.0353,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Barnet",
+      "away": "Port Vale",
+      "display": "Barnet vs Port Vale",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401881263"
+    },
+    "market": "corners_o65",
+    "probability": 0.8819,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8593,
+      "catboost": 0.8547,
+      "xgboost": 0.8676
+    },
+    "model_disagreement": 0.0129,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Barnet",
+      "away": "Port Vale",
+      "display": "Barnet vs Port Vale",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401881263"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8608,
+      "hist_gradient_boosting": 0.8495,
+      "catboost": 0.8722
+    },
+    "model_disagreement": 0.0227,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Crawley Town",
+      "away": "Fleetwood Town",
+      "display": "Crawley Town vs Fleetwood Town",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401881260"
+    },
+    "market": "ft_o15",
+    "probability": 0.7264,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7378,
+      "catboost": 0.7182,
+      "extra_trees": 0.7283
+    },
+    "model_disagreement": 0.0195,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Crawley Town",
+      "away": "Fleetwood Town",
+      "display": "Crawley Town vs Fleetwood Town",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401881260"
+    },
+    "market": "dc_x2",
+    "probability": 0.7486,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7633,
+      "catboost": 0.6694,
+      "lightgbm": 0.6665
+    },
+    "model_disagreement": 0.0968,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Crawley Town",
+      "away": "Fleetwood Town",
+      "display": "Crawley Town vs Fleetwood Town",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401881260"
+    },
+    "market": "corners_o65",
+    "probability": 0.8395,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8259,
+      "catboost": 0.8289,
+      "xgboost": 0.8403
+    },
+    "model_disagreement": 0.0144,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "E3",
+      "home": "Crawley Town",
+      "away": "Fleetwood Town",
+      "display": "Crawley Town vs Fleetwood Town",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401881260"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7846,
+      "catboost": 0.7648,
+      "xgboost": 0.77
+    },
+    "model_disagreement": 0.0198,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D2",
+      "home": "St Pauli",
+      "away": "Bochum",
+      "display": "St. Pauli vs VfL Bochum",
+      "kickoff": "2026-11-21T19:30Z",
+      "event_id": "401885055"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7063,
+      "xgboost": 0.7099,
+      "logistic": 0.7079
+    },
+    "model_disagreement": 0.0036,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D2",
+      "home": "St Pauli",
+      "away": "Bochum",
+      "display": "St. Pauli vs VfL Bochum",
+      "kickoff": "2026-11-21T19:30Z",
+      "event_id": "401885055"
+    },
+    "market": "ft_o15",
+    "probability": 0.7512,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7623,
+      "catboost": 0.7734,
+      "extra_trees": 0.7589
+    },
+    "model_disagreement": 0.0145,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D2",
+      "home": "St Pauli",
+      "away": "Bochum",
+      "display": "St. Pauli vs VfL Bochum",
+      "kickoff": "2026-11-21T19:30Z",
+      "event_id": "401885055"
+    },
+    "market": "dc_1x",
+    "probability": 0.7066,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7205,
+      "catboost": 0.7301,
+      "xgboost": 0.6987
+    },
+    "model_disagreement": 0.0314,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D2",
+      "home": "St Pauli",
+      "away": "Bochum",
+      "display": "St. Pauli vs VfL Bochum",
+      "kickoff": "2026-11-21T19:30Z",
+      "event_id": "401885055"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7243,
+      "logistic": 0.726,
+      "xgboost": 0.7255
+    },
+    "model_disagreement": 0.0018,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D2",
+      "home": "St Pauli",
+      "away": "Bochum",
+      "display": "St. Pauli vs VfL Bochum",
+      "kickoff": "2026-11-21T19:30Z",
+      "event_id": "401885055"
+    },
+    "market": "corners_o65",
+    "probability": 0.8604,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8549,
+      "catboost": 0.8599,
+      "xgboost": 0.8554
+    },
+    "model_disagreement": 0.005,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "D2",
+      "home": "St Pauli",
+      "away": "Bochum",
+      "display": "St. Pauli vs VfL Bochum",
+      "kickoff": "2026-11-21T19:30Z",
+      "event_id": "401885055"
+    },
+    "market": "cards_o25",
+    "probability": 0.8244,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.793,
+      "catboost": 0.7924,
+      "xgboost": 0.7953
+    },
+    "model_disagreement": 0.0029,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Betis",
+      "display": "Sevilla vs Real Betis",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882797"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7077,
+      "xgboost": 0.7158,
+      "logistic": 0.6919
+    },
+    "model_disagreement": 0.024,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Betis",
+      "display": "Sevilla vs Real Betis",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882797"
+    },
+    "market": "ft_o15",
+    "probability": 0.7512,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7559,
+      "catboost": 0.7739,
+      "extra_trees": 0.7631
+    },
+    "model_disagreement": 0.0179,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Betis",
+      "display": "Sevilla vs Real Betis",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882797"
+    },
+    "market": "dc_x2",
+    "probability": 0.7717,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7176,
+      "catboost": 0.714,
+      "lightgbm": 0.7309
+    },
+    "model_disagreement": 0.0169,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Betis",
+      "display": "Sevilla vs Real Betis",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882797"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7384,
+      "logistic": 0.724,
+      "xgboost": 0.7276
+    },
+    "model_disagreement": 0.0144,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Betis",
+      "display": "Sevilla vs Real Betis",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882797"
+    },
+    "market": "corners_o65",
+    "probability": 0.8194,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8168,
+      "catboost": 0.8251,
+      "xgboost": 0.8121
+    },
+    "model_disagreement": 0.0131,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Sevilla",
+      "away": "Betis",
+      "display": "Sevilla vs Real Betis",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882797"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7865,
+      "catboost": 0.7737,
+      "xgboost": 0.7798
+    },
+    "model_disagreement": 0.0128,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Real Madrid",
+      "away": "Celta",
+      "display": "Real Madrid vs Celta Vigo",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401882798"
+    },
+    "market": "fh_o05",
+    "probability": 0.7603,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7301,
+      "xgboost": 0.7473,
+      "logistic": 0.7633
+    },
+    "model_disagreement": 0.0332,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Real Madrid",
+      "away": "Celta",
+      "display": "Real Madrid vs Celta Vigo",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401882798"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8155,
+      "catboost": 0.801,
+      "extra_trees": 0.8149
+    },
+    "model_disagreement": 0.0144,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Real Madrid",
+      "away": "Celta",
+      "display": "Real Madrid vs Celta Vigo",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401882798"
+    },
+    "market": "home_win",
+    "probability": 0.84,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7106,
+      "catboost": 0.7294,
+      "lightgbm": 0.8146
+    },
+    "model_disagreement": 0.104,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Real Madrid",
+      "away": "Celta",
+      "display": "Real Madrid vs Celta Vigo",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401882798"
+    },
+    "market": "dc_1x",
+    "probability": 0.9714,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8899,
+      "catboost": 0.881,
+      "xgboost": 0.913
+    },
+    "model_disagreement": 0.032,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Real Madrid",
+      "away": "Celta",
+      "display": "Real Madrid vs Celta Vigo",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401882798"
+    },
+    "market": "dc_12",
+    "probability": 0.8919,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7937,
+      "logistic": 0.7766,
+      "xgboost": 0.8301
+    },
+    "model_disagreement": 0.0535,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Real Madrid",
+      "away": "Celta",
+      "display": "Real Madrid vs Celta Vigo",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401882798"
+    },
+    "market": "corners_o65",
+    "probability": 0.8456,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8254,
+      "catboost": 0.856,
+      "xgboost": 0.859
+    },
+    "model_disagreement": 0.0336,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP1",
+      "home": "Real Madrid",
+      "away": "Celta",
+      "display": "Real Madrid vs Celta Vigo",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401882798"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8552,
+      "hist_gradient_boosting": 0.8769,
+      "catboost": 0.8576
+    },
+    "model_disagreement": 0.0217,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Castellon",
+      "away": "Eldense",
+      "display": "Castell\u00f3n vs Eldense",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882301"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7276,
+      "xgboost": 0.7114,
+      "logistic": 0.6926
+    },
+    "model_disagreement": 0.035,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Castellon",
+      "away": "Eldense",
+      "display": "Castell\u00f3n vs Eldense",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882301"
+    },
+    "market": "ft_o15",
+    "probability": 0.7512,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7471,
+      "catboost": 0.7502,
+      "extra_trees": 0.7933
+    },
+    "model_disagreement": 0.0462,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Castellon",
+      "away": "Eldense",
+      "display": "Castell\u00f3n vs Eldense",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882301"
+    },
+    "market": "home_win",
+    "probability": 0.7143,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6106,
+      "catboost": 0.6249,
+      "lightgbm": 0.6825
+    },
+    "model_disagreement": 0.0719,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Castellon",
+      "away": "Eldense",
+      "display": "Castell\u00f3n vs Eldense",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882301"
+    },
+    "market": "dc_1x",
+    "probability": 0.8547,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8541,
+      "catboost": 0.8338,
+      "xgboost": 0.8561
+    },
+    "model_disagreement": 0.0223,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Castellon",
+      "away": "Eldense",
+      "display": "Castell\u00f3n vs Eldense",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882301"
+    },
+    "market": "dc_12",
+    "probability": 0.7605,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7608,
+      "logistic": 0.7358,
+      "xgboost": 0.7862
+    },
+    "model_disagreement": 0.0504,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Castellon",
+      "away": "Eldense",
+      "display": "Castell\u00f3n vs Eldense",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882301"
+    },
+    "market": "corners_o65",
+    "probability": 0.8152,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.779,
+      "catboost": 0.8261,
+      "xgboost": 0.8423
+    },
+    "model_disagreement": 0.0633,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Castellon",
+      "away": "Eldense",
+      "display": "Castell\u00f3n vs Eldense",
+      "kickoff": "2026-11-21T17:30Z",
+      "event_id": "401882301"
+    },
+    "market": "cards_o25",
+    "probability": 0.8267,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8129,
+      "catboost": 0.8073,
+      "xgboost": 0.8362
+    },
+    "model_disagreement": 0.029,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Mallorca",
+      "display": "Tenerife vs Mallorca",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401883107"
+    },
+    "market": "ft_o15",
+    "probability": 0.7264,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7066,
+      "catboost": 0.7235,
+      "extra_trees": 0.7023
+    },
+    "model_disagreement": 0.0212,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Mallorca",
+      "display": "Tenerife vs Mallorca",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401883107"
+    },
+    "market": "dc_x2",
+    "probability": 0.7486,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6876,
+      "catboost": 0.6632,
+      "lightgbm": 0.7
+    },
+    "model_disagreement": 0.0368,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Mallorca",
+      "display": "Tenerife vs Mallorca",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401883107"
+    },
+    "market": "corners_o65",
+    "probability": 0.7687,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7797,
+      "catboost": 0.7972,
+      "xgboost": 0.8092
+    },
+    "model_disagreement": 0.0295,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SP2",
+      "home": "Tenerife",
+      "away": "Mallorca",
+      "display": "Tenerife vs Mallorca",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401883107"
+    },
+    "market": "cards_o25",
+    "probability": 0.8967,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8607,
+      "catboost": 0.8497,
+      "xgboost": 0.8723
+    },
+    "model_disagreement": 0.0226,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Como",
+      "away": "Cagliari",
+      "display": "Como vs Cagliari",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401875056"
+    },
+    "market": "fh_o05",
+    "probability": 0.7603,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7514,
+      "xgboost": 0.7598,
+      "logistic": 0.7205
+    },
+    "model_disagreement": 0.0392,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Como",
+      "away": "Cagliari",
+      "display": "Como vs Cagliari",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401875056"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7939,
+      "catboost": 0.8111,
+      "extra_trees": 0.7973
+    },
+    "model_disagreement": 0.0172,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Como",
+      "away": "Cagliari",
+      "display": "Como vs Cagliari",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401875056"
+    },
+    "market": "home_win",
+    "probability": 0.7273,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.667,
+      "catboost": 0.675,
+      "lightgbm": 0.6944
+    },
+    "model_disagreement": 0.0274,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Como",
+      "away": "Cagliari",
+      "display": "Como vs Cagliari",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401875056"
+    },
+    "market": "dc_1x",
+    "probability": 0.8547,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8613,
+      "catboost": 0.8377,
+      "xgboost": 0.8509
+    },
+    "model_disagreement": 0.0236,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Como",
+      "away": "Cagliari",
+      "display": "Como vs Cagliari",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401875056"
+    },
+    "market": "dc_12",
+    "probability": 0.8416,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7843,
+      "logistic": 0.782,
+      "xgboost": 0.7863
+    },
+    "model_disagreement": 0.0043,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Como",
+      "away": "Cagliari",
+      "display": "Como vs Cagliari",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401875056"
+    },
+    "market": "corners_o65",
+    "probability": 0.8456,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8294,
+      "catboost": 0.8493,
+      "xgboost": 0.846
+    },
+    "model_disagreement": 0.0199,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Como",
+      "away": "Cagliari",
+      "display": "Como vs Cagliari",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401875056"
+    },
+    "market": "cards_o15",
+    "probability": 0.8468,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8205,
+      "hist_gradient_boosting": 0.8297,
+      "catboost": 0.8399
+    },
+    "model_disagreement": 0.0193,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Lazio",
+      "away": "Lecce",
+      "display": "Lazio vs Lecce",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401874981"
+    },
+    "market": "fh_o05",
+    "probability": 0.7603,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7376,
+      "xgboost": 0.7404,
+      "logistic": 0.7467
+    },
+    "model_disagreement": 0.0091,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Lazio",
+      "away": "Lecce",
+      "display": "Lazio vs Lecce",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401874981"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8144,
+      "catboost": 0.7912,
+      "extra_trees": 0.8207
+    },
+    "model_disagreement": 0.0295,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Lazio",
+      "away": "Lecce",
+      "display": "Lazio vs Lecce",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401874981"
+    },
+    "market": "home_win",
+    "probability": 0.84,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6875,
+      "catboost": 0.6937,
+      "lightgbm": 0.7741
+    },
+    "model_disagreement": 0.0866,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Lazio",
+      "away": "Lecce",
+      "display": "Lazio vs Lecce",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401874981"
+    },
+    "market": "dc_1x",
+    "probability": 0.9714,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8816,
+      "catboost": 0.877,
+      "xgboost": 0.8935
+    },
+    "model_disagreement": 0.0165,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Lazio",
+      "away": "Lecce",
+      "display": "Lazio vs Lecce",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401874981"
+    },
+    "market": "dc_12",
+    "probability": 0.8416,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7868,
+      "logistic": 0.7699,
+      "xgboost": 0.8187
+    },
+    "model_disagreement": 0.0488,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Lazio",
+      "away": "Lecce",
+      "display": "Lazio vs Lecce",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401874981"
+    },
+    "market": "corners_o65",
+    "probability": 0.8604,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8331,
+      "catboost": 0.8465,
+      "xgboost": 0.8769
+    },
+    "model_disagreement": 0.0437,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Lazio",
+      "away": "Lecce",
+      "display": "Lazio vs Lecce",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401874981"
+    },
+    "market": "cards_o15",
+    "probability": 0.8468,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8151,
+      "hist_gradient_boosting": 0.7773,
+      "catboost": 0.806
+    },
+    "model_disagreement": 0.0378,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Roma",
+      "display": "Parma vs AS Roma",
+      "kickoff": "2026-11-21T17:00Z",
+      "event_id": "401874967"
+    },
+    "market": "fh_o05",
+    "probability": 0.7162,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7437,
+      "xgboost": 0.7332,
+      "logistic": 0.7098
+    },
+    "model_disagreement": 0.0339,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Roma",
+      "display": "Parma vs AS Roma",
+      "kickoff": "2026-11-21T17:00Z",
+      "event_id": "401874967"
+    },
+    "market": "ft_o15",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7462,
+      "catboost": 0.7648,
+      "extra_trees": 0.7551
+    },
+    "model_disagreement": 0.0186,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Roma",
+      "display": "Parma vs AS Roma",
+      "kickoff": "2026-11-21T17:00Z",
+      "event_id": "401874967"
+    },
+    "market": "away_win",
+    "probability": 0.7333,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6843,
+      "xgboost": 0.6714,
+      "catboost": 0.6141
+    },
+    "model_disagreement": 0.0702,
+    "holdout_brier": 0.19671,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Roma",
+      "display": "Parma vs AS Roma",
+      "kickoff": "2026-11-21T17:00Z",
+      "event_id": "401874967"
+    },
+    "market": "dc_x2",
+    "probability": 0.878,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8605,
+      "catboost": 0.8042,
+      "lightgbm": 0.8599
+    },
+    "model_disagreement": 0.0564,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Roma",
+      "display": "Parma vs AS Roma",
+      "kickoff": "2026-11-21T17:00Z",
+      "event_id": "401874967"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7573,
+      "logistic": 0.7237,
+      "xgboost": 0.747
+    },
+    "model_disagreement": 0.0337,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Roma",
+      "display": "Parma vs AS Roma",
+      "kickoff": "2026-11-21T17:00Z",
+      "event_id": "401874967"
+    },
+    "market": "corners_o65",
+    "probability": 0.8152,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7869,
+      "catboost": 0.8195,
+      "xgboost": 0.8287
+    },
+    "model_disagreement": 0.0418,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Parma",
+      "away": "Roma",
+      "display": "Parma vs AS Roma",
+      "kickoff": "2026-11-21T17:00Z",
+      "event_id": "401874967"
+    },
+    "market": "cards_o15",
+    "probability": 0.8962,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8865,
+      "hist_gradient_boosting": 0.9063,
+      "catboost": 0.8605
+    },
+    "model_disagreement": 0.0458,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Napoli",
+      "away": "Torino",
+      "display": "Napoli vs Torino",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401875067"
+    },
+    "market": "fh_o05",
+    "probability": 0.7603,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7447,
+      "xgboost": 0.7664,
+      "logistic": 0.7337
+    },
+    "model_disagreement": 0.0326,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Napoli",
+      "away": "Torino",
+      "display": "Napoli vs Torino",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401875067"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7855,
+      "catboost": 0.8018,
+      "extra_trees": 0.7812
+    },
+    "model_disagreement": 0.0206,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Napoli",
+      "away": "Torino",
+      "display": "Napoli vs Torino",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401875067"
+    },
+    "market": "dc_1x",
+    "probability": 0.7513,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7773,
+      "catboost": 0.7597,
+      "xgboost": 0.7541
+    },
+    "model_disagreement": 0.0232,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Napoli",
+      "away": "Torino",
+      "display": "Napoli vs Torino",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401875067"
+    },
+    "market": "dc_12",
+    "probability": 0.7554,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7478,
+      "logistic": 0.7763,
+      "xgboost": 0.74
+    },
+    "model_disagreement": 0.0363,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Napoli",
+      "away": "Torino",
+      "display": "Napoli vs Torino",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401875067"
+    },
+    "market": "corners_o65",
+    "probability": 0.8395,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8331,
+      "catboost": 0.8362,
+      "xgboost": 0.8299
+    },
+    "model_disagreement": 0.0063,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I1",
+      "home": "Napoli",
+      "away": "Torino",
+      "display": "Napoli vs Torino",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401875067"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8529,
+      "hist_gradient_boosting": 0.868,
+      "catboost": 0.8467
+    },
+    "model_disagreement": 0.0213,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Vicenza",
+      "display": "Ascoli vs Vicenza",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899548"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7012,
+      "xgboost": 0.7234,
+      "logistic": 0.7247
+    },
+    "model_disagreement": 0.0235,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Vicenza",
+      "display": "Ascoli vs Vicenza",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899548"
+    },
+    "market": "ft_o15",
+    "probability": 0.7751,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7782,
+      "catboost": 0.7712,
+      "extra_trees": 0.7536
+    },
+    "model_disagreement": 0.0246,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Vicenza",
+      "display": "Ascoli vs Vicenza",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899548"
+    },
+    "market": "dc_1x",
+    "probability": 0.8424,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8644,
+      "catboost": 0.8252,
+      "xgboost": 0.8015
+    },
+    "model_disagreement": 0.0628,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Vicenza",
+      "display": "Ascoli vs Vicenza",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899548"
+    },
+    "market": "dc_12",
+    "probability": 0.7605,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7558,
+      "logistic": 0.7452,
+      "xgboost": 0.7832
+    },
+    "model_disagreement": 0.038,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Vicenza",
+      "display": "Ascoli vs Vicenza",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899548"
+    },
+    "market": "corners_o65",
+    "probability": 0.8819,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8532,
+      "catboost": 0.851,
+      "xgboost": 0.8969
+    },
+    "model_disagreement": 0.0459,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Ascoli",
+      "away": "Vicenza",
+      "display": "Ascoli vs Vicenza",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899548"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7497,
+      "catboost": 0.7606,
+      "xgboost": 0.7666
+    },
+    "model_disagreement": 0.0169,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Carrarese",
+      "away": "Virtus Entella",
+      "display": "Carrarese vs Virtus Entella",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899546"
+    },
+    "market": "ft_o15",
+    "probability": 0.715,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7004,
+      "catboost": 0.7014,
+      "extra_trees": 0.7054
+    },
+    "model_disagreement": 0.0051,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Carrarese",
+      "away": "Virtus Entella",
+      "display": "Carrarese vs Virtus Entella",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899546"
+    },
+    "market": "dc_1x",
+    "probability": 0.7066,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7098,
+      "catboost": 0.7129,
+      "xgboost": 0.7051
+    },
+    "model_disagreement": 0.0078,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Carrarese",
+      "away": "Virtus Entella",
+      "display": "Carrarese vs Virtus Entella",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899546"
+    },
+    "market": "dc_12",
+    "probability": 0.718,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7186,
+      "logistic": 0.7148,
+      "xgboost": 0.7176
+    },
+    "model_disagreement": 0.0038,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Carrarese",
+      "away": "Virtus Entella",
+      "display": "Carrarese vs Virtus Entella",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899546"
+    },
+    "market": "corners_o65",
+    "probability": 0.8152,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8121,
+      "catboost": 0.8184,
+      "xgboost": 0.8079
+    },
+    "model_disagreement": 0.0105,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Carrarese",
+      "away": "Virtus Entella",
+      "display": "Carrarese vs Virtus Entella",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899546"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7861,
+      "catboost": 0.7582,
+      "xgboost": 0.7582
+    },
+    "model_disagreement": 0.0279,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Modena",
+      "away": "Juve Stabia",
+      "display": "Modena vs Juve Stabia",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899542"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7044,
+      "xgboost": 0.6984,
+      "logistic": 0.699
+    },
+    "model_disagreement": 0.0061,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Modena",
+      "away": "Juve Stabia",
+      "display": "Modena vs Juve Stabia",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899542"
+    },
+    "market": "ft_o15",
+    "probability": 0.7264,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7436,
+      "catboost": 0.7446,
+      "extra_trees": 0.7177
+    },
+    "model_disagreement": 0.0269,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Modena",
+      "away": "Juve Stabia",
+      "display": "Modena vs Juve Stabia",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899542"
+    },
+    "market": "dc_1x",
+    "probability": 0.7513,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.764,
+      "catboost": 0.7629,
+      "xgboost": 0.7575
+    },
+    "model_disagreement": 0.0065,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Modena",
+      "away": "Juve Stabia",
+      "display": "Modena vs Juve Stabia",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899542"
+    },
+    "market": "dc_12",
+    "probability": 0.761,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7574,
+      "logistic": 0.764,
+      "xgboost": 0.7796
+    },
+    "model_disagreement": 0.0222,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Modena",
+      "away": "Juve Stabia",
+      "display": "Modena vs Juve Stabia",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899542"
+    },
+    "market": "corners_o65",
+    "probability": 0.8077,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8022,
+      "catboost": 0.8123,
+      "xgboost": 0.7737
+    },
+    "model_disagreement": 0.0386,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Modena",
+      "away": "Juve Stabia",
+      "display": "Modena vs Juve Stabia",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899542"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8598,
+      "hist_gradient_boosting": 0.8579,
+      "catboost": 0.8656
+    },
+    "model_disagreement": 0.0077,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Sampdoria",
+      "away": "Benevento",
+      "display": "Sampdoria vs Benevento",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899541"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6904,
+      "xgboost": 0.6819,
+      "logistic": 0.6958
+    },
+    "model_disagreement": 0.0139,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Sampdoria",
+      "away": "Benevento",
+      "display": "Sampdoria vs Benevento",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899541"
+    },
+    "market": "ft_o15",
+    "probability": 0.7264,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7272,
+      "catboost": 0.7245,
+      "extra_trees": 0.7185
+    },
+    "model_disagreement": 0.0088,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Sampdoria",
+      "away": "Benevento",
+      "display": "Sampdoria vs Benevento",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899541"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7258,
+      "logistic": 0.7177,
+      "xgboost": 0.7227
+    },
+    "model_disagreement": 0.0081,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Sampdoria",
+      "away": "Benevento",
+      "display": "Sampdoria vs Benevento",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899541"
+    },
+    "market": "corners_o65",
+    "probability": 0.8201,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8285,
+      "catboost": 0.8254,
+      "xgboost": 0.8089
+    },
+    "model_disagreement": 0.0196,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Sampdoria",
+      "away": "Benevento",
+      "display": "Sampdoria vs Benevento",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899541"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7931,
+      "catboost": 0.7759,
+      "xgboost": 0.7822
+    },
+    "model_disagreement": 0.0172,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Sudtirol",
+      "away": "Cremonese",
+      "display": "Sudtirol vs Cremonese",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899540"
+    },
+    "market": "ft_o15",
+    "probability": 0.7264,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7046,
+      "catboost": 0.732,
+      "extra_trees": 0.7062
+    },
+    "model_disagreement": 0.0275,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Sudtirol",
+      "away": "Cremonese",
+      "display": "Sudtirol vs Cremonese",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899540"
+    },
+    "market": "dc_1x",
+    "probability": 0.7066,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.699,
+      "catboost": 0.7241,
+      "xgboost": 0.7236
+    },
+    "model_disagreement": 0.025,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Sudtirol",
+      "away": "Cremonese",
+      "display": "Sudtirol vs Cremonese",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899540"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7263,
+      "logistic": 0.7249,
+      "xgboost": 0.7196
+    },
+    "model_disagreement": 0.0067,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Sudtirol",
+      "away": "Cremonese",
+      "display": "Sudtirol vs Cremonese",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899540"
+    },
+    "market": "corners_o65",
+    "probability": 0.7687,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.787,
+      "catboost": 0.8039,
+      "xgboost": 0.7862
+    },
+    "model_disagreement": 0.0177,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Sudtirol",
+      "away": "Cremonese",
+      "display": "Sudtirol vs Cremonese",
+      "kickoff": "2026-11-21T14:00Z",
+      "event_id": "401899540"
+    },
+    "market": "cards_o15",
+    "probability": 0.8962,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.902,
+      "hist_gradient_boosting": 0.8667,
+      "catboost": 0.8778
+    },
+    "model_disagreement": 0.0353,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Catanzaro",
+      "away": "Palermo",
+      "display": "Catanzaro vs Palermo",
+      "kickoff": "2026-11-21T16:15Z",
+      "event_id": "401899545"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.708,
+      "xgboost": 0.7013,
+      "logistic": 0.7254
+    },
+    "model_disagreement": 0.0241,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Catanzaro",
+      "away": "Palermo",
+      "display": "Catanzaro vs Palermo",
+      "kickoff": "2026-11-21T16:15Z",
+      "event_id": "401899545"
+    },
+    "market": "ft_o15",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.774,
+      "catboost": 0.7477,
+      "extra_trees": 0.7318
+    },
+    "model_disagreement": 0.0421,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Catanzaro",
+      "away": "Palermo",
+      "display": "Catanzaro vs Palermo",
+      "kickoff": "2026-11-21T16:15Z",
+      "event_id": "401899545"
+    },
+    "market": "dc_x2",
+    "probability": 0.75,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7011,
+      "catboost": 0.7096,
+      "lightgbm": 0.7282
+    },
+    "model_disagreement": 0.0271,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Catanzaro",
+      "away": "Palermo",
+      "display": "Catanzaro vs Palermo",
+      "kickoff": "2026-11-21T16:15Z",
+      "event_id": "401899545"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7325,
+      "logistic": 0.742,
+      "xgboost": 0.7589
+    },
+    "model_disagreement": 0.0264,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Catanzaro",
+      "away": "Palermo",
+      "display": "Catanzaro vs Palermo",
+      "kickoff": "2026-11-21T16:15Z",
+      "event_id": "401899545"
+    },
+    "market": "corners_o65",
+    "probability": 0.85,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8576,
+      "catboost": 0.8425,
+      "xgboost": 0.8509
+    },
+    "model_disagreement": 0.0151,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Catanzaro",
+      "away": "Palermo",
+      "display": "Catanzaro vs Palermo",
+      "kickoff": "2026-11-21T16:15Z",
+      "event_id": "401899545"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8605,
+      "hist_gradient_boosting": 0.8429,
+      "catboost": 0.8764
+    },
+    "model_disagreement": 0.0335,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Empoli",
+      "away": "Pisa",
+      "display": "Empoli vs Pisa",
+      "kickoff": "2026-11-21T18:30Z",
+      "event_id": "401899544"
+    },
+    "market": "fh_o05",
+    "probability": 0.7008,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7021,
+      "xgboost": 0.7054,
+      "logistic": 0.7179
+    },
+    "model_disagreement": 0.0158,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Empoli",
+      "away": "Pisa",
+      "display": "Empoli vs Pisa",
+      "kickoff": "2026-11-21T18:30Z",
+      "event_id": "401899544"
+    },
+    "market": "ft_o15",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7538,
+      "catboost": 0.7542,
+      "extra_trees": 0.7377
+    },
+    "model_disagreement": 0.0165,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Empoli",
+      "away": "Pisa",
+      "display": "Empoli vs Pisa",
+      "kickoff": "2026-11-21T18:30Z",
+      "event_id": "401899544"
+    },
+    "market": "dc_x2",
+    "probability": 0.7717,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.735,
+      "catboost": 0.7159,
+      "lightgbm": 0.7278
+    },
+    "model_disagreement": 0.019,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Empoli",
+      "away": "Pisa",
+      "display": "Empoli vs Pisa",
+      "kickoff": "2026-11-21T18:30Z",
+      "event_id": "401899544"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7298,
+      "logistic": 0.7232,
+      "xgboost": 0.7271
+    },
+    "model_disagreement": 0.0066,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Empoli",
+      "away": "Pisa",
+      "display": "Empoli vs Pisa",
+      "kickoff": "2026-11-21T18:30Z",
+      "event_id": "401899544"
+    },
+    "market": "corners_o65",
+    "probability": 0.8201,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8398,
+      "catboost": 0.8278,
+      "xgboost": 0.8237
+    },
+    "model_disagreement": 0.0162,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "I2",
+      "home": "Empoli",
+      "away": "Pisa",
+      "display": "Empoli vs Pisa",
+      "kickoff": "2026-11-21T18:30Z",
+      "event_id": "401899544"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7746,
+      "catboost": 0.757,
+      "xgboost": 0.7695
+    },
+    "model_disagreement": 0.0176,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lens",
+      "away": "Toulouse",
+      "display": "Lens vs Toulouse",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876403"
+    },
+    "market": "fh_o05",
+    "probability": 0.7603,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7484,
+      "xgboost": 0.7445,
+      "logistic": 0.7525
+    },
+    "model_disagreement": 0.008,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lens",
+      "away": "Toulouse",
+      "display": "Lens vs Toulouse",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876403"
+    },
+    "market": "ft_o15",
+    "probability": 0.7857,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7973,
+      "catboost": 0.7898,
+      "extra_trees": 0.7494
+    },
+    "model_disagreement": 0.0479,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lens",
+      "away": "Toulouse",
+      "display": "Lens vs Toulouse",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876403"
+    },
+    "market": "dc_1x",
+    "probability": 0.7513,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7557,
+      "catboost": 0.7505,
+      "xgboost": 0.712
+    },
+    "model_disagreement": 0.0437,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lens",
+      "away": "Toulouse",
+      "display": "Lens vs Toulouse",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876403"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7404,
+      "logistic": 0.7566,
+      "xgboost": 0.7506
+    },
+    "model_disagreement": 0.0162,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lens",
+      "away": "Toulouse",
+      "display": "Lens vs Toulouse",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876403"
+    },
+    "market": "corners_o65",
+    "probability": 0.8456,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8456,
+      "catboost": 0.8481,
+      "xgboost": 0.8381
+    },
+    "model_disagreement": 0.01,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lens",
+      "away": "Toulouse",
+      "display": "Lens vs Toulouse",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876403"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8753,
+      "hist_gradient_boosting": 0.8673,
+      "catboost": 0.8794
+    },
+    "model_disagreement": 0.012,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lille",
+      "away": "Lyon",
+      "display": "Lille vs Lyon",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876402"
+    },
+    "market": "ft_o15",
+    "probability": 0.7473,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7347,
+      "catboost": 0.7658,
+      "extra_trees": 0.7665
+    },
+    "model_disagreement": 0.0318,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lille",
+      "away": "Lyon",
+      "display": "Lille vs Lyon",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876402"
+    },
+    "market": "dc_12",
+    "probability": 0.7554,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7588,
+      "logistic": 0.7495,
+      "xgboost": 0.7582
+    },
+    "model_disagreement": 0.0093,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lille",
+      "away": "Lyon",
+      "display": "Lille vs Lyon",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876402"
+    },
+    "market": "corners_o65",
+    "probability": 0.8152,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.796,
+      "catboost": 0.822,
+      "xgboost": 0.8223
+    },
+    "model_disagreement": 0.0263,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Lille",
+      "away": "Lyon",
+      "display": "Lille vs Lyon",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876402"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8724,
+      "hist_gradient_boosting": 0.8708,
+      "catboost": 0.8561
+    },
+    "model_disagreement": 0.0163,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Strasbourg",
+      "away": "Brest",
+      "display": "Strasbourg vs Brest",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876396"
+    },
+    "market": "fh_o05",
+    "probability": 0.7603,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7636,
+      "xgboost": 0.7407,
+      "logistic": 0.7748
+    },
+    "model_disagreement": 0.0341,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Strasbourg",
+      "away": "Brest",
+      "display": "Strasbourg vs Brest",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876396"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8184,
+      "catboost": 0.7876,
+      "extra_trees": 0.7678
+    },
+    "model_disagreement": 0.0506,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Strasbourg",
+      "away": "Brest",
+      "display": "Strasbourg vs Brest",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876396"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7513,
+      "logistic": 0.7454,
+      "xgboost": 0.7493
+    },
+    "model_disagreement": 0.0059,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Strasbourg",
+      "away": "Brest",
+      "display": "Strasbourg vs Brest",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876396"
+    },
+    "market": "corners_o65",
+    "probability": 0.8456,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8479,
+      "catboost": 0.8428,
+      "xgboost": 0.8495
+    },
+    "model_disagreement": 0.0067,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "F1",
+      "home": "Strasbourg",
+      "away": "Brest",
+      "display": "Strasbourg vs Brest",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401876396"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8601,
+      "hist_gradient_boosting": 0.9053,
+      "catboost": 0.8496
+    },
+    "model_disagreement": 0.0557,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Utrecht",
+      "away": "Cambuur",
+      "display": "FC Utrecht vs SC Cambuur",
+      "kickoff": "2026-11-21T17:45Z",
+      "event_id": "401875544"
+    },
+    "market": "fh_o05",
+    "probability": 0.8571,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7439,
+      "xgboost": 0.7803,
+      "logistic": 0.8169
+    },
+    "model_disagreement": 0.0729,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Utrecht",
+      "away": "Cambuur",
+      "display": "FC Utrecht vs SC Cambuur",
+      "kickoff": "2026-11-21T17:45Z",
+      "event_id": "401875544"
+    },
+    "market": "ft_o15",
+    "probability": 0.9024,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.877,
+      "catboost": 0.8269,
+      "extra_trees": 0.8375
+    },
+    "model_disagreement": 0.0501,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Utrecht",
+      "away": "Cambuur",
+      "display": "FC Utrecht vs SC Cambuur",
+      "kickoff": "2026-11-21T17:45Z",
+      "event_id": "401875544"
+    },
+    "market": "ft_o25",
+    "probability": 0.7143,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6313,
+      "logistic": 0.6632,
+      "extra_trees": 0.6401
+    },
+    "model_disagreement": 0.0319,
+    "holdout_brier": 0.24516,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Utrecht",
+      "away": "Cambuur",
+      "display": "FC Utrecht vs SC Cambuur",
+      "kickoff": "2026-11-21T17:45Z",
+      "event_id": "401875544"
+    },
+    "market": "dc_12",
+    "probability": 0.761,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7507,
+      "logistic": 0.7544,
+      "xgboost": 0.794
+    },
+    "model_disagreement": 0.0432,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Utrecht",
+      "away": "Cambuur",
+      "display": "FC Utrecht vs SC Cambuur",
+      "kickoff": "2026-11-21T17:45Z",
+      "event_id": "401875544"
+    },
+    "market": "corners_o65",
+    "probability": 0.8947,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.9106,
+      "catboost": 0.8699,
+      "xgboost": 0.8775
+    },
+    "model_disagreement": 0.0406,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Utrecht",
+      "away": "Cambuur",
+      "display": "FC Utrecht vs SC Cambuur",
+      "kickoff": "2026-11-21T17:45Z",
+      "event_id": "401875544"
+    },
+    "market": "cards_o15",
+    "probability": 0.8468,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7945,
+      "hist_gradient_boosting": 0.7278,
+      "catboost": 0.8185
+    },
+    "model_disagreement": 0.0907,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Groningen",
+      "away": "Heerenveen",
+      "display": "FC Groningen vs Heerenveen",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875546"
+    },
+    "market": "fh_o05",
+    "probability": 0.9216,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7624,
+      "xgboost": 0.7941,
+      "logistic": 0.8251
+    },
+    "model_disagreement": 0.0627,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Groningen",
+      "away": "Heerenveen",
+      "display": "FC Groningen vs Heerenveen",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875546"
+    },
+    "market": "ft_o15",
+    "probability": 0.9024,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8754,
+      "catboost": 0.8401,
+      "extra_trees": 0.8552
+    },
+    "model_disagreement": 0.0353,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Groningen",
+      "away": "Heerenveen",
+      "display": "FC Groningen vs Heerenveen",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875546"
+    },
+    "market": "ft_o25",
+    "probability": 0.7143,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6043,
+      "logistic": 0.6563,
+      "extra_trees": 0.6453
+    },
+    "model_disagreement": 0.052,
+    "holdout_brier": 0.24516,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Groningen",
+      "away": "Heerenveen",
+      "display": "FC Groningen vs Heerenveen",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875546"
+    },
+    "market": "dc_12",
+    "probability": 0.8416,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7719,
+      "logistic": 0.7881,
+      "xgboost": 0.7852
+    },
+    "model_disagreement": 0.0162,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Groningen",
+      "away": "Heerenveen",
+      "display": "FC Groningen vs Heerenveen",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875546"
+    },
+    "market": "corners_o65",
+    "probability": 0.8819,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8819,
+      "catboost": 0.8612,
+      "xgboost": 0.8831
+    },
+    "model_disagreement": 0.0219,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Groningen",
+      "away": "Heerenveen",
+      "display": "FC Groningen vs Heerenveen",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875546"
+    },
+    "market": "cards_o15",
+    "probability": 0.8468,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7834,
+      "hist_gradient_boosting": 0.7399,
+      "catboost": 0.7605
+    },
+    "model_disagreement": 0.0435,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Telstar",
+      "away": "Zwolle",
+      "display": "Telstar vs PEC Zwolle",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875539"
+    },
+    "market": "fh_o05",
+    "probability": 0.7162,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.6931,
+      "xgboost": 0.7253,
+      "logistic": 0.7559
+    },
+    "model_disagreement": 0.0628,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Telstar",
+      "away": "Zwolle",
+      "display": "Telstar vs PEC Zwolle",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875539"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.818,
+      "catboost": 0.7877,
+      "extra_trees": 0.7847
+    },
+    "model_disagreement": 0.0333,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Telstar",
+      "away": "Zwolle",
+      "display": "Telstar vs PEC Zwolle",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875539"
+    },
+    "market": "dc_1x",
+    "probability": 0.7066,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6828,
+      "catboost": 0.6967,
+      "xgboost": 0.693
+    },
+    "model_disagreement": 0.0139,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Telstar",
+      "away": "Zwolle",
+      "display": "Telstar vs PEC Zwolle",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875539"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7287,
+      "logistic": 0.7723,
+      "xgboost": 0.7315
+    },
+    "model_disagreement": 0.0435,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Telstar",
+      "away": "Zwolle",
+      "display": "Telstar vs PEC Zwolle",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875539"
+    },
+    "market": "corners_o65",
+    "probability": 0.8819,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8783,
+      "catboost": 0.867,
+      "xgboost": 0.8808
+    },
+    "model_disagreement": 0.0138,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "N1",
+      "home": "Telstar",
+      "away": "Zwolle",
+      "display": "Telstar vs PEC Zwolle",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401875539"
+    },
+    "market": "cards_o15",
+    "probability": 0.8468,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8162,
+      "hist_gradient_boosting": 0.8271,
+      "catboost": 0.812
+    },
+    "model_disagreement": 0.0151,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Charleroi",
+      "away": "St Truiden",
+      "display": "Royal Charleroi SC vs Sint-Truidense",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878940"
+    },
+    "market": "fh_o05",
+    "probability": 0.8571,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7612,
+      "xgboost": 0.7735,
+      "logistic": 0.8156
+    },
+    "model_disagreement": 0.0544,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Charleroi",
+      "away": "St Truiden",
+      "display": "Royal Charleroi SC vs Sint-Truidense",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878940"
+    },
+    "market": "ft_o15",
+    "probability": 0.9024,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.868,
+      "catboost": 0.8258,
+      "extra_trees": 0.8413
+    },
+    "model_disagreement": 0.0422,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Charleroi",
+      "away": "St Truiden",
+      "display": "Royal Charleroi SC vs Sint-Truidense",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878940"
+    },
+    "market": "ft_o25",
+    "probability": 0.7143,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6323,
+      "logistic": 0.6738,
+      "extra_trees": 0.587
+    },
+    "model_disagreement": 0.0868,
+    "holdout_brier": 0.24516,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Charleroi",
+      "away": "St Truiden",
+      "display": "Royal Charleroi SC vs Sint-Truidense",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878940"
+    },
+    "market": "dc_1x",
+    "probability": 0.8547,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7891,
+      "catboost": 0.846,
+      "xgboost": 0.8687
+    },
+    "model_disagreement": 0.0797,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Charleroi",
+      "away": "St Truiden",
+      "display": "Royal Charleroi SC vs Sint-Truidense",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878940"
+    },
+    "market": "dc_12",
+    "probability": 0.82,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7737,
+      "logistic": 0.7761,
+      "xgboost": 0.7679
+    },
+    "model_disagreement": 0.0082,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Charleroi",
+      "away": "St Truiden",
+      "display": "Royal Charleroi SC vs Sint-Truidense",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878940"
+    },
+    "market": "corners_o65",
+    "probability": 0.8819,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8888,
+      "catboost": 0.8742,
+      "xgboost": 0.8869
+    },
+    "model_disagreement": 0.0146,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Charleroi",
+      "away": "St Truiden",
+      "display": "Royal Charleroi SC vs Sint-Truidense",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878940"
+    },
+    "market": "cards_o15",
+    "probability": 0.88,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.835,
+      "hist_gradient_boosting": 0.8648,
+      "catboost": 0.8342
+    },
+    "model_disagreement": 0.0306,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Mechelen",
+      "away": "Club Brugge",
+      "display": "KV Mechelen vs Club Brugge",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401878935"
+    },
+    "market": "fh_o05",
+    "probability": 0.8571,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7979,
+      "xgboost": 0.7748,
+      "logistic": 0.7608
+    },
+    "model_disagreement": 0.0371,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Mechelen",
+      "away": "Club Brugge",
+      "display": "KV Mechelen vs Club Brugge",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401878935"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8101,
+      "catboost": 0.792,
+      "extra_trees": 0.8368
+    },
+    "model_disagreement": 0.0447,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Mechelen",
+      "away": "Club Brugge",
+      "display": "KV Mechelen vs Club Brugge",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401878935"
+    },
+    "market": "away_win",
+    "probability": 0.7333,
+    "models": [
+      "logistic",
+      "xgboost",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7091,
+      "xgboost": 0.7091,
+      "catboost": 0.642
+    },
+    "model_disagreement": 0.0672,
+    "holdout_brier": 0.19671,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Mechelen",
+      "away": "Club Brugge",
+      "display": "KV Mechelen vs Club Brugge",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401878935"
+    },
+    "market": "dc_x2",
+    "probability": 0.878,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.862,
+      "catboost": 0.8011,
+      "lightgbm": 0.865
+    },
+    "model_disagreement": 0.0639,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Mechelen",
+      "away": "Club Brugge",
+      "display": "KV Mechelen vs Club Brugge",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401878935"
+    },
+    "market": "dc_12",
+    "probability": 0.82,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7675,
+      "logistic": 0.753,
+      "xgboost": 0.7969
+    },
+    "model_disagreement": 0.0438,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Mechelen",
+      "away": "Club Brugge",
+      "display": "KV Mechelen vs Club Brugge",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401878935"
+    },
+    "market": "corners_o65",
+    "probability": 0.8819,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8663,
+      "catboost": 0.8532,
+      "xgboost": 0.8697
+    },
+    "model_disagreement": 0.0165,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "B1",
+      "home": "Mechelen",
+      "away": "Club Brugge",
+      "display": "KV Mechelen vs Club Brugge",
+      "kickoff": "2026-11-21T19:45Z",
+      "event_id": "401878935"
+    },
+    "market": "cards_o15",
+    "probability": 0.8468,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8249,
+      "hist_gradient_boosting": 0.8327,
+      "catboost": 0.8521
+    },
+    "model_disagreement": 0.0272,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Celtic",
+      "away": "St Mirren",
+      "display": "Celtic vs St Mirren",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878338"
+    },
+    "market": "fh_o05",
+    "probability": 0.9216,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.807,
+      "xgboost": 0.7971,
+      "logistic": 0.7845
+    },
+    "model_disagreement": 0.0224,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Celtic",
+      "away": "St Mirren",
+      "display": "Celtic vs St Mirren",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878338"
+    },
+    "market": "ft_o15",
+    "probability": 0.9167,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8517,
+      "catboost": 0.8408,
+      "extra_trees": 0.889
+    },
+    "model_disagreement": 0.0482,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Celtic",
+      "away": "St Mirren",
+      "display": "Celtic vs St Mirren",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878338"
+    },
+    "market": "ft_o25",
+    "probability": 0.8636,
+    "models": [
+      "catboost",
+      "logistic",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "catboost": 0.6503,
+      "logistic": 0.6503,
+      "extra_trees": 0.6916
+    },
+    "model_disagreement": 0.0414,
+    "holdout_brier": 0.24516,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Celtic",
+      "away": "St Mirren",
+      "display": "Celtic vs St Mirren",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878338"
+    },
+    "market": "home_win",
+    "probability": 0.999,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8314,
+      "catboost": 0.7595,
+      "lightgbm": 0.8282
+    },
+    "model_disagreement": 0.0719,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Celtic",
+      "away": "St Mirren",
+      "display": "Celtic vs St Mirren",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878338"
+    },
+    "market": "dc_1x",
+    "probability": 0.9714,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.945,
+      "catboost": 0.8919,
+      "xgboost": 0.9241
+    },
+    "model_disagreement": 0.0531,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Celtic",
+      "away": "St Mirren",
+      "display": "Celtic vs St Mirren",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878338"
+    },
+    "market": "dc_12",
+    "probability": 0.999,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.8076,
+      "logistic": 0.7891,
+      "xgboost": 0.8683
+    },
+    "model_disagreement": 0.0791,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Celtic",
+      "away": "St Mirren",
+      "display": "Celtic vs St Mirren",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878338"
+    },
+    "market": "corners_o65",
+    "probability": 0.999,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.9086,
+      "catboost": 0.8906,
+      "xgboost": 0.9209
+    },
+    "model_disagreement": 0.0303,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Celtic",
+      "away": "St Mirren",
+      "display": "Celtic vs St Mirren",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878338"
+    },
+    "market": "cards_o15",
+    "probability": 0.8468,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8455,
+      "hist_gradient_boosting": 0.8384,
+      "catboost": 0.8345
+    },
+    "model_disagreement": 0.011,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Falkirk",
+      "away": "St Johnstone",
+      "display": "Falkirk vs St Johnstone",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878336"
+    },
+    "market": "fh_o05",
+    "probability": 0.7162,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7278,
+      "xgboost": 0.7268,
+      "logistic": 0.718
+    },
+    "model_disagreement": 0.0098,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Falkirk",
+      "away": "St Johnstone",
+      "display": "Falkirk vs St Johnstone",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878336"
+    },
+    "market": "ft_o15",
+    "probability": 0.7751,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7682,
+      "catboost": 0.7788,
+      "extra_trees": 0.786
+    },
+    "model_disagreement": 0.0178,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Falkirk",
+      "away": "St Johnstone",
+      "display": "Falkirk vs St Johnstone",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878336"
+    },
+    "market": "dc_1x",
+    "probability": 0.7513,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8099,
+      "catboost": 0.764,
+      "xgboost": 0.7543
+    },
+    "model_disagreement": 0.0556,
+    "holdout_brier": 0.19693,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Falkirk",
+      "away": "St Johnstone",
+      "display": "Falkirk vs St Johnstone",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878336"
+    },
+    "market": "dc_12",
+    "probability": 0.761,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7645,
+      "logistic": 0.7573,
+      "xgboost": 0.7834
+    },
+    "model_disagreement": 0.0262,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Falkirk",
+      "away": "St Johnstone",
+      "display": "Falkirk vs St Johnstone",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878336"
+    },
+    "market": "corners_o65",
+    "probability": 0.8456,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8506,
+      "catboost": 0.8506,
+      "xgboost": 0.8471
+    },
+    "model_disagreement": 0.0035,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Falkirk",
+      "away": "St Johnstone",
+      "display": "Falkirk vs St Johnstone",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878336"
+    },
+    "market": "cards_o15",
+    "probability": 0.8962,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8844,
+      "hist_gradient_boosting": 0.8878,
+      "catboost": 0.876
+    },
+    "model_disagreement": 0.0117,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Hibernian",
+      "away": "Dundee United",
+      "display": "Hibernian vs Dundee United",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878335"
+    },
+    "market": "fh_o05",
+    "probability": 0.7162,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7199,
+      "xgboost": 0.7357,
+      "logistic": 0.7358
+    },
+    "model_disagreement": 0.0158,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Hibernian",
+      "away": "Dundee United",
+      "display": "Hibernian vs Dundee United",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878335"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7818,
+      "catboost": 0.7957,
+      "extra_trees": 0.784
+    },
+    "model_disagreement": 0.0139,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Hibernian",
+      "away": "Dundee United",
+      "display": "Hibernian vs Dundee United",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878335"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7375,
+      "logistic": 0.7568,
+      "xgboost": 0.7373
+    },
+    "model_disagreement": 0.0196,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Hibernian",
+      "away": "Dundee United",
+      "display": "Hibernian vs Dundee United",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878335"
+    },
+    "market": "corners_o65",
+    "probability": 0.8947,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8814,
+      "catboost": 0.8719,
+      "xgboost": 0.9006
+    },
+    "model_disagreement": 0.0287,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Hibernian",
+      "away": "Dundee United",
+      "display": "Hibernian vs Dundee United",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878335"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7864,
+      "catboost": 0.7524,
+      "xgboost": 0.7676
+    },
+    "model_disagreement": 0.034,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Kilmarnock",
+      "away": "Aberdeen",
+      "display": "Kilmarnock vs Aberdeen",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878334"
+    },
+    "market": "fh_o05",
+    "probability": 0.7162,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.744,
+      "xgboost": 0.7192,
+      "logistic": 0.712
+    },
+    "model_disagreement": 0.032,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Kilmarnock",
+      "away": "Aberdeen",
+      "display": "Kilmarnock vs Aberdeen",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878334"
+    },
+    "market": "ft_o15",
+    "probability": 0.7512,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7575,
+      "catboost": 0.7529,
+      "extra_trees": 0.7897
+    },
+    "model_disagreement": 0.0368,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Kilmarnock",
+      "away": "Aberdeen",
+      "display": "Kilmarnock vs Aberdeen",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878334"
+    },
+    "market": "dc_12",
+    "probability": 0.7264,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7274,
+      "logistic": 0.7192,
+      "xgboost": 0.7229
+    },
+    "model_disagreement": 0.0082,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Kilmarnock",
+      "away": "Aberdeen",
+      "display": "Kilmarnock vs Aberdeen",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878334"
+    },
+    "market": "corners_o65",
+    "probability": 0.8819,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8852,
+      "catboost": 0.8748,
+      "xgboost": 0.8885
+    },
+    "model_disagreement": 0.0137,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Kilmarnock",
+      "away": "Aberdeen",
+      "display": "Kilmarnock vs Aberdeen",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878334"
+    },
+    "market": "cards_o25",
+    "probability": 0.8045,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.802,
+      "catboost": 0.783,
+      "xgboost": 0.7757
+    },
+    "model_disagreement": 0.0263,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Motherwell",
+      "away": "Rangers",
+      "display": "Motherwell vs Rangers",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401878333"
+    },
+    "market": "fh_o05",
+    "probability": 0.7162,
+    "models": [
+      "extra_trees",
+      "xgboost",
+      "logistic"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7331,
+      "xgboost": 0.7296,
+      "logistic": 0.7222
+    },
+    "model_disagreement": 0.0109,
+    "holdout_brier": 0.20204,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Motherwell",
+      "away": "Rangers",
+      "display": "Motherwell vs Rangers",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401878333"
+    },
+    "market": "ft_o15",
+    "probability": 0.8155,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.7709,
+      "catboost": 0.7896,
+      "extra_trees": 0.8201
+    },
+    "model_disagreement": 0.0493,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Motherwell",
+      "away": "Rangers",
+      "display": "Motherwell vs Rangers",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401878333"
+    },
+    "market": "dc_x2",
+    "probability": 0.7717,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.749,
+      "catboost": 0.7414,
+      "lightgbm": 0.7297
+    },
+    "model_disagreement": 0.0193,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Motherwell",
+      "away": "Rangers",
+      "display": "Motherwell vs Rangers",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401878333"
+    },
+    "market": "dc_12",
+    "probability": 0.7554,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7486,
+      "logistic": 0.7536,
+      "xgboost": 0.7524
+    },
+    "model_disagreement": 0.005,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Motherwell",
+      "away": "Rangers",
+      "display": "Motherwell vs Rangers",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401878333"
+    },
+    "market": "corners_o65",
+    "probability": 0.8819,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.867,
+      "catboost": 0.8591,
+      "xgboost": 0.8577
+    },
+    "model_disagreement": 0.0092,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC0",
+      "home": "Motherwell",
+      "away": "Rangers",
+      "display": "Motherwell vs Rangers",
+      "kickoff": "2026-11-21T20:00Z",
+      "event_id": "401878333"
+    },
+    "market": "cards_o15",
+    "probability": 0.8962,
+    "models": [
+      "extra_trees",
+      "hist_gradient_boosting",
+      "catboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8875,
+      "hist_gradient_boosting": 0.893,
+      "catboost": 0.8767
+    },
+    "model_disagreement": 0.0163,
+    "holdout_brier": 0.09824,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Arbroath",
+      "away": "Stenhousemuir",
+      "display": "Arbroath vs Stenhousemuir",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878521"
+    },
+    "market": "ft_o15",
+    "probability": 0.715,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6947,
+      "catboost": 0.6965,
+      "extra_trees": 0.7085
+    },
+    "model_disagreement": 0.0137,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Arbroath",
+      "away": "Stenhousemuir",
+      "display": "Arbroath vs Stenhousemuir",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878521"
+    },
+    "market": "corners_o65",
+    "probability": 0.8201,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8163,
+      "catboost": 0.8149,
+      "xgboost": 0.8287
+    },
+    "model_disagreement": 0.0139,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Arbroath",
+      "away": "Stenhousemuir",
+      "display": "Arbroath vs Stenhousemuir",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878521"
+    },
+    "market": "cards_o25",
+    "probability": 0.7821,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.7321,
+      "catboost": 0.7506,
+      "xgboost": 0.7587
+    },
+    "model_disagreement": 0.0266,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Queens Park",
+      "away": "Livingston",
+      "display": "Queen's Park vs Livingston",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878518"
+    },
+    "market": "ft_o15",
+    "probability": 0.705,
+    "models": [
+      "logistic",
+      "catboost",
+      "extra_trees"
+    ],
+    "model_probabilities": {
+      "logistic": 0.6703,
+      "catboost": 0.6926,
+      "extra_trees": 0.6953
+    },
+    "model_disagreement": 0.025,
+    "holdout_brier": 0.17257,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Queens Park",
+      "away": "Livingston",
+      "display": "Queen's Park vs Livingston",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878518"
+    },
+    "market": "dc_x2",
+    "probability": 0.7486,
+    "models": [
+      "logistic",
+      "catboost",
+      "lightgbm"
+    ],
+    "model_probabilities": {
+      "logistic": 0.731,
+      "catboost": 0.647,
+      "lightgbm": 0.6752
+    },
+    "model_disagreement": 0.0841,
+    "holdout_brier": 0.232,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Queens Park",
+      "away": "Livingston",
+      "display": "Queen's Park vs Livingston",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878518"
+    },
+    "market": "dc_12",
+    "probability": 0.718,
+    "models": [
+      "catboost",
+      "logistic",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "catboost": 0.7139,
+      "logistic": 0.6938,
+      "xgboost": 0.7105
+    },
+    "model_disagreement": 0.0201,
+    "holdout_brier": 0.19106,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Queens Park",
+      "away": "Livingston",
+      "display": "Queen's Park vs Livingston",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878518"
+    },
+    "market": "corners_o65",
+    "probability": 0.8152,
+    "models": [
+      "logistic",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "logistic": 0.8051,
+      "catboost": 0.8149,
+      "xgboost": 0.8225
+    },
+    "model_disagreement": 0.0173,
+    "holdout_brier": 0.13003,
+    "status": "QUALIFIED"
+  },
+  {
+    "fixture": {
+      "league": "SC1",
+      "home": "Queens Park",
+      "away": "Livingston",
+      "display": "Queen's Park vs Livingston",
+      "kickoff": "2026-11-21T15:00Z",
+      "event_id": "401878518"
+    },
+    "market": "cards_o25",
+    "probability": 0.8244,
+    "models": [
+      "extra_trees",
+      "catboost",
+      "xgboost"
+    ],
+    "model_probabilities": {
+      "extra_trees": 0.8104,
+      "catboost": 0.7892,
+      "xgboost": 0.7952
+    },
+    "model_disagreement": 0.0213,
+    "holdout_brier": 0.19115,
+    "status": "QUALIFIED"
+  }
+]
